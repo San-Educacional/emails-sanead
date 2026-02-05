@@ -1,0 +1,21 @@
+{
+  "name": "emails-sanead",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "mjml": "^4.18.0"
+  },
+  "scripts": {
+    "build": "node scripts/mjml-build.mjs",
+    "watch": "node scripts/mjml-build.mjs --watch",
+    "clean": "rm -rf dist && mkdir dist"
+  }
+}
