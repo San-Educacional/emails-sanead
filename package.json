@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "chokidar": "^3.6.0",
-    "mjml": "^4.18.0"
+    "mjml": "^4.18.0",
+    "serve": "^14.2.4"
   },
   "scripts": {
     "build": "node scripts/mjml-build.mjs",

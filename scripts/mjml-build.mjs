@@ -2,6 +2,9 @@ import chokidar from 'chokidar';
 import mjml2html from 'mjml';
 import path from 'node:path';
 import process from 'node:process';
+import handler from 'serve-handler';
+import http from 'node:http';
+import { networkInterfaces } from 'node:os';
 import {
   mkdir,
   readdir,
@@ -112,6 +115,40 @@ async function ensureSourceDirExists() {
   }
 }
 
+function getLocalIpAddress() {
+  const nets = networkInterfaces();
+  for (const name of Object.keys(nets)) {
+    for (const net of nets[name]) {
+      const familyV4Value = typeof net.family === 'string' ? 'IPv4' : 4;
+      if (net.family === familyV4Value && !net.internal) {
+        return net.address;
+      }
+    }
+  }
+  return 'localhost';
+}
+
+async function startServer(port = 3000) {
+  const server = http.createServer((request, response) => {
+    return handler(request, response, {
+      public: DIST_DIR,
+      cleanUrls: false,
+      directoryListing: true
+    });
+  });
+
+  return new Promise((resolve, reject) => {
+    server.listen(port, () => {
+      const localIp = getLocalIpAddress();
+      console.log('\n🌐 Server running at:');
+      console.log(`   Local:    http://localhost:${port}`);
+      console.log(`   Network:  http://${localIp}:${port}\n`);
+      resolve(server);
+    });
+    server.on('error', reject);
+  });
+}
+
 async function run() {
   await ensureSourceDirExists();
   const watchMode = process.argv.includes('--watch');
@@ -120,6 +157,8 @@ async function run() {
   if (!watchMode) {
     return;
   }
+
+  await startServer(3000);
 
   const watcher = chokidar.watch(path.join(SOURCE_DIR, '**/*.mjml'), {
     ignoreInitial: true,
