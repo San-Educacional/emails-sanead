@@ -9,14 +9,10 @@
     </mj-attributes>
 
     <mj-style inline="inline">
-      .titulo-box table {
-        border-collapse: separate !important;
-        border-spacing: 0 !important;
+      .titulo-box {
+        background: #BB0185 !important;
         border: 1px solid #F95F00 !important;
         border-radius: 10px !important;
-        overflow: hidden !important;
-      }
-      .titulo-box {
         letter-spacing: -0.02em !important;
         text-shadow: 7px 10px 11.8px rgba(89, 0, 57, 0.38) !important;
       }
@@ -54,7 +50,7 @@
 
     <!-- Título com estilo específico -->
     <mj-section background-color="transparent" padding="0px" padding-top="41px">
-      <mj-column>
+      <mj-column border="2px solid #F95F00" border-radius="10px">
         <mj-text 
           align="center" 
           font-size="34px" 
@@ -62,7 +58,6 @@
           color="rgba(255,255,255,0.93)" 
           line-height="40px" 
           padding="23.5px 15px"
-          background-color="#BB0185"
           css-class="titulo-box"
         >
           Olá, [PRIMEIRO NOME]!<br/>Tudo bem?
