@@ -1,0 +1,97 @@
+<mjml>
+  <mj-head>
+    <mj-title>Boas-vindas - San Educacional</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="18px" color="#050505" line-height="28px" />
+      <mj-button background-color="#F95F00" color="#ffffff" border-radius="8px" font-weight="800" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .titulo-box table {
+        border-collapse: separate !important;
+        border-spacing: 0 !important;
+        border: 1px solid #F95F00 !important;
+        border-radius: 10px !important;
+        overflow: hidden !important;
+      }
+      .titulo-box {
+        letter-spacing: -0.02em !important;
+        text-shadow: 7px 10px 11.8px rgba(89, 0, 57, 0.38) !important;
+      }
+    </mj-style>
+
+  </mj-head>
+  
+  <mj-body background-color="#82005A" width="602px">
+    
+    <!-- Hero Section com Logo e Imagem -->
+    <mj-section background-color="transparent" padding="0px" padding-top="7px">
+      <mj-column>
+        <!-- Logo -->
+        <mj-image 
+          src="https://via.placeholder.com/294x68/BB0185/FFFFFF?text=SAN+EDUCACIONAL" 
+          alt="SAN Educacional" 
+          width="294px" 
+          padding="0px"
+        />
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="transparent" padding="0px" padding-top="76px">
+      <mj-column>
+        <!-- Hero Image -->
+        <mj-image 
+          src=""
+          alt="Hero" 
+          width="602px"
+          border-radius="20px" 
+          padding="0px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Título com estilo específico -->
+    <mj-section background-color="transparent" padding="0px" padding-top="41px">
+      <mj-column>
+        <mj-text 
+          align="center" 
+          font-size="34px" 
+          font-weight="800" 
+          color="rgba(255,255,255,0.93)" 
+          line-height="40px" 
+          padding="23.5px 15px"
+          background-color="#BB0185"
+          css-class="titulo-box"
+        >
+          Olá, [PRIMEIRO NOME]!<br/>Tudo bem?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Conteúdo Principal -->
+    <mj-section background-color="#FFF8FD" padding="30px 20px" border-radius="20px">
+      <mj-column>
+        
+        <mj-text>
+          Ficamos muito felizes por você ter confiado no nosso trabalho e escolhido a San Educacional para realizar o seu Curso Técnico em Transações Imobiliárias. Essa conquista já é um grande passo na sua trajetória profissional.
+        </mj-text>
+        
+        <mj-text padding-top="20px">
+          Agora, queremos te apresentar o próximo nível da sua carreira.
+        </mj-text>
+        
+        <mj-text padding-top="20px">
+          Utilizando o mesmo curso técnico que você já concluiu conosco, você pode ingressar em uma graduação de nível superior, com eliminação de disciplinas e formação a partir de apenas 12 meses, conforme a modalidade Técnico para Tecnólogo.
+        </mj-text>
+        
+        <mj-button href="#" padding-top="20px">
+          Saiba mais
+        </mj-button>
+
+      </mj:column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
