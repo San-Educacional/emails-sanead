@@ -1,0 +1,248 @@
+<mjml>
+  <mj-head>
+    <mj-title>Certificação Técnica - SAN Educacional</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text color="#333333" font-size="16px" line-height="1.5" />
+      <mj-button background-color="#F84806" color="#ffffff" border-radius="25px" font-weight="bold" padding="15px 30px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .bold { font-weight: 700; }
+      .purple-text { color: #910964; }
+      .orange-text { color: #F84806; }
+      .white-text { color: #ffffff; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#D8B8D0" width="601px">
+    <mj-wrapper background-color="#8D005E" padding="0">
+    
+        <!-- Header com Logo -->
+    <mj-section background-color="#FAEDF6" padding="13.5px 0" border-radius="0 0 20px 20px">
+      <mj-column>
+        <mj-image 
+          src="https://assets.saneducacional.com.br/emails/logo.jpg" 
+          alt="SAN Educacional" 
+          width="356px"
+          align="center"
+          height="64px"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Container Principal -->
+      
+      <!-- Hero Section com Imagem e Texto -->
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image 
+            src="https://assets.saneducacional.com.br/emails/cursos-tecnicos/hero-tecnicos.jpg" 
+            alt="Profissional" 
+            padding="0"
+            border-radius="20px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Banner de Destaque -->
+      <mj-section background-color="transparent" padding="0">
+        <mj-column>
+          <mj-spacer height="41px"/></mj-spacer>
+        </mj-column>
+        <mj-column 
+          width="482px"
+          border="1px solid #F95F00"
+          border-radius="10px"
+          padding="8px 15px 8px 15px"
+          background-color="#BB0185"
+          >
+          
+            <mj-text 
+              align="center" 
+              color="#ffffff" 
+              font-size="34px" 
+              font-weight="600"
+              line-height="40px"
+              padding="0"
+            >
+            Seu curso TÉCNICO pode virar uma GRADUAÇÃO a <span style="color: #F89000;">partir de 1 ano!</span>
+            </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-spacer height="41px"/></mj-spacer>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0" padding-bottom="41px">
+        <mj-column>
+          <mj-button 
+            font-size="16px"
+            border-radius="8px"
+            font-weight="800"
+            padding="5px 8px"
+            width="110px"
+            inner-padding="5px 8.87px"
+            background-color="#F95F00"
+            line-height="24px"
+            >
+            Saiba mais
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section 
+        background-color="#ffffff" 
+        padding="13px 28px"
+        border-radius="20px 20px 0px 0px"
+      >
+        <mj-column>
+          <mj-text 
+            align="center"
+            color="#050505"
+            font-size="18px" 
+            font-weight="400" 
+            line-height="24px"
+            letter-spacing="0"
+            padding="0"
+            padding-bottom="20px"
+          >
+            Oi <span style="font-weight: 700;">[PRIMEIRO NOME]!</span>
+          </mj-text>
+          
+          <mj-text 
+            align="center"
+            color="#050505"
+            font-size="18px" 
+            font-weight="400" 
+            line-height="24px"
+            letter-spacing="0"
+            padding="0"
+            padding-bottom="20px"
+          >
+            Você pode conquistar um <span style="font-weight: 700;">diploma de nível superior</span> (Tecnólogo) <span style="font-weight: 700;">a partir de apenas 1 ano</span>, de forma legal, reconhecida e com muito mais oportunidades de carreira.
+          </mj-text>
+          
+          <mj-text 
+            align="center"
+            color="#050505"
+            font-size="18px" 
+            font-weight="400" 
+            line-height="24px"
+            letter-spacing="0"
+            padding="0"
+            padding-bottom="20px"
+          >
+            Você aproveita disciplinas já cursadas, reduzindo o tempo da graduação, conforme avaliação acadêmica.
+          </mj-text>
+          
+          <mj-text 
+            align="center"
+            color="#050505"
+            font-size="18px" 
+            font-weight="400" 
+            line-height="24px"
+            letter-spacing="0"
+            padding="0"
+            padding-bottom="20px"
+          >
+            Base legal a <span style="color: #F84806; font-weight: 700;">Lei nº 9.394/96 (LDB), Art. 47</span>, permite o aproveitamento de estudos e experiências anteriores no ensino superior. Os cursos <span style="font-weight: 700;">tecnólogos fazem parte do Catálogo Nacional do MEC e têm valor de graduação</span>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Imagem Profissional com Colete -->
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image 
+            src="https://via.placeholder.com/500x400?text=Profissional+Construcao" 
+            alt="Profissional da Construção" 
+            padding="20px 40px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Texto sobre MEC -->
+      <mj-section background-color="#ffffff" padding="10px 40px 30px">
+        <mj-column>
+          <mj-text align="center" font-size="14px" line-height="1.6" color="#666666" font-style="italic">
+            A certificação profissional é um diploma reconhecido pelo MEC, que você negociado para dar de Orçantes a Rosas (Lei nº 9.394/96) Art. 41.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Seção Laranja com 3 Cards -->
+      <mj-section background-color="#F84806" padding="30px 20px">
+        <mj-column width="33.33%">
+          <mj-image 
+            src="https://via.placeholder.com/100x100?text=Icon1" 
+            alt="Até 1 ano de experiência" 
+            width="80px"
+            padding="10px"
+          />
+          <mj-text align="center" color="#ffffff" font-size="14px" font-weight="600" padding="10px 5px" background-color="#910964">
+            Já tem 1 ano de experiência? Você pode!
+          </mj-text>
+        </mj-column>
+        
+        <mj-column width="33.33%">
+          <mj-image 
+            src="https://via.placeholder.com/100x100?text=Icon2" 
+            alt="Avaliação por consultores" 
+            width="80px"
+            padding="10px"
+          />
+          <mj-text align="center" color="#ffffff" font-size="14px" font-weight="600" padding="10px 5px" background-color="#910964" css-class="rounded-box">
+            Avaliação feita por consultores educacionais experientes
+          </mj-text>
+        </mj-column>
+        
+        <mj-column width="33.33%">
+          <mj-image 
+            src="https://via.placeholder.com/100x100?text=Icon3" 
+            alt="Caminho mais rápido" 
+            width="80px"
+            padding="10px"
+          />
+          <mj-text align="center" color="#ffffff" font-size="14px" font-weight="600" padding="10px 5px" background-color="#910964" css-class="rounded-box">
+            É o caminho mais rápido para quem não quer competir do zero e só quer valorizar o que já sabe!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA Final -->
+      <mj-section background-color="#F84806" padding="20px 40px 40px">
+        <mj-column>
+          <mj-text align="center" color="#ffffff" font-size="18px" font-weight="700" padding="10px 0">
+            Essa é a última oportunidade para descobrir se sua experiência já é suficiente para virar diploma.
+          </mj-text>
+          
+          <mj-button 
+            href="#" 
+            background-color="#910964" 
+            color="#ffffff" 
+            font-size="16px"
+            font-weight="700"
+            padding="25px 0"
+            border-radius="25px"
+          >
+            Ver agora se sou elegível
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <!-- Footer Spacing -->
+    <mj-section background-color="#D8B8D0" padding="20px 0">
+      <mj-column>
+        <mj-text align="center" font-size="12px" color="#666666">
+          © 2026 SAN Educacional. Todos os direitos reservados.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    </mj-wrapper>  
+
+  </mj-body>
+</mjml>
