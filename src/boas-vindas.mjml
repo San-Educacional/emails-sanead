@@ -92,10 +92,8 @@
         </mj:column>
       </mj-section>
 
-    </mj-wrapper>
-
     <!-- Seção de graduações disponíveis com fundo branco e padding -->
-    <mj-section background-color="#FFF8FD" padding="0">
+    <mj-section background-color="#FFF8FD" padding="0" border-radius="0 0 20px 20px" padding-bottom="10px">
       <mj-column width="572px">
         <!-- Chamada - Opções de graduação disponíveis -->
         <mj-table padding="0px">
@@ -203,5 +201,109 @@
 
       </mj-column>
     </mj-section>
+
+    <!-- Espaçamento entre seções -->
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-spacer height="40px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Seção de Investimento/Pagamento -->
+    <mj-section background-color="#FFF8FD" border-radius="20px" padding="28px 17px">
+      <mj-column width="568px">
+        
+        <!-- Linha divisória -->
+        <mj-divider border-width="2px" border-color="#820059" padding="0px 29px 33px 29px" />
+        
+        <!-- Texto 1 -->
+        <mj-text font-size="18px" line-height="24px" padding="0px 15px 33px 15px">
+          Tudo isso com um <b>investimento acessível</b> e a vantagem de aproveitar sua <b>formação técnica</b>, economizando tempo e acelerando sua evolução profissional.
+        </mj-text>
+        
+        <!-- Texto 2 -->
+        <mj-text font-size="18px" line-height="24px" padding="0px 15px 33px 15px">
+          E tem mais: <b>profissionais com curso superior podem ganhar até 100% mais</b> em comparação àqueles que possuem apenas o ensino técnico, ampliando significativamente suas oportunidades no mercado de trabalho.
+        </mj-text>
+        
+        <!-- Botão roxo -->
+        <mj-button href="#" background-color="#820059" border-radius="8px" font-weight="800" font-size="16px" padding="0px 0px 23px 0px" align="center">
+          Quero transformar meu técnico em graduação!
+        </mj-button>
+        
+        <!-- Título Investimento -->
+        <mj-text font-size="28px" line-height="34px" font-weight="600" color="#820059" align="center" letter-spacing="-0.02em" padding="0px 0px 23px 0px">
+          💰 INVESTIMENTO:
+        </mj-text>
+        
+        <!-- Cards de Pagamento - Linha 1 (PIX e Cartão) -->
+        <mj-raw>
+          <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; margin-bottom: 23px;">
+            <tr>
+              <!-- Card PIX -->
+              <td style="width: 260px; padding-right: 26px;">
+                <div style="background: #6D0045; border-radius: 8px; padding: 25px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); text-align: center;">
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">PIX</div>
+                  <div style="margin-top: 16px;">
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">1.397</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+                  </div>
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 54px; color: #FFFFFF; text-transform: capitalize; margin-top: 8px;">À Vista</div>
+                </div>
+              </td>
+              <!-- Card Cartão de Crédito -->
+              <td style="width: 260px; padding-left: 26px;">
+                <div style="background: #6D0045; border-radius: 8px; padding: 25px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); text-align: center;">
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em; text-transform: capitalize;">Cartão de Crédito</div>
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 54px; color: #FFFFFF; text-transform: capitalize;">x12</div>
+                  <div style="margin-top: 8px;">
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">157</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </mj-raw>
+        
+        <!-- Cards de Pagamento - Linha 2 (Recorrente e Boleto) -->
+        <mj-raw>
+          <table cellpadding="0" cellspacing="0" border="0" style="width: 100%;">
+            <tr>
+              <!-- Card Recorrente -->
+              <td style="width: 260px; padding-right: 26px;">
+                <div style="background: #6D0045; border-radius: 8px; padding: 18px 18px 30px 18px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); text-align: center;">
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em; text-transform: capitalize;">Recorrente</div>
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 18px; line-height: 54px; color: #FFFFFF; text-transform: capitalize;">Entrada De R$ 297,00 +</div>
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 54px; color: #FFFFFF; text-transform: capitalize;">x11</div>
+                  <div style="margin-top: 8px;">
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">167</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+                  </div>
+                </div>
+              </td>
+              <!-- Card Boleto -->
+              <td style="width: 260px; padding-left: 26px;">
+                <div style="background: #6D0045; border-radius: 8px; padding: 18px 18px 30px 18px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); text-align: center;">
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em; text-transform: capitalize;">Boleto</div>
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 18px; line-height: 54px; color: #FFFFFF; text-transform: capitalize;">Entrada De R$ 197,00 +</div>
+                  <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 54px; color: #FFFFFF; text-transform: capitalize;">x12</div>
+                  <div style="margin-top: 8px;">
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">149</span>
+                    <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </mj-raw>
+        
+      </mj-column>
+    </mj-section>
+   </mj-wrapper>
   </mj-body>
 </mjml>
