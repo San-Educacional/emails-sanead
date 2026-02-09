@@ -70,7 +70,7 @@
       </mj-section>
 
       <!-- Conteúdo Principal -->
-      <mj-section background-color="#FFF8FD" padding="13px 0px 28px 0px" border-radius="20px">
+      <mj-section background-color="#FFF8FD" padding="13px 0px 28px 0px" border-radius="20px 20px 0 0">
         <mj-column width="546px">
           
           <mj-text>
@@ -95,7 +95,7 @@
     </mj-wrapper>
 
     <!-- Seção de graduações disponíveis com fundo branco e padding -->
-    <mj-section background-color="#FFF8FD" border-radius="20px">
+    <mj-section background-color="#FFF8FD">
       <mj-column width="572px">
         <!-- Chamada - Opções de graduação disponíveis -->
         <mj-table padding="0px">
