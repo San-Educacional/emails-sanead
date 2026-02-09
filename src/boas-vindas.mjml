@@ -95,7 +95,7 @@
     </mj-wrapper>
 
     <!-- Seção de graduações disponíveis com fundo branco e padding -->
-    <mj-section background-color="#FFF8FD">
+    <mj-section background-color="#FFF8FD" padding="0">
       <mj-column width="572px">
         <!-- Chamada - Opções de graduação disponíveis -->
         <mj-table padding="0px">
