@@ -16,6 +16,10 @@
         letter-spacing: -0.02em !important;
         text-shadow: 7px 10px 11.8px rgba(89, 0, 57, 0.38) !important;
       }
+      
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
     </mj-style>
 
   </mj-head>
@@ -151,7 +155,7 @@
         </mj-table>
 
         <!-- Botão Gestão Pública -->
-        <mj-button href="#" background-color="#F95F00" border-radius="8px" font-weight="800" font-size="16px" width="209px" height="34px" padding="14px 0px 0px 0px" align="center">
+        <mj-button href="#" background-color="#F95F00" border-radius="8px" font-weight="800" font-size="16px" padding="14px 0px 0px 0px" align="center">
           Garantir minha vaga
         </mj-button>
 
@@ -193,7 +197,7 @@
         </mj-table>
 
         <!-- Botão Negócios Imobiliários -->
-        <mj-button href="#" background-color="#F95F00" border-radius="8px" font-weight="800" font-size="16px" width="266px" height="34px" padding="14px 0px 0px 0px" align="center">
+        <mj-button href="#" background-color="#F95F00" border-radius="8px" font-weight="800" font-size="16px" padding="14px 0px 0px 0px" align="center">
           Começar minha graduação
         </mj-button>
 
