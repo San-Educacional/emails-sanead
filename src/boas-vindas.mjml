@@ -21,13 +21,13 @@
   </mj-head>
   
   <mj-body background-color="#D8BACD" width="602px">
-    <mj-wrapper background-color="#820059">
+    <mj-wrapper background-color="#820059" padding="0px">
       <!-- Hero Section com Logo e Imagem -->
       <mj-section background-color="#820059" padding="0px" padding-top="7px">
         <mj-column>
           <!-- Logo -->
           <mj-image 
-            src="https://via.placeholder.com/294x68/BB0185/FFFFFF?text=SAN+EDUCACIONAL" 
+            src="https://assets.saneducacional.com.br/emails/logoRoxa.jpg" 
             alt="SAN Educacional" 
             width="294px" 
             padding="0px"
@@ -35,11 +35,11 @@
         </mj-column>
       </mj-section>
       
-      <mj-section background-color="#820059" padding="0px" padding-top="76px">
+      <mj-section background-color="#820059" padding="0px" padding-top="8px">
         <mj-column>
           <!-- Hero Image -->
           <mj-image 
-            src=""
+            src="https://assets.saneducacional.com.br/emails/tti/heroTTI.jpg"
             alt="Hero" 
             width="602px"
             border-radius="20px" 
@@ -78,7 +78,7 @@
           </mj-text>
           
           <mj-text padding-top="20px">
-            Utilizando o <b><span style="color:#820059">mesmo curso técnico que você já concluiu</span></b> conosco, você pode ingressar em uma <b><span style="color: #F84806">graduação de nível superior</span></b>, com <b><span style="color: #820056">eliminação de disciplinas</span></b> e <b><span style="color: #820056">formação a partir de apenas 12 meses</span></b>, conforme a modalidade <b><span style="color: #F84806">Técnico para Tecnólogo.</span></b>
+            Utilizando o <b><span style="color: #820059">mesmo curso técnico que você já concluiu</span></b> conosco, você pode ingressar em uma <b><span style="color: #F84806">graduação de nível superior</span></b>, com <b><span style="color: #820056">eliminação de disciplinas</span></b> e <b><span style="color: #820056">formação a partir de apenas 12 meses</span></b>, conforme a modalidade <b><span style="color: #F84806">Técnico para Tecnólogo.</span></b>
           </mj-text>
           
           <mj-button href="#" padding-top="20px">
@@ -88,5 +88,30 @@
         </mj:column>
       </mj-section>
 
+    </mj-wrapper>
+
+    <!-- Seção de graduações disponíveis com fundo branco e padding -->
+    <mj-section background-color="#FFF8FD" padding="28px" border-radius="20px">
+      <mj-column width="100%">
+        <mj-table>
+          <tr>
+            <td style="background-color: #BB0185; border-radius: 20px; padding: 23px 15px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="width: 70%; vertical-align: middle;">
+                    <div style="font-family: Poppins, Arial, sans-serif; font-size: 28px; font-weight: 600; color: rgba(255,255,255,0.93); line-height: 34px; letter-spacing: -0.02em; text-align: left;">
+                      Opções de graduação disponíveis:
+                    </div>
+                  </td>
+                  <td style="width: 30%; vertical-align: middle; text-align: right;">
+                    <img src="https://assets.saneducacional.com.br/emails/tti/graduacoes.jpg" alt="Graduação" width="131" style="border-radius: 10px; display: block; margin-left: auto;" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
