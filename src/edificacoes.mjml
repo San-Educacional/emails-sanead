@@ -1,0 +1,342 @@
+<mjml>
+  <mj-head>
+    <mj-title>Boas-vindas - San Educacional</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#050505" line-height="24px" />
+      <mj-button background-color="#F95F00" color="#ffffff" border-radius="8px" font-weight="800" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
+    </mj-style>
+
+    <mj-style>
+      .payment-installments {
+        padding-left: 40px !important;
+      }
+      
+      @media only screen and (max-width: 480px) {
+        .payment-installments {
+          padding-left: 60px !important;
+        }
+      }
+    </mj-style>
+
+  </mj-head>
+  
+  <mj-body background-color="#D8BACD" width="602px">
+    <mj-wrapper background-color="#FF6F16" padding="0px">
+      <!-- Hero Section com Logo e Imagem -->
+      <mj-section background-color="#820059" padding="0px" padding-top="7px">
+        <mj-column>
+          <!-- Logo -->
+          <mj-image 
+            src="https://assets.saneducacional.com.br/emails/logoRoxa.jpg" 
+            alt="SAN Educacional" 
+            width="294px" 
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="#FF6F16" padding="0px">
+        <mj-column>
+          <!-- Hero Image -->
+          <mj-image 
+            src="https://assets.saneducacional.com.br/emails/edificacoes/heroEdificacoes.jpg"
+            alt="Hero" 
+            width="602px"
+            border-radius="20px" 
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título com estilos inline -->
+      <mj-section background-color="#FF6F16" padding="5px 60px 31px 60px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div style="max-width: 477px; margin: 0 auto; padding: 25px 0px 0px 0px;">
+              <div style="font-family: Poppins, Arial, sans-serif; font-size: 40px; font-weight: 800; line-height: 54px; color: rgba(255,255,255,0.93); letter-spacing: -0.02em; text-align: center;">
+                Olá, <span style="color: #820059">[PRIMEIRO NOME]</span>!<br/>Tudo bem?
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section background-color="#FFF8FD" padding="13px 0px 28px 0px" border-radius="20px 20px 0 0">
+        <mj-column width="546px">
+          
+          <mj-text>
+            Ficamos muito felizes por você ter confiado no nosso trabalho e escolhido a <b>San Educacional</b> para realizar o seu <b><span style="color:#820059">Curso Técnico em Transações Imobiliárias </span></b>. Essa conquista já é um grande passo na sua trajetória profissional.
+          </mj-text>
+          
+          <mj-text padding-top="20px">
+            Agora, queremos te apresentar o <b><span style="color: #820059">próximo nível da sua carreira.</span></b>
+          </mj-text>
+          
+          <mj-text padding-top="20px">
+            Utilizando o <b><span style="color: #820059">mesmo curso técnico que você já concluiu</span></b> conosco, você pode ingressar em uma <b><span style="color: #F84806">graduação de nível superior</span></b>, com <b><span style="color: #820056">eliminação de disciplinas</span></b> e <b><span style="color: #820056">formação a partir de apenas 12 meses</span></b>, conforme a modalidade <b><span style="color: #F84806">Técnico para Tecnólogo.</span></b>
+          </mj-text>
+          
+          <mj-button href="#" padding-top="20px">
+            Saiba mais
+          </mj-button>
+
+        </mj-column>
+      </mj-section>
+
+    <!-- Seção de graduações disponíveis com fundo branco e padding -->
+    <mj-section background-color="#FFF8FD" padding="0px 15px" padding-bottom="10px">
+      <mj-column background-color="#BB0185" border-radius="20px" padding="4px 20px">
+        <!-- Chamada - Opções de graduação disponíveis -->
+        <mj-table padding="0px">
+          <tr>
+            <td width="197" valign="middle" style="padding: 10px 5px 10px 0;">
+              <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; font-weight: 600; color: rgba(255,255,255,0.93); line-height: 20px; text-align: center; letter-spacing: -0.02em;">
+                Opções de graduação disponíveis:
+              </div>
+            </td>
+            <td width="10"></td>
+            <td width="131" valign="middle">
+              <img src="https://assets.saneducacional.com.br/emails/tti/graduacoes.jpg" alt="Graduação" width="131" height="106" style="border-radius: 10px; display: block;" />
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- Card 1: Gestão Pública -->
+    <mj-section background-color="#FFF8FD" padding="23px 15px 14px 15px">
+      <mj-column width="100%" padding="0px">
+        <mj-image 
+          src="https://assets.saneducacional.com.br/emails/tti/gestaoPublica.jpg" 
+          alt="Gestão Pública" 
+          width="356px" 
+          border-radius="10px 10px 0px 0px" 
+          fluid-on-mobile="true" 
+          align="center" 
+          padding="0px" 
+        />
+        <mj-text align="center" padding="0px">
+          <div style="max-width: 294px; margin: 0 auto; background-color: #8D005E; border-radius: 0px 0px 10px 10px; padding: 19px 31px 4px 31px;">
+            <!-- Título -->
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 900; font-size: 24px; line-height: 20px; color: #FFFFFF; letter-spacing: -0.01em; margin-bottom: 4px;">
+              GESTÃO PÚBLICA
+            </div>
+            <!-- Formação -->
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 500; font-size: 18px; line-height: 20px; color: #FFFFFF; letter-spacing: -0.01em; margin-bottom: 4px;">
+              Formação em 12 meses
+            </div>
+            <!-- Horas -->
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 18px; line-height: 20px; color: #FFFFFF; letter-spacing: -0.01em; margin-bottom: 14px;">
+              800 horas
+            </div>
+          </div>
+        </mj-text>
+
+        <!-- Botão Gestão Pública -->
+        <mj-button href="#" background-color="#F95F00" border-radius="8px" font-weight="800" font-size="16px" padding="14px 0px 0px 0px" align="center">
+          Garantir minha vaga
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Gap de 24px entre cards -->
+    <mj-section background-color="#FFF8FD" padding="0px">
+      <mj-column>
+        <mj-spacer height="24px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Card 2: Negócios Imobiliários -->
+    <mj-section background-color="#FFF8FD" padding="0px 15px 14px 15px" border-radius="0px 0px 20px 20px">
+      <mj-column width="100%" padding="0px">
+        <mj-image 
+          src="https://assets.saneducacional.com.br/emails/tti/negociosImobiliarios.jpg" 
+          alt="Negócios Imobiliários" 
+          width="356px" 
+          border-radius="10px 10px 0px 0px" 
+          fluid-on-mobile="true" 
+          align="center" 
+          padding="0px" 
+        />
+        <mj-text align="center" padding="0px">
+          <div style="max-width: 294px; margin: 0 auto; background-color: #8D005E; border-radius: 0px 0px 10px 10px; padding: 8.79px 31px 4px 31px;">
+            <!-- Título -->
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 900; font-size: 24px; line-height: 28px; color: #FFFFFF; letter-spacing: -0.01em; margin-bottom: 4px;">
+              NEGÓCIOS<br/>IMOBILIÁRIOS
+            </div>
+            <!-- Formação -->
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 500; font-size: 18px; line-height: 20px; color: #FFFFFF; letter-spacing: -0.01em; margin-bottom: 4px;">
+              Formação em 12 meses
+            </div>
+            <!-- Horas -->
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 18px; line-height: 20px; color: #FFFFFF; letter-spacing: -0.01em; margin-bottom: 14px;">
+              800 horas
+            </div>
+          </div>
+        </mj-text>
+
+        <!-- Botão Negócios Imobiliários -->
+        <mj-button href="#" background-color="#F95F00" border-radius="8px" font-weight="800" font-size="16px" padding="14px 0px 0px 0px" align="center">
+          Começar minha graduação
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Espaçamento entre seções -->
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-spacer height="40px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Seção de Investimento/Pagamento -->
+    <mj-section background-color="#FFF8FD" border-radius="20px 20px 0px 0px" padding="28px 17px">
+      <mj-column width="568px">
+        
+        <!-- Linha divisória -->
+        <mj-divider border-width="2px" border-color="#820059" padding="0px 29px 33px 29px" />
+        
+        <!-- Texto 1 -->
+        <mj-text font-size="16px" line-height="24px" padding="0px 15px 33px 15px">
+          Tudo isso com um <b>investimento acessível</b> e a vantagem de aproveitar sua <b>formação técnica</b>, economizando tempo e acelerando sua evolução profissional.
+        </mj-text>
+        
+        <!-- Texto 2 -->
+        <mj-text font-size="16px" line-height="24px" padding="0px 15px 33px 15px">
+          E tem mais: <b>profissionais com curso superior podem ganhar até 100% mais</b> em comparação àqueles que possuem apenas o ensino técnico, ampliando significativamente suas oportunidades no mercado de trabalho.
+        </mj-text>
+        
+        <!-- Botão roxo -->
+        <mj-button href="#" background-color="#820059" border-radius="8px" font-weight="800" font-size="16px" padding="0px 0px 23px 0px" align="center">
+          Quero transformar meu técnico em graduação!
+        </mj-button>
+        
+        <!-- Título Investimento -->
+        <mj-text font-size="28px" line-height="34px" font-weight="600" color="#820059" align="center" letter-spacing="-0.02em" padding="30px 0px 0px 0px">
+          💰 INVESTIMENTO:
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+
+    <!-- Cards de Pagamento - Linha 1 (PIX e Cartão) -->
+    <mj-section background-color="#FFF8FD" padding="0px 15px 12px 15px">
+      <!-- Card PIX -->
+      <mj-column width="50%" padding="7px 7px">
+        <mj-text align="center" padding="0px">
+          <div style="background: #6D0045; border-radius: 8px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); padding: 20px; min-height: 92px; text-align: center;">
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 32px; line-height: 32px; color: #FFFFFF; letter-spacing: -0.01em; margin: 0;">PIX</div>
+            <div style="margin: 4px 0 0 0;">
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">1.397</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+            </div>
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 20px; color: #FFFFFF; text-transform: capitalize; margin: -4px 0 0 0;">À Vista</div>
+          </div>
+        </mj-text>
+      </mj-column>
+      <!-- Card Cartão de Crédito -->
+      <mj-column width="50%" padding="7px 7px">
+        <mj-text align="center" padding="0px">
+          <div style="background: #6D0045; border-radius: 8px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); padding: 22px; min-height: 92px; text-align: center;">
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 30px; color: #FFFFFF; letter-spacing: -0.01em; text-transform: capitalize; margin: 0; padding-bottom: 10px;">Cartão De Crédito</div>
+            <div class="payment-installments" style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 20px; color: #FFFFFF; text-transform: capitalize; margin: 2px 0 -15px 0; text-align: left;">x12</div>
+            <div style="margin: 0;">
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">157</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Cards de Pagamento - Linha 2 (Recorrente e Boleto) -->
+    <mj-section background-color="#FFF8FD" padding="0px 15px 12px 15px">
+      <!-- Card Recorrente -->
+      <mj-column width="50%" padding="7px 7px">
+        <mj-text align="center" padding="0px">
+          <div style="background: #6D0045; border-radius: 8px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); padding: 20px; min-height: 92px; text-align: center;">
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 30px; color: #FFFFFF; letter-spacing: -0.01em; text-transform: capitalize; margin: 0;">Recorrente</div>
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 18px; line-height: 24px; color: #FFFFFF; text-transform: capitalize; margin: 2px 0 0 0;">Entrada De R$ 297,00 +</div>
+            <div class="payment-installments" style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 20px; color: #FFFFFF; text-transform: capitalize; margin: 0 0 -15px 0; text-align: left;">X11</div>
+            <div style="margin: 0;">
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">167</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+      <!-- Card Boleto -->
+      <mj-column width="50%" padding="7px 7px">
+        <mj-text align="center" padding="0px">
+          <div style="background: #6D0045; border-radius: 8px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); padding: 20px; min-height: 92px; text-align: center;">
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 30px; color: #FFFFFF; letter-spacing: -0.01em; text-transform: capitalize; margin: 0;">Boleto</div>
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 18px; line-height: 24px; color: #FFFFFF; text-transform: capitalize; margin: 2px 0 0 0;">Entrada De R$ 197,00 +</div>
+            <div class="payment-installments" style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 20px; line-height: 20px; color: #FFFFFF; text-transform: capitalize; margin: 0 0 -15px 0; text-align: left;">X12</div>
+            <div style="margin: 0;">
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #FFFFFF; letter-spacing: -0.01em;">R$</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 48px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">149</span>
+              <span style="font-family: Poppins, Arial, sans-serif; font-weight: 400; font-size: 32px; line-height: 54px; color: #F95F00; letter-spacing: -0.01em;">,00</span>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Texto e CTA Final -->
+    <mj-section background-color="#FFF8FD" padding="0px 17px" border-radius="0px 0px 20px 20px">
+      <mj-column width="568px">
+        <mj-text font-size="16px" line-height="24px" font-weight="400" color="#050505" align="left" padding="0px 32px 20px 32px">
+          Fale agora com nosso atendimento e saiba como garantir sua vaga.
+        </mj-text>
+
+        <mj-button href="#" background-color="#820059" color="#FFFFFF" font-size="16px" line-height="20px" font-weight="700" border-radius="8px" padding="0px 0px 40px 0px" inner-padding="5px 13px">
+          Falar com um consultor
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+   </mj-wrapper>
+
+   <!-- Espaçamento entre seções -->
+   <mj-wrapper background-color="#820059" padding="0px">
+    <mj-section background-color="#820059" padding="0px">
+      <mj-column>
+        <mj-spacer height="60px" />
+      </mj-column>
+    </mj-section>
+
+   <!-- Footer -->
+    <mj-section background-color="#F84806" border-radius="20px 20px 0px 0px" padding="10px 53px 0px 53px">
+      <mj-column>
+        <mj-text font-size="16px" line-height="24px" font-weight="400" color="#FFFFFF" padding="0px 0px 0px 0px">
+          Conte com a San Educacional para continuar evoluindo com você!
+        </mj-text>
+        
+        <mj-text font-size="16px" line-height="24px" font-weight="400" color="#FFFFFF" padding="0px 0px 0px 0px">
+          Atenciosamente, Equipe San Educacional
+        </mj-text>
+
+        <mj-divider border-color="#FFF8FD" border-width="1px" padding="19px 0px 19px 0px" />
+
+        <mj-text font-size="16px" line-height="24px" font-weight="400" color="#FFF8FD" align="center" text-decoration="underline" padding="0px 0px 30px 0px">
+          <a href="#" style="color: #FFF8FD; text-decoration: underline;">Descadastre-se</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+   </mj-wrapper>
+  </mj-body>
+</mjml>
