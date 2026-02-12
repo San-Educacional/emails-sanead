@@ -707,7 +707,7 @@
                   line-height: 20px;
                   color: #ffffff;
                   text-transform: capitalize;
-                  margin: 2px 0 -15px 0;
+                  margin: 2px 0 -8px 0;
                   text-align: left;
                 "
               >
@@ -804,7 +804,7 @@
                   line-height: 20px;
                   color: #ffffff;
                   text-transform: capitalize;
-                  margin: 0 0 -15px 0;
+                  margin: 0 0 -8px 0;
                   text-align: left;
                 "
               >
@@ -897,7 +897,7 @@
                   line-height: 20px;
                   color: #ffffff;
                   text-transform: capitalize;
-                  margin: 0 0 -15px 0;
+                  margin: 0 0 -8px 0;
                   text-align: left;
                 "
               >
