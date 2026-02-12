@@ -38,7 +38,12 @@
   <mj-body background-color="#D8BACD" width="602px">
     <mj-wrapper background-color="#F89000" padding="0px">
       <!-- Hero Section com Logo e Imagem -->
-      <mj-section background-color="#820059" padding="0px" padding-top="7px" border-radius="0px 0px 20px 20px">
+      <mj-section
+        background-color="#820059"
+        padding="0px"
+        padding-top="7px"
+        border-radius="0px 0px 20px 20px"
+      >
         <mj-column>
           <!-- Logo -->
           <mj-image
@@ -107,24 +112,30 @@
           <mj-text>
             Você sabia que pode transformar seu
             <b
-              ><span style="color: #F95F00"
+              ><span style="color: #f95f00"
                 >Curso Técnico em Manutenção e Suporte em Informática</span
-              ></span></b
+              ></b
             >
-            em uma <b><span style="color: #820056">graduação de nível superior</span></b>?
+            em uma
+            <b
+              ><span style="color: #820056"
+                >graduação de nível superior</span
+              ></b
+            >?
           </mj-text>
 
           <mj-text padding-top="20px">
             Com a modalidade
-            <b><span style="color: #F95F00">Técnico para Tecnólogo</span></b>,
-            você pode ingressar em uma graduação com
+            <b><span style="color: #f95f00">Técnico para Tecnólogo</span></b
+            >, você pode ingressar em uma graduação com
             <b><span style="color: #820056">eliminação de disciplinas</span></b>
             e
             <b
               ><span style="color: #820056"
                 >formação a partir de apenas 12 meses</span
               ></b
-            >, aproveitando seu curso técnico para acelerar sua evolução profissional.
+            >, aproveitando seu curso técnico para acelerar sua evolução
+            profissional.
           </mj-text>
 
           <mj-button href="#" padding-top="20px"> Saiba mais </mj-button>
@@ -157,7 +168,8 @@
                     align-items: center;
                   "
                 >
-                  Opções de <span style = "font-weight: 700">graduação disponíveis:</span>
+                  Opções de
+                  <span style="font-weight: 700">graduação disponíveis:</span>
                 </div>
               </td>
             </tr>
@@ -199,7 +211,10 @@
                   margin-bottom: 4px;
                 "
               >
-             <span style="white-space: nowrap; align: center;">ANÁLISE E</span> <br>DESENVOLVIMENTO DE SISTEMAS
+                <span style="white-space: nowrap; align: center"
+                  >ANÁLISE E</span
+                >
+                <br />DESENVOLVIMENTO DE SISTEMAS
               </div>
               <!-- Formação -->
               <div
@@ -746,7 +761,7 @@
           <mj-text align="center" padding="0px">
             <div
               style="
-                background: #F95F00;
+                background: #f95f00;
                 border-radius: 8px;
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 padding: 20px;
@@ -987,7 +1002,11 @@
             padding="0px 0px 20px 0px"
             align="center"
           >
-            Conte com a San Educacional para <span style="font-weight: 700;"">continuar <br> evoluindo com você!</span>
+            Conte com a San Educacional para
+            <span style="font-weight: 700"
+              >continuar <br />
+              evoluindo com você!</span
+            >
           </mj-text>
           <mj-text
             font-size="16px"
@@ -998,7 +1017,7 @@
             align="center"
             padding-bottom="10px"
           >
-            Atenciosamente, <br>Equipe San Educacional
+            Atenciosamente, <br />Equipe San Educacional
           </mj-text>
           <mj-divider
             border-color="#820059"

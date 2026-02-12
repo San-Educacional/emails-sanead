@@ -110,22 +110,28 @@
             <b
               ><span style="color: #820059"
                 >Curso Técnico em Eletrotécnica</span
-              ></span></b
+              ></b
             >
-            em uma <b><span style="color: #f84806">graduação de nível superior</span></b>?
+            em uma
+            <b
+              ><span style="color: #f84806"
+                >graduação de nível superior</span
+              ></b
+            >?
           </mj-text>
 
           <mj-text padding-top="20px">
             Com a modalidade
-            <b><span style="color: #f84806">Técnico para Tecnólogo</span></b>,
-            você pode ingressar em uma graduação com
+            <b><span style="color: #f84806">Técnico para Tecnólogo</span></b
+            >, você pode ingressar em uma graduação com
             <b><span style="color: #820056">eliminação de disciplinas</span></b>
             e
             <b
               ><span style="color: #820056"
                 >formação a partir de apenas 12 meses</span
               ></b
-            >, aproveitando seu curso técnico para acelerar sua evolução profissional.
+            >, aproveitando seu curso técnico para acelerar sua evolução
+            profissional.
           </mj-text>
 
           <mj-button href="#" padding-top="20px"> Saiba mais </mj-button>
@@ -158,7 +164,8 @@
                     letter-spacing: -0.02em;
                   "
                 >
-                  Opções de <span style = "font-weight: 800;">graduação disponíveis:</span>
+                  Opções de
+                  <span style="font-weight: 800">graduação disponíveis:</span>
                 </div>
               </td>
               <td width="10"></td>
@@ -259,7 +266,11 @@
       </mj-section>
 
       <!-- Gap de 24px entre cards -->
-      <mj-section background-color="#FFF8FD" padding="0px" border-radius="0px 0px 20px 20px">
+      <mj-section
+        background-color="#FFF8FD"
+        padding="0px"
+        border-radius="0px 0px 20px 20px"
+      >
         <mj-column>
           <mj-spacer height="24px" />
         </mj-column>
