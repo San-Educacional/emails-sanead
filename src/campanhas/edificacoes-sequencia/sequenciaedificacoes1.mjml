@@ -95,7 +95,7 @@
             letter-spacing="-0.02em"
             padding="0px"
           >
-            <span style = "font-weight: 800">Oi [PRIMEIRO NOME]</span> <br />Tudo bem?
+            <span style = "font-weight: 800">Oi {$name|default('Estudante')}</span> <br />Tudo bem?
           </mj-text>
         </mj-column>
       </mj-section>
@@ -140,7 +140,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="#" padding="14px 0px 0px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=seguranca_trabalho" padding="14px 0px 0px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -379,7 +379,7 @@
           </mj-text>
 
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=atendimento_consultor"
             background-color="#F84806"
             border-radius="20px"
             font-weight="800"
@@ -435,7 +435,7 @@
             text-decoration="underline"
             padding="0px 0px 30px 0px"
           >
-            <a href="#" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
+            <a href="{$unsubscribe}" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
           </mj-text>
         </mj-column>
       </mj-section>
