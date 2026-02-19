@@ -38,7 +38,12 @@
   <mj-body background-color="#D8BACD" width="602px">
     <mj-wrapper background-color="#F89000" padding="0px">
       <!-- Hero Section com Logo e Imagem -->
-      <mj-section background-color="#820059" padding="0px" padding-top="7px" border-radius="0px 0px 20px 20px">
+      <mj-section
+        background-color="#820059"
+        padding="0px"
+        padding-top="7px"
+        border-radius="0px 0px 20px 20px"
+      >
         <mj-column>
           <!-- Logo -->
           <mj-image
@@ -55,7 +60,7 @@
         <mj-column>
           <!-- Hero Image -->
           <mj-image
-            src="https://assets.saneducacional.com.br/emails/manutencao-e-suporte-em-informatica/HeroManutencao.jpg"
+            src="https://assets.saneducacional.com.br/emails/agronegocio/HeroAgro.jpg"
             alt="Hero"
             width="602px"
             border-radius="20px"
@@ -71,7 +76,7 @@
           <mj-text align="center" padding="0px">
             <div
               style="
-                max-width: 322px;
+                max-width: 500px;
                 margin: 0 auto;
                 background: #bb0185;
                 border-radius: 10px;
@@ -105,49 +110,33 @@
       >
         <mj-column width="546px">
           <mj-text>
-            Ficamos muito felizes por você ter confiado no nosso trabalho e
-            escolhido a <b>San Educacional</b> para realizar o seu
+            Você sabia que pode transformar seu
             <b
-              ><span style="color: #F95F00"
-                >Curso Técnico em Manutenção e Suporte em Informática.</span
-              </span></b
-            >. Essa conquista já é um grande passo na sua trajetória
-            profissional.👏
-          </mj-text>
-
-          <mj-text padding-top="0px">
-            Agora, queremos te apresentar o
-            <b
-              ><span style="color: #820059"
-                >próximo nível da sua carreira.</span
+              ><span style="color: #f95f00"
+                >Curso Técnico em Agronegócio</span
               ></b
             >
-          </mj-text>
-
-          <mj-text padding-top="20px">
-            Utilizando o
-            <b
-              ><span style="color: #820059"
-                >mesmo curso técnico que você já concluiu</span
-              ></b
-            >
-            conosco, você pode ingressar em uma
+            em uma
             <b
               ><span style="color: #820056"
                 >graduação de nível superior</span
               ></b
-            >, com
+            >?
+          </mj-text>
+
+          <mj-text padding-top="20px">
+            Com a modalidade
+            <b><span style="color: #f95f00">Técnico para Tecnólogo</span></b
+            >, você pode ingressar em uma graduação com
             <b><span style="color: #820056">eliminação de disciplinas</span></b>
             e
             <b
               ><span style="color: #820056"
                 >formação a partir de apenas 12 meses</span
               ></b
-            >, conforme a modalidade
-            <b><span style="color: #F95F00">Técnico para Tecnólogo.</span></b>
+            >, aproveitando seu curso técnico para acelerar sua evolução
+            profissional.
           </mj-text>
-
-          <mj-button href="#" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -177,7 +166,8 @@
                     align-items: center;
                   "
                 >
-                  Opções de <span style = "font-weight: 700">graduação disponíveis:</span>
+                  Opções de
+                  <span style="font-weight: 700">graduação disponíveis:</span>
                 </div>
               </td>
             </tr>
@@ -185,12 +175,12 @@
         </mj-column>
       </mj-section>
 
-      <!-- Card 1: Análise e Desenvolvimento de Sistemas -->
+      <!-- Card 1: Gestão do Agronegócio -->
       <mj-section background-color="#FFF8FD" padding="23px 15px 14px 15px">
         <mj-column width="100%" padding="0px">
           <mj-image
-            src="https://assets.saneducacional.com.br/emails/manutencao-e-suporte-em-informatica/AnaliseDesenv.jpg"
-            alt="Análise e Desenvolvimento de Sistemas"
+            src="https://assets.saneducacional.com.br/emails/agronegocio/gestaoAgro.jpg"
+            alt="Gestão do Agronegócio"
             width="356px"
             border-radius="10px 10px 0px 0px"
             fluid-on-mobile="true"
@@ -219,7 +209,10 @@
                   margin-bottom: 4px;
                 "
               >
-             <span style="white-space: nowrap; align: center;">ANÁLISE E</span> <br>DESENVOLVIMENTO DE SISTEMAS
+                <span style="white-space: nowrap; align: center"
+                  >GESTÃO DO</span
+                >
+                <br />AGRONEGÓCIO
               </div>
               <!-- Formação -->
               <div
@@ -247,12 +240,12 @@
                   margin-bottom: 14px;
                 "
               >
-                1000 horas
+                800 horas
               </div>
             </div>
           </mj-text>
 
-          <!-- Botão Análise e Desenvolvimento de Sistemas -->
+          <!-- Botão Gestão do Agronegócio -->
           <mj-button
             href="#"
             background-color="#F95F00"
@@ -274,12 +267,12 @@
         </mj-column>
       </mj-section>
 
-      <!-- Card 2: Gestão da Tecnologia da Informação -->
+      <!-- Card 2: Gestão Ambiental -->
       <mj-section background-color="#FFF8FD" padding="0px 15px 14px 15px">
         <mj-column width="100%" padding="0px">
           <mj-image
-            src="https://assets.saneducacional.com.br/emails/manutencao-e-suporte-em-informatica/GestaoTI.jpg"
-            alt="Gestão da Tecnologia da Informação"
+            src="https://assets.saneducacional.com.br/emails/agronegocio/gestaoAmbiental.jpg"
+            alt="Gestão Ambiental"
             width="356px"
             border-radius="10px 10px 0px 0px"
             fluid-on-mobile="true"
@@ -308,7 +301,7 @@
                   margin-bottom: 4px;
                 "
               >
-                GESTÂO DA TECNOLOGIA DA INFORMAÇÃO
+                GESTÃO <br />AMBIENTAL
               </div>
               <!-- Formação -->
               <div
@@ -336,194 +329,12 @@
                   margin-bottom: 14px;
                 "
               >
-                1000 horas
+                800 horas
               </div>
             </div>
           </mj-text>
 
-          <!-- Botão Gestão da Tecnologia da Informação -->
-          <mj-button
-            href="#"
-            background-color="#F95F00"
-            border-radius="8px"
-            font-weight="800"
-            font-size="16px"
-            padding="14px 0px 0px 0px"
-            align="center"
-          >
-            Garantir minha vaga
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
-      <!-- Gap de 24px entre cards -->
-      <mj-section background-color="#FFF8FD" padding="0px">
-        <mj-column>
-          <mj-spacer height="24px" />
-        </mj-column>
-      </mj-section>
-
-      <!-- Card 3: Segurança da Informação -->
-      <mj-section background-color="#FFF8FD" padding="0px 15px 14px 15px">
-        <mj-column width="100%" padding="0px">
-          <mj-image
-            src="https://assets.saneducacional.com.br/emails/manutencao-e-suporte-em-informatica/SegInf.jpg"
-            alt="Segurança da Informação"
-            width="356px"
-            border-radius="10px 10px 0px 0px"
-            fluid-on-mobile="true"
-            align="center"
-            padding="0px"
-          />
-          <mj-text align="center" padding="0px">
-            <div
-              style="
-                max-width: 294px;
-                margin: 0 auto;
-                background-color: #8d005e;
-                border-radius: 0px 0px 10px 10px;
-                padding: 8.79px 31px 4px 31px;
-              "
-            >
-              <!-- Título -->
-              <div
-                style="
-                  font-family: Poppins, Arial, sans-serif;
-                  font-weight: 900;
-                  font-size: 24px;
-                  line-height: 28px;
-                  color: #ffffff;
-                  letter-spacing: -0.01em;
-                  margin-bottom: 4px;
-                "
-              >
-                SEGURANÇA DA INFORMAÇÃO
-              </div>
-              <!-- Formação -->
-              <div
-                style="
-                  font-family: Poppins, Arial, sans-serif;
-                  font-weight: 500;
-                  font-size: 18px;
-                  line-height: 20px;
-                  color: #ffffff;
-                  letter-spacing: -0.01em;
-                  margin-bottom: 4px;
-                "
-              >
-                Formação em 12 meses
-              </div>
-              <!-- Horas -->
-              <div
-                style="
-                  font-family: Poppins, Arial, sans-serif;
-                  font-weight: 700;
-                  font-size: 18px;
-                  line-height: 20px;
-                  color: #ffffff;
-                  letter-spacing: -0.01em;
-                  margin-bottom: 14px;
-                "
-              >
-                1000 horas
-              </div>
-            </div>
-          </mj-text>
-
-          <!-- Botão Segurança da Informação -->
-          <mj-button
-            href="#"
-            background-color="#F95F00"
-            border-radius="8px"
-            font-weight="800"
-            font-size="16px"
-            padding="14px 0px 0px 0px"
-            align="center"
-          >
-            Começar minha graduação
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
-      <!-- Gap de 24px entre cards -->
-      <mj-section background-color="#FFF8FD" padding="0px">
-        <mj-column>
-          <mj-spacer height="24px" />
-        </mj-column>
-      </mj-section>
-
-      <!-- Card 4: Sistemas para Internet -->
-      <mj-section
-        background-color="#FFF8FD"
-        padding="0px 15px 14px 15px"
-        border-radius="0px 0px 20px 20px"
-      >
-        <mj-column width="100%" padding="0px">
-          <mj-image
-            src="https://assets.saneducacional.com.br/emails/manutencao-e-suporte-em-informatica/SistemasParaInternet.jpg"
-            alt="Sistemas para Internet"
-            width="356px"
-            border-radius="10px 10px 0px 0px"
-            fluid-on-mobile="true"
-            align="center"
-            padding="0px"
-          />
-          <mj-text align="center" padding="0px">
-            <div
-              style="
-                max-width: 294px;
-                margin: 0 auto;
-                background-color: #8d005e;
-                border-radius: 0px 0px 10px 10px;
-                padding: 8.79px 31px 4px 31px;
-              "
-            >
-              <!-- Título -->
-              <div
-                style="
-                  font-family: Poppins, Arial, sans-serif;
-                  font-weight: 900;
-                  font-size: 24px;
-                  line-height: 28px;
-                  color: #ffffff;
-                  letter-spacing: -0.01em;
-                  margin-bottom: 4px;
-                "
-              >
-                SISTEMAS PARA INTERNET
-              </div>
-              <!-- Formação -->
-              <div
-                style="
-                  font-family: Poppins, Arial, sans-serif;
-                  font-weight: 500;
-                  font-size: 18px;
-                  line-height: 20px;
-                  color: #ffffff;
-                  letter-spacing: -0.01em;
-                  margin-bottom: 4px;
-                "
-              >
-                Formação em 12 meses
-              </div>
-              <!-- Horas -->
-              <div
-                style="
-                  font-family: Poppins, Arial, sans-serif;
-                  font-weight: 700;
-                  font-size: 18px;
-                  line-height: 20px;
-                  color: #ffffff;
-                  letter-spacing: -0.01em;
-                  margin-bottom: 14px;
-                "
-              >
-                1000 horas
-              </div>
-            </div>
-          </mj-text>
-
-          <!-- Botão Sistemas para Internet -->
+          <!-- Botão Gestão Ambiental -->
           <mj-button
             href="#"
             background-color="#F95F00"
@@ -646,7 +457,7 @@
                     color: #6d0045;
                     letter-spacing: -0.01em;
                   "
-                  >1.397</span
+                  >1.247</span
                 >
                 <span
                   style="
@@ -713,7 +524,7 @@
                   line-height: 20px;
                   color: #ffffff;
                   text-transform: capitalize;
-                  margin: 2px 0 -15px 0;
+                  margin: 2px 0 -8px 0;
                   text-align: left;
                 "
               >
@@ -740,7 +551,7 @@
                     color: #820059;
                     letter-spacing: -0.01em;
                   "
-                  >157</span
+                  >129</span
                 >
                 <span
                   style="
@@ -766,7 +577,7 @@
           <mj-text align="center" padding="0px">
             <div
               style="
-                background: #F95F00;
+                background: #f95f00;
                 border-radius: 8px;
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 padding: 20px;
@@ -799,7 +610,7 @@
                   margin: 2px 0 0 0;
                 "
               >
-                Entrada De R$ 297,00 +
+                Entrada De R$ 197,00 +
               </div>
               <div
                 class="payment-installments"
@@ -810,11 +621,11 @@
                   line-height: 20px;
                   color: #ffffff;
                   text-transform: capitalize;
-                  margin: 0 0 -15px 0;
+                  margin: 0 0 -8px 0;
                   text-align: left;
                 "
               >
-                X11
+                X12
               </div>
               <div style="margin: 0">
                 <span
@@ -837,7 +648,7 @@
                     color: #820059;
                     letter-spacing: -0.01em;
                   "
-                  >167</span
+                  >147</span
                 >
                 <span
                   style="
@@ -903,7 +714,7 @@
                   line-height: 20px;
                   color: #ffffff;
                   text-transform: capitalize;
-                  margin: 0 0 -15px 0;
+                  margin: 0 0 -8px 0;
                   text-align: left;
                 "
               >
@@ -930,7 +741,7 @@
                     color: #820059;
                     letter-spacing: -0.01em;
                   "
-                  >149</span
+                  >167</span
                 >
                 <span
                   style="
@@ -1007,7 +818,11 @@
             padding="0px 0px 20px 0px"
             align="center"
           >
-            Conte com a San Educacional para <span style="font-weight: 700;"">continuar <br> evoluindo com você!</span>
+            Conte com a San Educacional para
+            <span style="font-weight: 700"
+              >continuar <br />
+              evoluindo com você!</span
+            >
           </mj-text>
           <mj-text
             font-size="16px"
@@ -1018,7 +833,7 @@
             align="center"
             padding-bottom="10px"
           >
-            Atenciosamente, <br>Equipe San Educacional
+            Atenciosamente, <br />Equipe San Educacional
           </mj-text>
           <mj-divider
             border-color="#820059"
