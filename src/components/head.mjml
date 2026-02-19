@@ -1,0 +1,23 @@
+<mj-head>
+  <mj-title>San Educacional</mj-title>
+  <mj-font
+    name="Poppins"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+  />
+  <mj-attributes>
+    <mj-all font-family="Poppins, Arial, sans-serif" />
+    <mj-text font-size="16px" color="#050505" line-height="24px" />
+    <mj-button
+      background-color="#F95F00"
+      color="#ffffff"
+      border-radius="8px"
+      font-weight="800"
+    />
+  </mj-attributes>
+
+  <mj-style inline="inline">
+    a[class*="mj-button"] {
+      white-space: nowrap !important;
+    }
+  </mj-style>
+</mj-head>

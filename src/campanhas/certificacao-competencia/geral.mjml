@@ -1,0 +1,406 @@
+<mjml>
+  <mj-include path="../../components/head.mjml" />
+
+  <mj-body background-color="#FF9D61" width="602px">
+    <mj-wrapper background-color="#FF6F16" padding="0px">
+      <mj-include path="../../components/logo.mjml" />
+
+      <!-- Hero Image -->
+      <mj-section background-color="#FF6F16" padding="0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/certificacao-competencia/email1/header.jpg"
+            alt="Hero"
+            width="602px"
+            border-radius="20px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título -->
+      <mj-section background-color="#FF6F16" padding="0px">
+        <mj-column>
+        
+          <mj-text
+            font-size="40px"
+            font-weight="600"
+            line-height="54px"
+            color="rgba(255, 255, 255, 0.93)"
+            align="center"
+            letter-spacing="-0.02em"
+            padding="44px 78px 25px 78px"
+          >
+            Conquiste sua <span style = "font-weight: 800;">Certificação Técnica <span style = "color: #820059">em até 30 dias</span></span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Botão Saiba Mais -->
+      <mj-section background-color="#FF6F16" padding="0px">
+        <mj-column>
+          <mj-button
+            href="#"
+            background-color="#BB0185"
+            color="#FFFFFF"
+            font-size="16px"
+            font-weight="800"
+            border-radius="8px"
+            padding="0px 0px 44px 0px"
+            inner-padding="5px 13px"
+          >
+            Saiba mais
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section
+        background-color="#FFF8FD"
+        padding="13px 28px 28px 28px"
+        border-radius="20px 20px 0 0"
+      >
+        <mj-column width="546px">
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                max-width: 546px;
+                margin: 0 auto;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: #050505;
+                  text-align: center;
+                "
+              >
+                Oi <span style = "font-weight: 700;">[PRIMEIRO NOME]</span>!
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text align="center" padding="20px 0px 0px 0px">
+            <div
+              style="
+                max-width: 546px;
+                margin: 0 auto;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #050505;
+                  text-align: center;
+                "
+              >
+                Você sabia que a sua <span style = "font-weight: 700; text-decoration: underline;">experiência profissional pode valer uma
+                certificação de nível técnico<span> reconhecido?
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text align="center" padding="20px 0px 0px 0px">
+            <div
+              style="
+                max-width: 546px;
+                margin: 0 auto;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #050505;
+                  text-align: center;
+                "
+              >
+                Se você já <span style = "font-weight: 700;">atua na área há pelo menos 1 ano</span>, existe um caminho
+                pouco conhecido que permite conquistar sua <span style = "font-weight: 700;">certificação técnica
+                em até 30 dias.</span>
+              </div>
+            </div>
+          </mj-text>
+
+          <!-- Box com bordas -->
+          <mj-text align="left" padding="20px 0px 0px 0px">
+            <div
+              style="
+                border: 1px solid #f84806;
+                border-radius: 8px;
+                padding: 15px 20px;
+                max-width: 326px;
+                margin: 0 auto;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #f84806;
+                "
+              >
+                • Não precisa esperar por meses<br />
+                • Não precisa começar do zero<br />
+                • Não é ensino tradicional
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Botão -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 23px 0px">
+        <mj-column>
+          <mj-button
+            href="#"
+            background-color="#F84806"
+            color="#FFFFFF"
+            font-size="16px"
+            font-weight="800"
+            border-radius="8px"
+            padding="0px"
+            inner-padding="5px 13px"
+          >
+            Garantir minha vaga
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Chamada -->
+      <mj-section background-color="#FFF8FD" padding="0px 10px">
+        <mj-column
+          background-color="#BB0185"
+          border-radius="20px"
+          padding="4px 32px"
+        >
+          <mj-table padding="0px">
+            <tr>
+              <td width="349" valign="middle" style="padding: 10px 0">
+                <div
+                  style="
+                    font-family: Poppins, Arial, sans-serif;
+                    font-size: 28px;
+                    font-weight: 500;
+                    color: rgba(255, 255, 255, 0.93);
+                    line-height: 34px;
+                    text-align: center;
+                    letter-spacing: -0.02em;
+                  "
+                >
+                  É a <span style="font-weight: 700;"> Certificação por Competência</span>
+                </div>
+              </td>
+              <td width="24"></td>
+              <td width="131" valign="middle">
+                <img
+                  src="https://assets.saneducacional.com.br/emails/certificacao-competencia/email1/hero.jpg"
+                  alt="Certificação"
+                  width="131"
+                  height="106"
+                  style="border-radius: 10px; display: block"
+                />
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- Para quem é -->
+      <mj-section background-color="#FFF8FD" padding="0">
+        <mj-column width="572px">
+          <mj-text
+            font-size="18px"
+            line-height="24px"
+            align="center"
+            padding="23px 48px 23px 48px"
+          >
+            Funciona assim: Você <span style = "font-weight: 700;">comprova o que já sabe fazer</span>, passa por uma
+            avaliação e pode <span style = "color: #BB0185; font-weight: 700;" >conquistar seu diploma técnico em até 30 dias.</span>
+          </mj-text>
+
+          <mj-text
+            font-size="18px"
+            line-height="24px"
+            align="center"
+            padding="0px 0px 25px 0px"
+          >
+            Muitos profissionais já têm experiência, prática e
+            conhecimento…mas <span style = "color: #BB0185; font-weight: 700;" >ainda não possuem o diploma</span> <br>que poderia <span style = "color: #BB0185; font-weight: 700;" >ampliar
+            oportunidades, aumentar a <br>credibilidade e abrir novas </span> portas no
+            mercado.
+          </mj-text>
+
+          <mj-text
+            font-size="28px"
+            font-weight="600"
+            line-height="34px"
+            color="#820059"
+            align="center"
+            letter-spacing="-0.02em"
+            padding="0px 0px 25px 0px"
+          >
+            Será que você se encaixa nesse perfil?
+          </mj-text>
+
+          <mj-button
+            href="#"
+            background-color="#F84806"
+            color="#FFFFFF"
+            font-size="16px"
+            font-weight="800"
+            border-radius="8px"
+            padding="0px"
+            inner-padding="5px 13px"
+          >
+            Quero entender como funciona
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Depoimento -->
+      <mj-section background-color="#FFF8FD" padding="23px 17px 0px 17px">
+        <mj-column width="568px">
+          <mj-text
+            font-size="28px"
+            font-weight="700"
+            line-height="34px"
+            color="#820059"
+            align="center"
+            letter-spacing="-0.02em"
+            padding="0px 0px 29px 0px"
+          >
+            Quem fez recomenda
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#FFF8FD" padding="0px 17px 23px 17px" border-radius= "0px 0px 10px 10px">
+        <mj-column width="441px" background-color="#8d005e" border-radius="10px" padding="15px">
+          <mj-table padding="0px">
+            <tr>
+              <td style="padding: 0px 15px 0px 0px; vertical-align: top; width: 53px;">
+                <img
+                  src="https://assets.saneducacional.com.br/emails/certificacao-competencia/email1/avatar.jpg"
+                  alt="Erica Moreira"
+                  width="80"
+                  style="border-radius: 50%; display: block;"
+                />
+              </td>
+              <td style="padding: 0px; vertical-align: top;">
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; font-style: italic; font-weight: 500; line-height: 24px; color: #ffffff;">
+                  "Atendimento excelente! A Thamiris esclareceu todas as minhas dúvidas e fiz a matrícula para a certificação por competência. O prazo de até 30 dias úteis foi cumprido, e toda a equipe foi muito atenciosa.<br> Recomendo a San Educacional."<br />
+                  <strong>Erica Moreira</strong>
+                </div>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section background-color="#FF6f16" padding="0px">
+        <mj-column >
+          <mj-spacer height="40px" />
+        </mj-column>
+      </mj-section>
+    
+
+    <!-- Áreas Disponíveis -->
+      <mj-section
+        background-color="#820059"
+        border-radius="20px 20px 0px 0px"
+        padding="35px 91px 40px 91px"
+      >
+        <mj-column>
+          <!-- Grid de áreas -->
+          <mj-table padding="0px 0px 40px 0px">
+            <tr>
+              <td width="200" style="padding: 0 10px 20px 0">
+                <img
+                  src="https://assets.saneducacional.com.br/emails/certificacao-competencia/area1.jpg"
+                  alt="Área 1"
+                  width="200"
+                  height="160"
+                  style="border-radius: 10px; display: block"
+                />
+              </td>
+              <td width="200" style="padding: 0 0 20px 10px">
+                <img
+                  src="https://assets.saneducacional.com.br/emails/certificacao-competencia/area2.jpg"
+                  alt="Área 2"
+                  width="200"
+                  height="160"
+                  style="border-radius: 10px; display: block"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td width="200" style="padding: 0 10px 0 0">
+                <img
+                  src="https://assets.saneducacional.com.br/emails/certificacao-competencia/area3.jpg"
+                  alt="Área 3"
+                  width="200"
+                  height="160"
+                  style="border-radius: 10px; display: block"
+                />
+              </td>
+              <td width="200" style="padding: 0 0 0 10px">
+                <img
+                  src="https://assets.saneducacional.com.br/emails/certificacao-competencia/area4.jpg"
+                  alt="Área 4"
+                  width="200"
+                  height="160"
+                  style="border-radius: 10px; display: block"
+                />
+              </td>
+            </tr>
+          </mj-table>
+
+          <mj-button
+            href="#"
+            background-color="#F84806"
+            color="#FFFFFF"
+            font-size="16px"
+            font-weight="800"
+            border-radius="8px"
+            padding="0px"
+            inner-padding="5px 13px"
+          >
+            Ver todas as áreas disponíveis
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#820059" padding="60px 0px 0px 0px">
+        <mj-column>
+          <mj-divider
+            border-color="#FFFFFF"
+            border-width="1px"
+            padding="0px 0px 19px 0px"
+          />
+          <mj-text
+            font-size="18px"
+            line-height="24px"
+            color="#FFFFFF"
+            align="center"
+            text-decoration="underline"
+            padding="0px 0px 30px 0px"
+          >
+            <a href="#" style="color: #ffffff; text-decoration: underline"
+              >Descadastre-se</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

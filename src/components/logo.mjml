@@ -1,0 +1,16 @@
+<mj-section
+  background-color="#820059"
+  padding="0px"
+  padding-top="7px"
+  border-radius="0px 0px 20px 20px"
+>
+  <mj-column>
+    <mj-image
+      src="https://assets.saneducacional.com.br/emails/logoRoxa.jpg"
+      alt="SAN Educacional"
+      width="294px"
+      padding="0px"
+      fluid-on-mobile="true"
+    />
+  </mj-column>
+</mj-section>
