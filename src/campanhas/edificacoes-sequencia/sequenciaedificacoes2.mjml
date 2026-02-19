@@ -96,7 +96,7 @@
             letter-spacing="-0.02em"
             padding="0px"
           >
-            <span style = "font-weight: 800">Oi [PRIMEIRO NOME]</span> <br />Tudo bem?
+            <span style = "font-weight: 800">Oi {$name|default('Estudante')}</span> <br />Tudo bem?
           </mj-text>
         </mj-column>
       </mj-section>
@@ -141,7 +141,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="#" padding="14px 0px 0px 0px" width="266px">
+          <mj-button href="http://mailingredirect.saneducacional.com.br/?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=investigacao_forense" padding="14px 0px 0px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -238,10 +238,10 @@
         </mj-column>
       </mj-section>
 
-      <!-- Cards de Setores -->
-      <mj-section background-color="#F84806" padding="0px 0px 23px 33px" border-radius="0px 0px 20px 20px">
+      <!-- Cards de Setores - Primeira Linha -->
+      <mj-section background-color="#F84806" padding="0px 0px 0px 0px" css-class="salary-section-first">
         <mj-group>
-          <mj-column width="250px" padding="7px">
+          <mj-column width="250px" padding="7px" css-class="salary-card">
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card1.jpg" alt="Escritórios de advocacia" style="width: 100%; display: block;" />
@@ -250,7 +250,7 @@
             </mj-text>
           </mj-column>
 
-          <mj-column width="250px" padding="7px">
+          <mj-column width="250px" padding="7px" css-class="salary-card">
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card2.jpg" alt="Seguradoras" style="width: 100%; display: block;" />
@@ -258,8 +258,13 @@
               </div>
             </mj-text>
           </mj-column>
+        </mj-group>
+      </mj-section>
 
-          <mj-column width="250px" padding="7px">
+      <!-- Cards de Setores - Segunda Linha -->
+      <mj-section background-color="#F84806" padding="0px 0px 0px 0px" css-class="salary-section-first">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="salary-card">
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card3.jpg" alt="Investigação privada" style="width: 100%; display: block;" />
@@ -267,10 +272,8 @@
               </div>
             </mj-text>
           </mj-column>
-        </mj-group>
 
-        <mj-group>
-          <mj-column width="250px" padding="7px">
+          <mj-column width="250px" padding="7px" css-class="salary-card">
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card4.jpg" alt="Tribunais" style="width: 100%; display: block;" />
@@ -278,16 +281,19 @@
               </div>
             </mj-text>
           </mj-column>
-
-          <mj-column width="250px" padding="7px">
-            <mj-text align="center" padding="0px">
-              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card5.jpg" alt="Compliance" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Áreas de compliance de grandes empresas</span></div>
-              </div>
-            </mj-text>
-          </mj-column>
         </mj-group>
+      </mj-section>
+
+      <!-- Cards de Setores - Terceira Linha (Centralizado) -->
+      <mj-section background-color="#F84806" padding="0px 0px 23px 0px" border-radius="0px 0px 20px 20px" css-class="salary-section">
+        <mj-column width="250px" padding="7px" css-class="salary-card">
+          <mj-text align="center" padding="0px">
+            <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+              <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card5.jpg" alt="Compliance" style="width: 100%; display: block;" />
+              <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Áreas de compliance de grandes empresas</span></div>
+            </div>
+          </mj-text>
+        </mj-column>
       </mj-section>
 
       <!-- Espaçamento entre seções -->
@@ -357,7 +363,7 @@
           </mj-text>
 
           <mj-button
-            href="#"
+            href="http://mailingredirect.saneducacional.com.br/?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=atendimento_consultor"
             background-color="#8D005E"
             border-radius="40px"
             font-weight="800"
@@ -413,7 +419,7 @@
             text-decoration="underline"
             padding="0px 0px 30px 0px"
           >
-            <a href="#" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
+            <a href="{$unsubscribe}" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
           </mj-text>
         </mj-column>
       </mj-section>
