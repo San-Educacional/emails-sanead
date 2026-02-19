@@ -160,7 +160,7 @@
             ">
               <div style="
                 font-family: Poppins, Arial, sans-serif;
-                font-size: 28px;
+                font-size: 22px;
                 font-weight: 600;
                 line-height: 34px;
                 color: rgba(255, 255, 255, 0.93);
@@ -364,7 +364,6 @@
             font-size="16px"
             padding="0px"
             inner-padding="5px 13px"
-            width="572px"
           >
             Fale com um consultor e veja como aproveitar seu histórico
           </mj-button>
