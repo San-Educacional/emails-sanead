@@ -21,6 +21,15 @@
         white-space: nowrap !important;
       }
     </mj-style>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .cargo-box {
+          padding: 24px 0px !important;
+          line-height: 32px !important;
+        }
+      }
+    </mj-style>
   </mj-head>
 
   <mj-body background-color="#D8BACD" width="602px">
@@ -142,7 +151,7 @@
           </mj-text>
 
           <!-- Box de Cargos -->
-          <mj-text padding="23px 62px">
+          <mj-text padding="23px 62px" css-class="cargo-box">
             <div style="
               border: 1px solid #820059;
               border-radius: 8px;
