@@ -23,10 +23,33 @@
     </mj-style>
 
     <mj-style>
+      .salary-section-first {
+        padding: 0px 0px 0px 53px;
+      }
+      
       @media only screen and (max-width: 480px) {
         .cargo-box {
           padding: 24px 0px !important;
           line-height: 32px !important;
+        }
+        .salary-section {
+          padding: 0px 5px !important;
+        }
+        .salary-section-first {
+          padding: 0px 5px !important;
+        }
+        .salary-section > tbody > tr > td {
+          padding: 0px !important;
+        }
+        .salary-card {
+          width: 100% !important;
+          max-width: 280px !important;
+          display: block !important;
+          margin: 0 auto 14px auto !important;
+          padding: 7px !important;
+        }
+        .salary-card > tbody > tr > td {
+          width: 100% !important;
         }
       }
     </mj-style>
@@ -314,9 +337,9 @@
       </mj-section>
 
       <!-- Cards de Salários - Primeira Linha -->
-      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 53px">
+      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 0px" css-class="salary-section-first">
         <mj-group>
-          <mj-column width="250px" padding="7px">
+          <mj-column width="250px" padding="7px" css-class="salary-card">
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico1.jpg" alt="Salário Inicial" style="width: 100%; display: block;" />
@@ -325,7 +348,7 @@
             </mj-text>
           </mj-column>
 
-          <mj-column width="250px" padding="7px">
+          <mj-column width="250px" padding="7px" css-class="salary-card">
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico2.jpg" alt="Profissionais Experientes" style="width: 100%; display: block;" />
@@ -337,8 +360,8 @@
       </mj-section>
 
       <!-- Cards de Salários - Segunda Linha (Centralizado) -->
-      <mj-section background-color="#FFF8FD" padding="0px 0px 14px 0px">
-        <mj-column width="250px" padding="7px">
+      <mj-section background-color="#FFF8FD" padding="0px 0px 14px 0px" css-class="salary-section">
+        <mj-column width="250px" padding="7px" css-class="salary-card">
           <mj-text align="center" padding="0px">
             <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
               <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico3.jpg" alt="Grande Porte" style="width: 100%; display: block;" />
