@@ -95,7 +95,7 @@
                   text-align: center;
                 "
               >
-                Olá, [PRIMEIRO NOME]!<br />Tudo bem?
+                Olá, {$name|default('Estudante')}!<br />Tudo bem?
               </div>
             </div>
           </mj-text>
@@ -247,7 +247,7 @@
 
           <!-- Botão Gestão do Agronegócio -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=028&amp;nome_curso=gestao_agronegocio"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -336,7 +336,7 @@
 
           <!-- Botão Gestão Ambiental -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=026&amp;nome_curso=gestao_ambiental"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -779,7 +779,7 @@
           </mj-text>
 
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=028&amp;nome_curso=gestao_agronegocio_atendimento"
             background-color="#820059"
             color="#FFFFFF"
             font-size="16px"
@@ -849,7 +849,7 @@
             text-decoration="underline"
             padding="0px 0px 30px 0px"
           >
-            <a href="#" style="color: #820059; text-decoration: underline"
+            <a href="{$unsubscribe}" style="color: #820059; text-decoration: underline"
               >Descadastre-se</a
             >
           </mj-text>
