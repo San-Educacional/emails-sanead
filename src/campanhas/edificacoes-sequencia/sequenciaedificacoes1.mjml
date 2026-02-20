@@ -58,7 +58,7 @@
   <mj-body background-color="#D8BACD" width="602px">
     <mj-wrapper background-color="#820059" padding="0px">
       <!-- Hero Section com Logo -->
-      <mj-section background-color="#FFFFFF" padding-bottom="15px" padding-top="7px" border-radius="0px 0px 20px 20px">
+      <mj-section background-color="#faedf6" padding-bottom="15px" padding-top="7px" border-radius="0px 0px 20px 20px">
         <mj-column>
           <mj-image
             src="https://assets.saneducacional.com.br/emails/logo.jpg"
