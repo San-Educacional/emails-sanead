@@ -247,7 +247,7 @@
 
           <!-- Botão Gestão do Agronegócio -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=028&amp;nome_curso=gestao_agronegocio"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=028&amp;nome_curso=Tecnólogo em Gestão de Agronegócio"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -336,7 +336,7 @@
 
           <!-- Botão Gestão Ambiental -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=026&amp;nome_curso=gestao_ambiental"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=026&amp;nome_curso=Tecnólogo em Gestão Ambiental"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -779,7 +779,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=028&amp;nome_curso=gestao_agronegocio_atendimento"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=028&amp;nome_curso=Tecnólogo em Gestão de Agronegócio"
             background-color="#820059"
             color="#FFFFFF"
             font-size="16px"

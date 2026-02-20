@@ -134,7 +134,7 @@
             profissional.
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=054&amp;nome_curso=gestao_producao_industrial_geral" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=054&amp;nome_curso=Gestão da Produção Industrial" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -252,7 +252,7 @@
 
           <!-- Botão Gestão da Produção -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=054&amp;nome_curso=gestao_producao_industrial"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=054&amp;nome_curso=Gestão da Produção Industrial"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -322,7 +322,7 @@
 
           <!-- Botão roxo -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=054&amp;nome_curso=gestao_producao_industrial_geral"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=054&amp;nome_curso=Gestão da Produção Industrial"
             background-color="#820059"
             border-radius="8px"
             font-weight="800"
@@ -719,7 +719,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=054&amp;nome_curso=gestao_producao_industrial_atendimento"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=054&amp;nome_curso=Gestão da Produção Industrial"
             background-color="#820059"
             color="#FFFFFF"
             font-size="16px"
