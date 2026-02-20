@@ -104,11 +104,11 @@
       <mj-section background-color="#FFF8FD" border-radius="20px" padding="0px 28px 23px 28px">
         <mj-column width="546px">
           <mj-text padding="0px 0px 20px 0px">
-            Agradecemos por confiar no nosso trabalho e ter adquirido o <span style = "font-weight: 700; color: #F84806;">Curso Técnico em Edificações.</span> <br><br>Essa escolha já representa um passo importante na sua trajetória profissional, e queremos te mostrar como você pode <span style = "font-weight: 700; color: #F84806;">ir ainda mais longe</span> a partir dessa formação.
+            Se você está interessado no <span style = "font-weight: 700; color: #F84806;">Curso Técnico em Edificações</span>, queremos te mostrar uma <span style = "font-weight: 700; color: #F84806;">oportunidade incrível</span> de ir ainda mais longe na sua carreira profissional.
           </mj-text>
 
           <mj-text padding="0px 0px 23px 0px">
-            Se você já tem um curso técnico em <span style = "font-weight: 700; color: #F84806;">Edificações</span>, existe uma graduação que faz total sentido como próximo passo profissional e que hoje está entre as que <span style = "font-weight: 700; color: #F84806;">mais oferecem vagas no Brasil:</span>
+            Com um curso técnico em <span style = "font-weight: 700; color: #F84806;">Edificações</span>, existe uma graduação que faz total sentido como próximo passo profissional e que hoje está entre as que <span style = "font-weight: 700; color: #F84806;">mais oferecem vagas no Brasil:</span>
           </mj-text>
 
           <!-- Card Segurança do Trabalho -->
@@ -145,7 +145,7 @@
           </mj-button>
 
           <mj-text padding="54px 25px 23px 25px">
-            Essa é uma das formações mais tradicionais do país, muito procurada por empresas de diversos setores. Com a modalidade <span style = "font-weight: 700; color: #F84806;">Técnico para Tecnólogo</span>, você pode <span style = "font-weight: 700; color: #F84806;">aproveitar sua formação técnica</span> e concluir a graduação em até <span style = "font-weight: 700; color: #F84806;">12 meses</span>, com carga horária de <span style = "font-weight: 700; color: #F84806;">1.200 horas.</sṕan>
+            Essa é uma das formações mais tradicionais do país, muito procurada por empresas de diversos setores. Com a modalidade <span style = "font-weight: 700; color: #F84806;">Técnico para Tecnólogo</span>, você pode <span style = "font-weight: 700; color: #F84806;">aproveitar uma formação técnica</span> e concluir a graduação em até <span style = "font-weight: 700; color: #F84806;">12 meses</span>, com carga horária de <span style = "font-weight: 700; color: #F84806;">1.200 horas.</sṕan>
           </mj-text>
 
           <!-- Chamada -->
@@ -375,7 +375,7 @@
       <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 23px 12px">
         <mj-column width="572px">
           <mj-text font-size="18px" line-height="28px" padding="35px 25px 23px 45px">
-            Enquanto muitos profissionais ainda levam <span style = "font-weight: 700; color: #F84806;">3 anos ou mais</span> para concluir uma graduação tradicional, você pode <span style = "font-weight: 700; color: #F84806;">se formar em até 12 meses e sair na frente no mercado</span>, aproveitando o curso técnico que já possui.
+            Enquanto muitos profissionais ainda levam <span style = "font-weight: 700; color: #F84806;">3 anos ou mais</span> para concluir uma graduação tradicional, você pode <span style = "font-weight: 700; color: #F84806;">se formar em até 12 meses e sair na frente no mercado</span>, aproveitando um curso técnico.
           </mj-text>
 
           <mj-button
@@ -387,7 +387,7 @@
             padding="0px"
             inner-padding="5px 13px"
           >
-            Fale com um consultor e saiba como aproveitar seu histórico técnico
+            Fale com um consultor e saiba mais sobre essa oportunidade
           </mj-button>
         </mj-column>
       </mj-section>
