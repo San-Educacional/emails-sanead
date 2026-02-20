@@ -141,7 +141,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=108&amp;nome_curso=Tecnólogo em Investigação Forense e Perícia Judicial" padding="14px 0px 0px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Investigacao Forense e Pericia Judicial&amp;curso=000&amp;nome_curso=Investigacao Forense e Pericia Judicial" padding="14px 0px 0px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -363,7 +363,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=108&amp;nome_curso=Tecnólogo em Investigação Forense e Perícia Judicial"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Investigacao Forense e Pericia Judicial&amp;curso=000&amp;nome_curso=Investigacao Forense e Pericia Judicial"
             background-color="#8D005E"
             border-radius="40px"
             font-weight="800"

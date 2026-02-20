@@ -132,7 +132,7 @@
             profissional.
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=046&amp;nome_curso=Design de Interiores" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -249,7 +249,7 @@
 
           <!-- Botão Design de Interiores -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=046&amp;nome_curso=Design de Interiores"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -342,7 +342,7 @@
 
           <!-- Botão Gestão da Qualidade -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=055&amp;nome_curso=Gestão da Qualidade"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao da Qualidade&amp;curso=000&amp;nome_curso=Gestao da Qualidade"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -396,7 +396,7 @@
 
           <!-- Botão roxo -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=046&amp;nome_curso=Design de Interiores"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -793,7 +793,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=046&amp;nome_curso=Design de Interiores"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores"
             background-color="#F95F00"
             color="#FFFFFF"
             font-size="18px"
