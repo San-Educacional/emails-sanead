@@ -124,7 +124,7 @@
             >, aproveitando seu curso técnico para acelerar sua evolução profissional.
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=034&amp;nome_curso=processos_gerenciais_geral" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=034&amp;nome_curso=Tecnólogo em Processos Gerenciais" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -241,7 +241,7 @@
 
           <!-- Botão Processos Gerenciais -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=034&amp;nome_curso=processos_gerenciais"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=034&amp;nome_curso=Tecnólogo em Processos Gerenciais"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -334,7 +334,7 @@
 
           <!-- Botão Gestão Da Produção Indústrial -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=054&amp;nome_curso=gestao_producao_industrial"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=054&amp;nome_curso=Gestão da Produção Industrial"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -427,7 +427,7 @@
 
           <!-- Botão Gestão da Qualidade -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=055&amp;nome_curso=gestao_da_qualidade"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=055&amp;nome_curso=Gestão da Qualidade"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -486,7 +486,7 @@
 
           <!-- Botão roxo -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=034&amp;nome_curso=processos_gerenciais_geral"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=034&amp;nome_curso=Tecnólogo em Processos Gerenciais"
             background-color="#820059"
             border-radius="8px"
             font-weight="800"
@@ -883,7 +883,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=034&amp;nome_curso=processos_gerenciais_atendimento"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=034&amp;nome_curso=Tecnólogo em Processos Gerenciais"
             background-color="#820059"
             color="#FFFFFF"
             font-size="16px"

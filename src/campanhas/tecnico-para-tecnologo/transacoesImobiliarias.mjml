@@ -134,7 +134,7 @@
             profissional.
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=079&amp;nome_curso=negocios_imobiliarios_geral" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -251,7 +251,7 @@
 
           <!-- Botão Gestão Pública -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=069&amp;nome_curso=gestao_publica"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=069&amp;nome_curso=Gestão Pública"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -344,7 +344,7 @@
 
           <!-- Botão Negócios Imobiliários -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=079&amp;nome_curso=negocios_imobiliarios"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -403,7 +403,7 @@
 
           <!-- Botão roxo -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=079&amp;nome_curso=negocios_imobiliarios_geral"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários"
             background-color="#820059"
             border-radius="8px"
             font-weight="800"
@@ -800,7 +800,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=tecnico_para_tecnologo&amp;curso=079&amp;nome_curso=negocios_imobiliarios_atendimento"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários"
             background-color="#820059"
             color="#FFFFFF"
             font-size="16px"
