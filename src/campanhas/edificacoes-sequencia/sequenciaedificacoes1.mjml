@@ -135,12 +135,12 @@
                 letter-spacing: -0.01em;
                 padding: 21px 44px;
               ">
-                Graduação Tecnóloga em <span style = "font-weight: 700">Segurança do Trabalho</span>
+                Graduação Tecnólogo em <span style = "font-weight: 700">Segurança do Trabalho</span>
               </div>
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=seguranca_trabalho" padding="14px 0px 0px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=14&curso=000&fornecedor=07&nome_produto=Tecnico para tecnologo em Seguranca do Trabalho&nome_curso=Seguranca do Trabalho" padding="14px 0px 0px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -379,7 +379,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=atendimento_consultor"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=14&curso=000&fornecedor=07&nome_produto=Tecnico para tecnologo&nome_curso=Atendimento Consultor"
             background-color="#F84806"
             border-radius="20px"
             font-weight="800"
