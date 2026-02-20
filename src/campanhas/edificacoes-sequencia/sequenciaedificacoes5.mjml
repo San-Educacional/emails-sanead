@@ -205,6 +205,45 @@
       <!-- Espaçamento -->
       <mj-section padding="0px">
         <mj-column>
+          <mj-spacer height="50px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Diferencial e CTA -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 50px 23px 50px">
+        <mj-column width="502px">
+          <mj-text font-size="28px" font-weight="800" line-height="28px" color="#8D005E" padding="0px 0px 23px 0px">
+            O ponto em comum das duas graduações
+          </mj-text>
+
+          <mj-text padding="0px 0px 23px 0px" line-height="32px" font-size="18px">
+            Você deixa de ser visto apenas como <b>executor técnico</b> e passa a atuar em funções de <b>decisão, valorização e crescimento profissional,</b> com diploma superior e mais possibilidades de renda.
+          </mj-text>
+
+          <mj-button
+            href="#"
+            background-color="#8D005E"
+            border-radius="30px"
+            font-weight="800"
+            font-size="16px"
+            padding="0px 0px 23px 0px"
+          >
+            Converse com um consultor e descubra qual dessas graduações combina mais com seu perfil.
+          </mj-button>
+
+          <mj-text padding="0px 0px 23px 0px" font-size="16px" line-height="24px">
+            Conte com a San Educacional para transformar sua formação técnica em novas oportunidades.
+          </mj-text>
+
+          <mj-text padding="0px" font-size="16px" line-height="24px">
+            Atenciosamente,<br />Equipe San Educacional
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
           <mj-spacer height="60px" />
         </mj-column>
       </mj-section>
