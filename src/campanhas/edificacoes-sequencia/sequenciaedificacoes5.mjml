@@ -1,0 +1,271 @@
+<mjml>
+  <mj-head>
+    <mj-title>Design de Interiores e Gestão da Qualidade - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="18px" color="#050505" line-height="28px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#ffffff"
+        border-radius="8px"
+        font-weight="800"
+        font-size="16px"
+      />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#D8BACD" width="602px">
+    <mj-wrapper background-color="#590039" padding="0px">
+      <!-- Logo -->
+      <mj-section background-color="#FAEDF6" padding-bottom="15px" padding-top="7px" border-radius="0px 0px 20px 20px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/logo.jpg"
+            alt="SAN Educacional"
+            width="356px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero -->
+      <mj-section background-color="#590039" padding="0px 0px 41px 0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia5/header.jpg"
+            alt="Profissional de Edificações"
+            width="602px"
+            border-radius="20px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título -->
+      <mj-section background-color="#590039" padding="0px 60px 41px 60px">
+        <mj-column>
+          <mj-text
+            font-size="34px"
+            font-weight="800"
+            line-height="48px"
+            color="rgba(255, 255, 255, 0.93)"
+            align="center"
+            letter-spacing="-0.02em"
+            padding="0px"
+          >
+            Oi [PRIMEIRO NOME]<br />Tudo bem?
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 28px 14px 28px">
+        <mj-column width="546px">
+          <!-- Apresentação -->
+          <mj-text padding="0px 0px 20px 0px" line-height="32px">
+            Agradecemos por confiar no nosso trabalho e ter adquirido o <span style="color: #F84806"><b>Curso Técnico em Edificações.</span></b><br /><br />Quem já concluiu o <span style="color: #F84806"><b>Curso Técnico em Edificações</span></b> domina a parte prática de obras, projetos e execução. O próximo passo para crescer profissionalmente é <span style="color: #F84806"><b>escolher onde você quer se diferenciar:</span></b><br /><b> • Estética, funcionalidade e experiência dos espaços</b><br /><b> • Processos, qualidade e padrão técnico nas empresas.</b><br /><br />Com a modalidade <b><span style="color: #F84806">Técnico para Tecnólogo</b>,</span> você pode avançar para uma graduação em apenas <span style="color: #F84806"><b>12 meses</b></span>, aproveitando sua formação técnica.
+          </mj-text>
+
+          <!-- Curso 1: Design de Interiores -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia5/hero1.jpg"
+                alt="Design de Interiores"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 44px;
+              ">
+                Opção 1 — <b>Design de Interiores</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="#" padding="0px 0px 14px 0px" width="266px">
+            Garantir minha vaga
+          </mj-button>
+
+          <mj-text padding="0px 0px 10px 0px" font-weight="700">
+            12 meses | 800 horas
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px">
+            Ideal para quem quer sair da execução e atuar no planejamento e valorização de ambientes.
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px" font-size="24px" font-weight="700" color="#F84806">
+            O que você passa a fazer
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px">
+            <div style="padding-left: 20px"> • Projetar ambientes residenciais e comerciais<br />• Definir layouts, materiais, iluminação e acabamentos<br />• Integrar estética, funcionalidade e normas técnicas<br />• Acompanhar obras com visão técnica + criativa</div>
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px" font-size="24px" font-weight="700" color="#F84806">
+            Onde atuar
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px">
+            <div style="padding-left: 20px">• Escritórios de design e arquitetura<br />• Construtoras e incorporadoras<br />• Lojas de móveis planejados e acabamentos<br />• Atuação autônoma (muito comum na área)</div>
+          </mj-text>
+
+          <mj-text padding="0px 0px 14px 0px" font-weight="400">
+            <b>Ganhos médios:<br />R$ 3.000 a R$ 6.000</b> | projetos autorais podem elevar bastante a renda
+          </mj-text>
+
+          <!-- Curso 2: Gestão da Qualidade -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia5/hero2.jpg"
+                alt="Gestão da Qualidade"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 44px;
+              ">
+                Opção 2 — <b>Gestão da Qualidade</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="#" padding="0px 0px 14px 0px" width="266px">
+            Garantir minha vaga
+          </mj-button>
+
+          <mj-text padding="0px 0px 10px 0px" font-weight="700">
+            12 meses | 800 horas
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px">
+            Indicada para quem prefere o lado técnico, organizacional e estratégico das empresas.
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px" font-size="24px" font-weight="700" color="#F84806">
+            O que você passa a fazer
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px">
+            <div style="padding-left: 20px;">• Padronizar processos e reduzir falhas<br />• Atuar com normas, auditorias e controle de qualidade<br />• Melhorar produtividade, segurança e resultados<br />• Apoiar certificações e melhoria contínua</div>
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px" font-size="24px" font-weight="700" color="#F84806">
+            Onde atuar
+          </mj-text>
+
+          <mj-text padding="0px 0px 10px 0px">
+            <div style="padding-left: 20px;">• Construtoras e empreiteiras<br />• Indústrias e empresas de serviços<br />• Setores de qualidade, processos e compliance </div>
+          </mj-text>
+
+          <mj-text padding="0px 0px 0px 0px" font-weight="400">
+            <b>Ganhos médios:<br />R$ 3.500 a R$ 7.500+</b> conforme experiência e porte da empresa
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="50px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Diferencial e CTA -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 50px 23px 50px">
+        <mj-column width="502px">
+          <mj-text font-size="28px" font-weight="800" line-height="28px" color="#8D005E" padding="0px 0px 23px 0px">
+            O ponto em comum das duas graduações
+          </mj-text>
+
+          <mj-text padding="0px 0px 23px 0px" line-height="32px" font-size="18px">
+            Você deixa de ser visto apenas como <b>executor técnico</b> e passa a atuar em funções de <b>decisão, valorização e crescimento profissional,</b> com diploma superior e mais possibilidades de renda.
+          </mj-text>
+
+          <mj-button
+            href="#"
+            background-color="#8D005E"
+            border-radius="30px"
+            font-weight="800"
+            font-size="16px"
+            padding="0px 0px 23px 0px"
+          >
+            Converse com um consultor e descubra qual dessas graduações combina mais com seu perfil.
+          </mj-button>
+
+          <mj-text padding="0px 0px 23px 0px" font-size="16px" line-height="24px">
+            Conte com a San Educacional para transformar sua formação técnica em novas oportunidades.
+          </mj-text>
+
+          <mj-text padding="0px" font-size="16px" line-height="24px">
+            Atenciosamente,<br />Equipe San Educacional
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="60px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#590039" padding="0px 0px 30px 0px">
+        <mj-column>
+          <mj-divider border-color="#FFF8FD" border-width="1px" padding="0px 0px 19px 0px" />
+          
+          <mj-text
+            font-size="12px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFF8FD"
+            align="center"
+            text-decoration="underline"
+            padding="0px"
+          >
+            <a href="#" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
