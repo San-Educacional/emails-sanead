@@ -203,11 +203,11 @@
           </mj-button>
 
           <mj-text padding="0px 0px 0px 0px" line-height="28px">
-            • Focada na <b>gestão de equipes</b>, operações e segurança patrimonial.<br />
-            • Coordenação de vigilância, portaria, monitoramento e prevenção de perdas<br />
+            Focada na <b>gestão de equipes, operações e segurança patrimonial.</b><br /><br>
+            <div style="padding-left: 20px">• Coordenação de vigilância, portaria, monitoramento e prevenção de perdas<br />
             • Alta demanda em condomínios, shoppings, indústrias, bancos e eventos<br />
-            • Salários médios de <b>R$ 3.200 a R$ 12.000+</b>, conforme o porte da operação<br />
-            • Excelente para quem busca cargos de liderança e gestão.
+            • Salários médios de <b>R$ 3.200 a R$ 12.000+</b>, conforme o porte da operação<br /></div><br>
+            Excelente para quem busca cargos de <b>liderança e gestão.</b>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -215,19 +215,19 @@
       <!-- Espaçamento -->
       <mj-section padding="0px">
         <mj-column>
-          <mj-spacer height="23px" />
+          <mj-spacer height="40px" />
         </mj-column>
       </mj-section>
 
       <!-- Diferencial e CTA -->
-      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 50px 23px 50px">
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 0px 23px 10px">
         <mj-column width="502px">
           <mj-text font-size="28px" font-weight="800" line-height="28px" color="#8D005E" padding="0px 0px 23px 0px">
             ⏱️ O grande diferencial
           </mj-text>
 
           <mj-text padding="0px 0px 23px 0px" line-height="32px">
-            Mais do que um diploma, essas graduações colocam você em <b>cargos mais estratégicos</b>, com maior autonomia, reconhecimento e poder de decisão dentro das empresas.
+            Mais do que um diploma, essas graduações colocam você em <b>cargos mais estratégicos</b>, com <b>maior autonomia, reconhecimento e poder de decisão</b> dentro das empresas.
           </mj-text>
 
           <mj-button
