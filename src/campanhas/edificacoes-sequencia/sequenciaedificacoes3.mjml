@@ -1,0 +1,445 @@
+<mjml>
+  <mj-head>
+    <mj-title>Gestão de Segurança Privada - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="18px" color="#050505" line-height="28px" />
+      <mj-button
+        font-size="16px"
+        background-color="#F95F00"
+        color="#ffffff"
+        border-radius="8px"
+        font-weight="800"
+      />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
+    </mj-style>
+
+    <mj-style>
+      .salary-section-first {
+        padding: 0px 0px 0px 53px;
+      }
+      
+      @media only screen and (max-width: 480px) {
+        .cargo-box {
+          padding: 24px 0px !important;
+          line-height: 32px !important;
+        }
+        .salary-section {
+          padding: 0px 5px !important;
+        }
+        .salary-section-first {
+          padding: 0px 5px !important;
+        }
+        .salary-section > tbody > tr > td {
+          padding: 0px !important;
+        }
+        .salary-card {
+          width: 100% !important;
+          max-width: 280px !important;
+          display: block !important;
+          margin: 0 auto 14px auto !important;
+          padding: 7px !important;
+        }
+        .salary-card > tbody > tr > td {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#D8BACD" width="602px">
+    <mj-wrapper background-color="#F89000" padding="0px">
+      <!-- Hero Section com Logo -->
+      <mj-section background-color="#82005A" padding-bottom="15px" padding-top="7px" border-radius="0px 0px 20px 20px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/logoRoxa.jpg"
+            alt="SAN Educacional"
+            width="294px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F89000" padding="0px 0px 20px 0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/header.jpg"
+            alt="Profissional de Edificações"
+            width="602px"
+            border-radius="20px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título com estilos inline -->
+      <mj-section background-color="#F89000" padding="31px 60px 40px 60px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                max-width: 500px;
+                margin: 0 auto;
+                background: #820059;
+                border-radius: 10px;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 28px;
+                  font-weight: 800;
+                  line-height: 40px;
+                  color: rgba(255, 255, 255, 0.93);
+                  letter-spacing: -0.02em;
+                  text-shadow: 7px 10px 11.8px rgba(89, 0, 57, 0.38);
+                  text-align: center;
+                "
+              >
+                Oi {$name|default('Estudante')}!<br />Tudo bem?
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="0px 28px 23px 28px">
+        <mj-column width="546px">
+          <mj-text padding="0px 0px 20px 0px">
+            Obrigado por confiar na San Educacional e adquirir o <span style = "font-weight: 700; color: #F84806;">Curso Técnico em Edificações.<br> <br></span> Com essa formação, você já pode dar o próximo passo rumo a uma <span style = "font-weight: 700; color: #F84806;">graduação de nível superior</span>, aproveitando seus estudos.
+          </mj-text>
+
+          <mj-text padding="0px 0px 23px 0px">
+            Você que já concluiu o <span style = "font-weight: 700; color: #F84806;">Curso Técnico em Edificações</span> pode aproveitar seu histórico escolar para ingressar em uma graduação de nível superior pela modalidade <span style = "font-weight: 700; color: #F84806;">Técnico para Tecnólogo</span>, com <span style = "font-weight: 700; color: #F84806;">eliminação de disciplinas</span> e formação acelerada. <br><br>Uma opção com alta demanda no mercado atual é a:
+          </mj-text>
+
+          <!-- Card Gestão de Segurança Privada -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/hero.jpg"
+                alt="Gestão de Segurança Privada"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 44px;
+              ">
+                Graduação Tecnóloga em <span style = "font-weight: 700">Gestão de Segurança Privada</span> (800 horas)
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=gestao_seguranca_privada" padding="14px 0px 0px 0px" width="266px">
+            Garantir minha vaga
+          </mj-button>
+
+          <mj-text padding="54px 25px 23px 25px">
+            Voltada para quem deseja atuar na <span style = "font-weight: 700; color: #F95F00;">coordenação e gestão de equipes de segurança patrimonial e empresarial.</span>
+          </mj-text>
+
+          <!-- Chamada -->
+          <mj-text align="center" padding="0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 20px;
+              padding: 14px 32px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 34px;
+                color: rgba(255, 255, 255, 0.93);
+                text-align: center;
+                letter-spacing: -0.02em;
+              ">
+                O que você pode fazer <br> com essa graduação
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="23px 25px 0px 25px">
+            Com essa graduação, você pode trabalhar como:
+          </mj-text>
+
+          <!-- Box de Cargos -->
+          <mj-text padding="23px 30px" css-class="cargo-box">
+            <div style="
+              border: 1px solid #820059;
+              border-radius: 8px;
+              padding: 16px 0px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #820059;
+              ">
+                • Gestor, Coordenador ou Supervisor de Segurança Privada<br />
+                • Gerente de Segurança Patrimonial<br />
+                • Coordenador de Vigilância e Controle de Acesso<br />
+                • Analista ou Gestor de Monitoramento e CFTV<br />
+                • Consultor em Segurança Empresarial
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento entre seções -->
+        <mj-section padding="0px">
+          <mj-column>
+            <mj-spacer height="40px" />
+          </mj-column>
+        </mj-section>
+
+      <!-- Seção Oportunidades -->
+      <mj-section background-color="#FFF8FD" border-radius="20px 20px 0px 0px" padding="13px 15px 0px 15px">
+        <mj-column width="572px">
+          <!-- Chamada -->
+          <mj-text align="center" padding="0px 0px 23px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 20px;
+              padding: 14px 32px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 28px;
+                font-weight: 500;
+                line-height: 34px;
+                color: rgba(255, 255, 255, 0.93);
+                text-align: center;
+                letter-spacing: -0.02em;
+              ">
+                Onde estão as <span style = "font-weight: 700">vagas</span>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="10px 20px 15px 25px">
+            A maior demanda está em:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Cards de Setores - Primeira Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 0px" css-class="salary-section-first">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="salary-card">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card1.jpg" alt="Empresas de segurança privada" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 400;">Empresas de <br><span style = "font-weight: 700">segurança privada</span></span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="salary-card">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card2.jpg" alt="Condomínios" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Condomínios <br><span style = "font-weight: 400 !important">residenciais e <br>comerciais</span></span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Cards de Setores - Segunda Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 0px" css-class="salary-section-first">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="salary-card">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card3.jpg" alt="Shoppings" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Shoppings, centros comerciais e grandes <br>lojas</span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="salary-card">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card4.jpg" alt="Indústrias" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Indústrias e galpões logísticos</span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Cards de Setores - Terceira Linha (Centralizado) -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 14px 0px" css-class="salary-section">
+        <mj-column width="250px" padding="7px" css-class="salary-card">
+          <mj-text align="center" padding="0px">
+            <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+              <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card5.jpg" alt="Bancos e eventos" style="width: 100%; display: block;" />
+              <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 400;">Bancos, joalherias <span style="font-weight: 700">e <br>eventos de grande <br>porte</span></span></div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Texto adicional -->
+      <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 23px 12px">
+        <mj-column width="572px">
+          <mj-text padding="0px 25px 0px 25px">
+            O setor cresce cerca de <span style = "font-weight: 700;">9 a 10% ao ano!</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento entre seções -->
+        <mj-section padding="0px">
+          <mj-column>
+            <mj-spacer height="40px" />
+          </mj-column>
+        </mj-section>
+
+      <!-- Seção Salários -->
+      <mj-section background-color="#FFF8FD" border-radius="20px 20px 0px 0px" padding="13px 15px 0px 15px">
+        <mj-column width="572px">
+          <mj-text align="center" padding="0px 0px 23px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 20px;
+              padding: 14px 32px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 28px;
+                font-weight: 500;
+                line-height: 34px;
+                color: rgba(255, 255, 255, 0.93);
+                text-align: center;
+                letter-spacing: -0.02em;
+              ">
+                Faixa salarial <span style="font-weight:700;">média</span>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Cards de Salários - Primeira Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 14px 0px" css-class="salary-section-first">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="salary-card">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico1.jpg" alt="Salário Inicial" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Salário inicial:</span> <span style="font-weight: 400;"><br>R$ 3.200 a R$ 5.000</span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="salary-card">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico2.jpg" alt="Gestores Experientes" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Gestores experientes:</span> <span style="font-weight: 400;"><br>R$ 6.000 a R$ 12.000+<br>(varia conforme o porte da empresa ou da operação)</span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Texto e CTA Final -->
+      <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 23px 12px">
+        <mj-column width="572px">
+          <mj-text font-size="18px" line-height="28px" padding="35px 25px 23px 45px">
+            Enquanto muitos profissionais ainda levam <span style = "font-weight: 700; color: #F84806;">3 anos ou mais</span> para concluir uma graduação tradicional, você pode <span style = "font-weight: 700; color: #F84806;">se formar em até 12 meses e sair na frente no mercado</span>, aproveitando o curso técnico que já possui.
+          </mj-text>
+
+          <mj-button
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=atendimento_consultor"
+            background-color="#F84806"
+            border-radius="20px"
+            font-weight="800"
+            font-size="16px"
+            padding="0px"
+            inner-padding="5px 13px"
+          >
+            Fale com um consultor e veja como aproveitar seu curso <br>técnico para ingressar nessa graduação
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento entre seções -->
+        <mj-section padding="0px">
+          <mj-column>
+            <mj-spacer height="90px" />
+          </mj-column>
+        </mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#F84806" border-radius="20px 20px 0px 0px" padding="10px 53px 0px 53px">
+        <mj-column>
+          <mj-text
+            font-size="16px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFFFFF"
+            align="left"
+            padding="0px 0px 10px 0px"
+          >
+            Conte com a San Educacional para continuar evoluindo com você!
+          </mj-text>
+
+          <mj-text
+            font-size="16px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFFFFF"
+            align="left"
+            padding="0px 0px 10px 0px"
+          >
+            Atenciosamente,<br />Equipe San Educacional
+          </mj-text>
+
+          <mj-divider border-color="#FFF8FD" border-width="1px" padding="19px 0px 19px 0px" />
+
+          <mj-text
+            font-size="12px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFF8FD"
+            align="center"
+            text-decoration="underline"
+            padding="0px 0px 30px 0px"
+          >
+            <a href="{$unsubscribe}" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
