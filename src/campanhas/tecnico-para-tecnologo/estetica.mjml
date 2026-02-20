@@ -93,7 +93,7 @@
                 "
               >
                 Olá,
-                <span style="color: #820059">[PRIMEIRO NOME]</span>!<br />Tudo
+                <span style="color: #820059">{$name|default('Estudante')}</span>!<br />Tudo
                 bem?
               </div>
             </div>
@@ -133,7 +133,7 @@
             profissional.
           </mj-text>
 
-          <mj-button href="#" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -251,7 +251,7 @@
 
           <!-- Botão Estética e Cosmética -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -344,7 +344,7 @@
 
           <!-- Botão Gestão de Clínicas -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=057&amp;nome_curso=Gestão de Clínicas e Consultórios"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -398,7 +398,7 @@
 
           <!-- Botão roxo -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -795,7 +795,7 @@
           </mj-text>
 
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética"
             background-color="#F95F00"
             color="#FFFFFF"
             font-size="18px"
@@ -864,7 +864,7 @@
             text-decoration="underline"
             padding="0px 0px 30px 0px"
           >
-            <a href="#" style="color: #820059; text-decoration: underline"
+            <a href="{$unsubscribe}" style="color: #820059; text-decoration: underline"
               >Descadastre-se</a
             >
           </mj-text>

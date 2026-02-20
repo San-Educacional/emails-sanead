@@ -91,7 +91,7 @@
                   text-align: center;
                 "
               >
-                Olá, [PRIMEIRO NOME]!<br />Tudo bem?
+                Olá, {$name|default('Estudante')}!<br />Tudo bem?
               </div>
             </div>
           </mj-text>
@@ -134,7 +134,7 @@
             profissional.
           </mj-text>
 
-          <mj-button href="#" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -251,7 +251,7 @@
 
           <!-- Botão Gestão Pública -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=069&amp;nome_curso=Gestão Pública"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -344,7 +344,7 @@
 
           <!-- Botão Negócios Imobiliários -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -403,7 +403,7 @@
 
           <!-- Botão roxo -->
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários"
             background-color="#820059"
             border-radius="8px"
             font-weight="800"
@@ -800,7 +800,7 @@
           </mj-text>
 
           <mj-button
-            href="#"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=079&amp;nome_curso=Negócios Imobiliários"
             background-color="#820059"
             color="#FFFFFF"
             font-size="16px"
@@ -866,7 +866,7 @@
             text-decoration="underline"
             padding="0px 0px 30px 0px"
           >
-            <a href="#" style="color: #fff8fd; text-decoration: underline"
+            <a href="{$unsubscribe}" style="color: #fff8fd; text-decoration: underline"
               >Descadastre-se</a
             >
           </mj-text>

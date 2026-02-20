@@ -3,7 +3,7 @@
     <mj-title>Segurança do Trabalho - San Educacional</mj-title>
     <mj-font
       name="Poppins"
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&amp;display=swap"
     />
     <mj-attributes>
       <mj-all font-family="Poppins, Arial, sans-serif" />
@@ -140,7 +140,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=14&curso=000&fornecedor=07&nome_produto=Tecnico para tecnologo em Seguranca do Trabalho&nome_curso=Seguranca do Trabalho" padding="14px 0px 0px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;curso=000&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Seguranca do Trabalho&amp;nome_curso=Seguranca do Trabalho" padding="14px 0px 0px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -379,7 +379,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=14&curso=000&fornecedor=07&nome_produto=Tecnico para tecnologo&nome_curso=Atendimento Consultor"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;curso=000&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo&amp;nome_curso=Atendimento Consultor"
             background-color="#F84806"
             border-radius="20px"
             font-weight="800"

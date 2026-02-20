@@ -115,7 +115,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=seguranca_trabalho" padding="0px 0px 23px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=087&amp;nome_curso=Segurança no Trabalho" padding="0px 0px 23px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -157,7 +157,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=investigacao_forense" padding="0px 0px 23px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=108&amp;nome_curso=Tecnólogo em Investigação Forense e Perícia Judicial" padding="0px 0px 23px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -198,7 +198,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=gestao_seguranca_privada" padding="0px 0px 23px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=063&amp;nome_curso=Gestão de Segurança Privada" padding="0px 0px 23px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
@@ -231,7 +231,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=03&curso=003&fornecedor=03&nome_produto=tecnico_para_tecnologo&nome_curso=atendimento_consultor"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=087&amp;nome_curso=Segurança no Trabalho"
             background-color="#8D005E"
             border-radius="30px"
             font-weight="800"
