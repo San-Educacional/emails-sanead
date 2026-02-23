@@ -13,6 +13,7 @@
         color="#ffffff"
         border-radius="8px"
         font-weight="800"
+        font-size="16px"
       />
     </mj-attributes>
 
@@ -101,14 +102,10 @@
       </mj-section>
 
       <!-- Conteúdo Principal -->
-      <mj-section background-color="#FFF8FD" border-radius="20px" padding="0px 28px 23px 28px">
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="20px 28px 23px 28px">
         <mj-column width="546px">
-          <mj-text padding="0px 0px 20px 0px">
-            Se você está interessado no <span style = "font-weight: 700; color: #F84806;">Curso Técnico em Edificações</span>, queremos te mostrar uma <span style = "font-weight: 700; color: #F84806;">oportunidade incrível</span> de ir ainda mais longe na sua carreira profissional.
-          </mj-text>
-
-          <mj-text padding="0px 0px 23px 0px">
-            Com um curso técnico em <span style = "font-weight: 700; color: #F84806;">Edificações</span>, existe uma graduação que faz total sentido como próximo passo profissional e que hoje está entre as que <span style = "font-weight: 700; color: #F84806;">mais oferecem vagas no Brasil:</span>
+          <mj-text padding="0px 0px 50px 0px" line-height="32px">
+Se você já tem um curso técnico em <span style = "color: #f95f00;"><b>Edificações,</b> </span> existe uma graduação que faz total sentido como próximo passo estratégico e que está em <span style = "color: #f95f00;"><b>alta no mercado:</b></span>
           </mj-text>
 
           <!-- Card Segurança do Trabalho -->
@@ -135,7 +132,7 @@
                 letter-spacing: -0.01em;
                 padding: 21px 44px;
               ">
-                Graduação Tecnólogo em <span style = "font-weight: 700">Segurança do Trabalho</span>
+                Graduação Tecnólogo em <span style = "font-weight: 700">Gestão da Qualidade</span>
               </div>
             </div>
           </mj-text>
@@ -145,7 +142,8 @@
           </mj-button>
 
           <mj-text padding="54px 25px 23px 25px">
-            Essa é uma das formações mais tradicionais do país, muito procurada por empresas de diversos setores. Com a modalidade <span style = "font-weight: 700; color: #F84806;">Técnico para Tecnólogo</span>, você pode <span style = "font-weight: 700; color: #F84806;">aproveitar uma formação técnica</span> e concluir a graduação em até <span style = "font-weight: 700; color: #F84806;">12 meses</span>, com carga horária de <span style = "font-weight: 700; color: #F84806;">1.200 horas.</sṕan>
+            Com a modalidade <span style="color: #F84806"><b>Técnico para Tecnólogo</b></span>, você pode aproveitar sua formação técnica e concluir a graduação em até <span style="color: #F84806"><b>12 meses</b></span>, com <span style="color: #F84806"><b>800 horas<b></span>, 100% EAD.<br><br>
+            Ou seja: você evolui para o nível superior <span style="color: #F84806"><b>sem começar do zero.</b></span>
           </mj-text>
 
           <!-- Chamada -->
@@ -170,7 +168,7 @@
           </mj-text>
 
           <mj-text padding="23px 25px 14px 25px">
-            Ao concluir o tecnólogo em Segurança do Trabalho, você pode atuar como:
+            A área de <b>Qualidade</b> é essencial em praticamente todos os setores da economia. Com essa formação, você pode atuar como:
           </mj-text>
 
           <!-- Box de Cargos -->
@@ -187,17 +185,17 @@
                 line-height: 28px;
                 color: #820059;
               ">
-                • Técnico em Segurança do Trabalho<br> <span style = "font-weight: 400 "> → Cargo mais contratado do país na área</span><br />
-                • Assistente ou Analista de Segurança do Trabalho<br />
-                • Supervisor ou Coordenador de Segurança<br />
-                • Auditor Interno de Segurança e Saúde Ocupacional<br />
-                • Técnico de Referência em SESMT
+                • Analista de qualidade <br />
+                • Assistente ou Supervisor de qualidade<br />
+                • Cordenador de processos <br />
+                • Auditor Interno de Qualidade<br />
+                • Gestor de sistema de gestão (ISO)
               </div>
             </div>
           </mj-text>
 
           <mj-text padding="23px 25px 14px 25px">
-            São funções essenciais para o funcionamento legal das empresas, o que garante <span style = "font-weight: 700">alta empregabilidade.</span>
+            São funções estratégicas que <b>garantem padronização, melhoria contínua e competitividade às empresas </b>— o que mantém a demanda sempre ativa.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -234,13 +232,13 @@
           </mj-text>
 
           <mj-text padding="10px 20px 15px 25px">
-            Os setores que mais contratam hoje são:
+            Profissionais da gestão da qualidade são valorizados em:
           </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- Cards de Setores -->
-      <mj-section background-color="#FFF8FD" padding="0px 0px 23px 33px" border-radius="0px 0px 20px 20px">
+      <mj-section background-color="#FFF8FD" padding="0px 0px 23px 33px" border-radius="0px">
         <mj-group>
           <mj-column width="250px" padding="7px">
             <mj-text align="center" padding="0px">
@@ -275,7 +273,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/card4.jpg" alt="Agronegócio" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Agronegócio</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Empresa de serviços</span></div>
               </div>
             </mj-text>
           </mj-column>
@@ -284,7 +282,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/card5.jpg" alt="Saúde" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Saúde</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Hospitais e área da Saúde</span></div>
               </div>
             </mj-text>
           </mj-column>
@@ -293,11 +291,19 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/card6.jpg" alt="Consultorias" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Consultorias especializadas em SST</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Consultorias especializadas </span></div>
               </div>
             </mj-text>
           </mj-column>
         </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 10px 12px">
+        <mj-column>
+          <mj-text align="center" font-size="18px" line-height="28px" padding="0px">
+            Qualidade não é tendência. É exigência de mercado.
+          </mj-text>
+        </mj-column>
       </mj-section>
 
       <!-- Espaçamento entre seções -->
@@ -325,13 +331,13 @@
                 text-align: center;
                 letter-spacing: -0.02em;
               ">
-                Quanto ganha um <br> <span style="font-weight:700;">profissional da área</span> (2026)
+              <span style="font-weight:700;">Potencial de ganhos</span>
               </div>
             </div>
           </mj-text>
 
-          <mj-text padding="0px 0px 14px 0px">
-            Os setores que mais contratam hoje são:
+          <mj-text padding="0px 0px 14px 0px" align="left">
+            A área oferece crescimento consistente conforme experiência e nível de responsabilidade:
           </mj-text>
         </mj-column>
       </mj-section>
@@ -343,7 +349,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico1.jpg" alt="Salário Inicial" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Salário inicial:</span> <span style="font-weight: 400;"><br>R$ 3.000 a R$ 4.800</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Salários iniciais competitivos</span>
               </div>
             </mj-text>
           </mj-column>
@@ -352,7 +358,8 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico2.jpg" alt="Profissionais Experientes" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Profissionais experientes / coordenação:</span> <span style="font-weight: 400;"><br>R$ 5.500 a R$ 9.000+</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Cargos de supervisão e coordenação com remuneração mais elevada
+</span> 
               </div>
             </mj-text>
           </mj-column>
@@ -365,7 +372,7 @@
           <mj-text align="center" padding="0px">
             <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
               <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico3.jpg" alt="Grande Porte" style="width: 100%; display: block;" />
-              <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Em indústrias de grande porte ou operações offshore, os ganhos podem ultrapassar:</span> <span style="font-weight: 400;"><br>R$ 10.000</span></div>
+              <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Possibilidade de atuar como auditor ou consultor</span> 
             </div>
           </mj-text>
         </mj-column>
@@ -375,7 +382,8 @@
       <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 23px 12px">
         <mj-column width="572px">
           <mj-text font-size="18px" line-height="28px" padding="35px 25px 23px 45px">
-            Enquanto muitos profissionais ainda levam <span style = "font-weight: 700; color: #F84806;">3 anos ou mais</span> para concluir uma graduação tradicional, você pode <span style = "font-weight: 700; color: #F84806;">se formar em até 12 meses e sair na frente no mercado</span>, aproveitando um curso técnico.
+            Quanto maior o preparo, maior o nível de <br><b>responsabilidade e maior o potencial de valorização.</b><br><br>
+            Enquanto muitos profissionais ainda levam <span style = "font-weight: 700; color: #F84806;">3 anos ou mais</span> para concluir uma graduação tradicional, você pode se<span style = "font-weight: 700; color: #F84806;"> formar em até 12 meses </span>e sair na frente no mercado, aproveitando um curso técnico.
           </mj-text>
 
           <mj-button

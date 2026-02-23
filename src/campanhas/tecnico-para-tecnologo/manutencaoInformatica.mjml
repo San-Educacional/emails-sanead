@@ -138,7 +138,7 @@
             profissional.
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=023&amp;nome_curso=Tecnólogo em Análise e Desenvolvimento de Sistemas" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Analise e Desenvolvimento de Sistemas&amp;curso=000&amp;nome_curso=Analise e Desenvolvimento de Sistemas" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -249,7 +249,7 @@
 
           <!-- Botão Análise e Desenvolvimento de Sistemas -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=023&amp;nome_curso=Tecnólogo em Análise e Desenvolvimento de Sistemas"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Analise e Desenvolvimento de Sistemas&amp;curso=000&amp;nome_curso=Analise e Desenvolvimento de Sistemas"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -338,7 +338,7 @@
 
           <!-- Botão Gestão da Tecnologia da Informação -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=056&amp;nome_curso=Gestão da Tecnologia da Informação"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao da Tecnologia da Informacao&amp;curso=000&amp;nome_curso=Gestao da Tecnologia da Informacao"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -427,7 +427,7 @@
 
           <!-- Botão Segurança da Informação -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=086&amp;nome_curso=Segurança da Informação"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Seguranca da Informacao&amp;curso=000&amp;nome_curso=Seguranca da Informacao"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -520,7 +520,7 @@
 
           <!-- Botão Sistemas para Internet -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=093&amp;nome_curso=Sistemas para Internet"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Sistemas para Internet&amp;curso=000&amp;nome_curso=Sistemas para Internet"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -963,7 +963,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=023&amp;nome_curso=Tecnólogo em Análise e Desenvolvimento de Sistemas"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Analise e Desenvolvimento de Sistemas&amp;curso=000&amp;nome_curso=Analise e Desenvolvimento de Sistemas"
             background-color="#820059"
             color="#FFFFFF"
             font-size="16px"

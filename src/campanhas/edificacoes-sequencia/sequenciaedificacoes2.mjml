@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-title>Investigação Forense - San Educacional</mj-title>
+    <mj-title>Design de Interiores - San Educacional</mj-title>
     <mj-font
       name="Poppins"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
@@ -59,7 +59,7 @@
   <mj-body background-color="#D8BACD" width="602px">
     <mj-wrapper background-color="#820059" padding="0px">
       <!-- Hero Section com Logo -->
-      <mj-section background-color="#FFFFFF" padding-bottom="15px" padding-top="7px" border-radius="0px 0px 20px 20px">
+      <mj-section background-color="#FAEDF6" padding-bottom="15px" padding-top="7px" border-radius="0px 0px 20px 20px">
         <mj-column>
           <mj-image
             src="https://assets.saneducacional.com.br/emails/logo.jpg"
@@ -102,28 +102,25 @@
       </mj-section>
 
       <!-- Conteúdo Principal -->
-      <mj-section background-color="#FFF8FD" border-radius="20px" padding="0px 28px 23px 28px">
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="10px 28px 23px 28px">
         <mj-column width="546px">
-          <mj-text padding="0px 0px 20px 0px">
-            Agradecemos por confiar no nosso trabalho e ter adquirido o <span style = "font-weight: 700; color: #8D005E;">Curso Técnico em Edificações.</span> <br><br>Agora, queremos te apresentar as <span style = "font-weight: 700; color: #8D005E;">possibilidades de crescimento profissional</span> que essa formação permite.
+          <mj-text padding="0px 0px 50px 0px" line-height="32px">
+            Como você já concluiu o <span style = "color: #8D005E; font-weight: 700;">Curso Técnico em Edificações</span>, existe uma possibilidade pouco conhecida, mas muito estratégica: usar seu histórico escolar para ingressar em uma <span style = "color: #8D005E; font-weight: 700;">graduação de nível superior</span> por meio da modalidade <span style = "color: #8D005E; font-weight: 700;">Técnico para Tecnólogo,</span>, com <span style = "color: #8D005E; font-weight: 700;">aproveitamento de disciplinas</span> e <span style = "color: #8D005E; font-weight: 700;">formação a partir de 12 meses.</span><br /><br />
+            Uma das opções que mais se destaca nesse formato é a
           </mj-text>
 
-          <mj-text padding="0px 0px 23px 0px">
-            Como você já concluiu o <span style = "font-weight: 700; color: #8D005E;">Curso Técnico em Edificações</span>, existe uma possibilidade pouco conhecida, mas muito estratégica: usar seu histórico escolar para ingressar em <span style = "font-weight: 700; color: #8D005E;">uma graduação de nível superior</span> por meio da modalidade <span style = "font-weight: 700; color: #8D005E;">Técnico para Tecnólogo</span>, com <span style = "font-weight: 700; color: #8D005E;">aproveitamento de disciplinas</span> e formação a partir de <span style = "font-weight: 700; color: #8D005E;">12 meses</span>. <br><br>Uma das opções que mais se destaca nesse formato é a:
-          </mj-text>
-
-          <!-- Card Investigação Forense -->
+          <!-- Card Design de Interiores -->
           <mj-text align="center" padding="0px 0px 14px 0px">
             <div style="
               background-color: #F84806;
               border-radius: 10px;
               overflow: hidden;
-              max-width: 480px;
+              max-width: 419px;
               margin: 0 auto;
             ">
               <img
-                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/hero.png"
-                alt="Investigação Forense"
+                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/hero.jpg"
+                alt="Design de Interiores"
                 style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
               />
               <div style="
@@ -136,31 +133,31 @@
                 letter-spacing: -0.01em;
                 padding: 21px 44px;
               ">
-                Graduação Tecnóloga em <span style = "font-weight: 700">Investigação Forense e Perícia Judicial</span> (1.200 horas)
+                Graduação Tecnóloga em <span style="font-weight: 700">Design de Interiores</span> <br>(1.200 horas)
               </div>
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=108&amp;nome_curso=Tecnólogo em Investigação Forense e Perícia Judicial" padding="14px 0px 0px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores" padding="14px 0px 0px 0px" width="266px" background-color="#8D005E">
             Garantir minha vaga
           </mj-button>
 
           <mj-text padding="54px 25px 23px 25px">
-            Essa é uma área <span style = "font-weight: 700; color: #F84806;">mais especializada</span>, indicada para quem busca sair do caminho tradicional e atuar com <span style = "font-weight: 700; color: #F84806;">análises técnicas, laudos e investigações que dão suporte a decisões jurídicas e empresariais.</span>
+            Essa é uma área <span style="color: #F84806; font-weight: 700">criativa e estratégica</span>, ideal para quem deseja <span style="color: #F84806; font-weight: 700">transformar espaços residenciais e comerciais</span>, unindo estética, funcionalidade e conhecimento técnico.
           </mj-text>
 
           <!-- Chamada -->
-          <mj-text align="center" padding="0px 61px">
+          <mj-text align="center" padding="0px">
             <div style="
               background-color: #F84806;
               border-radius: 20px;
-              padding: 10px 25px;
+              padding: 8px 32px;
               max-width: 378px;
               margin: 0 auto;
             ">
               <div style="
                 font-family: Poppins, Arial, sans-serif;
-                font-size: 22px;
+                font-size: 28px;
                 font-weight: 600;
                 line-height: 34px;
                 color: rgba(255, 255, 255, 0.93);
@@ -177,7 +174,7 @@
           </mj-text>
 
           <!-- Box de Cargos -->
-          <mj-text padding="23px 35px" css-class="cargo-box">
+          <mj-text padding="23px 30px" css-class="cargo-box">
             <div style="
               border: 1px solid #820059;
               border-radius: 8px;
@@ -190,11 +187,12 @@
                 line-height: 28px;
                 color: #820059;
               ">
-                • Perito Judicial ou Assistente Técnico Pericial<br />
-                • Investigador Particular / Perito Investigador<br />
-                • Técnico em Investigação e Perícia <span style="font-weight: 400">(advocacia e seguradoras)</span><br />
-                • Analista de Riscos e Fraudes<br />
-                • Consultor em Perícia Judicial
+                • Designer de Interiores<br />
+                • Consultor de Ambientes Residenciais e Comerciais<br />
+                • Projetista de Interiores<br />
+                • Especificador de Materiais e Acabamentos<br />
+                • Consultor em Iluminação e Ambientação<br />
+                • Empreendedor no setor de Design e Decoração
               </div>
             </div>
           </mj-text>
@@ -232,9 +230,7 @@
             </div>
           </mj-text>
 
-          <mj-text padding="10px 20px 15px 25px" color="#FFFFFF">
-            Os setores que mais contratam hoje são:
-          </mj-text>
+
         </mj-column>
       </mj-section>
 
@@ -245,7 +241,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card1.jpg" alt="Escritórios de advocacia" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Escritórios de <br>advocacia</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Escritórios de <br>arrquitetura e design</span></div>
               </div>
             </mj-text>
           </mj-column>
@@ -254,7 +250,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card2.jpg" alt="Seguradoras" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Seguradoras</span> <span style="font-weight: 400;"><br>(fraudes e sinistros)</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Lojas de móveis<br> planejados e<br> decoração</span></div>
               </div>
             </mj-text>
           </mj-column>
@@ -268,7 +264,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card3.jpg" alt="Investigação privada" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Empresas de investigação privada</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Construtoras e <br> incorporadoras</span></div>
               </div>
             </mj-text>
           </mj-column>
@@ -277,7 +273,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card4.jpg" alt="Tribunais" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Tribunais</span> <span style="font-weight: 400;"><br>(como assistente técnico)</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700;line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;">Empresas de <br> cenografia e eventos</div>
               </div>
             </mj-text>
           </mj-column>
@@ -290,7 +286,7 @@
           <mj-text align="center" padding="0px">
             <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
               <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/card5.jpg" alt="Compliance" style="width: 100%; display: block;" />
-              <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Áreas de compliance de grandes empresas</span></div>
+              <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Atendimento próprio (projetos e consultorias)</span></div>
             </div>
           </mj-text>
         </mj-column>
@@ -305,12 +301,14 @@
 
       <!-- Seção Salários -->
       <mj-section background-color="#FFF8FD" border-radius="20px 20px 0px 0px" padding="13px 15px 0px 15px">
-        <mj-column width="380px">
+        <mj-column width="572px">
           <mj-text align="center" padding="0px 0px 23px 0px">
             <div style="
               background-color: #F84806;
-              border-radius: 10px;
-              padding: 0px;
+              border-radius: 20px;
+              padding: 8px 32px;
+              max-width: 328px;
+              margin: 0 auto;
             ">
               <div style="
                 font-family: Poppins, Arial, sans-serif;
@@ -325,10 +323,6 @@
               </div>
             </div>
           </mj-text>
-
-          <mj-text padding="0px 0px 14px 0px">
-            Os setores que mais contratam hoje são:
-          </mj-text>
         </mj-column>
       </mj-section>
 
@@ -339,7 +333,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #F84806; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico1.jpg" alt="Salário Inicial" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Salário inicial:</span> <span style="font-weight: 400;"><br>R$ 3.000 a R$ 5.000</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Salário inicial:<br /></span>R$ 3.000 a R$ 5.000</div>
               </div>
             </mj-text>
           </mj-column>
@@ -348,7 +342,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #F84806; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico2.jpg" alt="Profissionais Experientes" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Profissionais experientes:</span> <span style="font-weight: 400;"><br>R$ 8.000 a R$ 15.000+</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Profissionais <br>experientes:</span><br />R$ 7.000 a R$ 15.000+</div>
               </div>
             </mj-text>
           </mj-column>
@@ -358,20 +352,24 @@
       <!-- Texto e CTA Final -->
       <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 23px 12px">
         <mj-column width="572px">
-          <mj-text font-size="18px" line-height="28px" padding="35px 25px 23px 45px">
-            Muitos profissionais atuam por <span style="color: #8D005E; font-weight: 700">laudo ou honorários</span>, aumentando o potencial de renda.
+          <mj-text font-size="18px" line-height="28px" padding="14px 25px 23px 25px">
+            Muitos profissionais atuam por <span style="font-weight: 700">projeto, consultoria ou percentual sobre fornecedores</span>, aumentando significativamente o potencial de renda.
+          </mj-text>
+
+          <mj-text font-size="18px" line-height="28px" padding="0px 25px 23px 25px">
+            Quer saber como aproveitar seu curso técnico para ingressar nessa graduação?
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=108&amp;nome_curso=Tecnólogo em Investigação Forense e Perícia Judicial"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores"
             background-color="#8D005E"
             border-radius="40px"
             font-weight="800"
             font-size="16px"
             padding="0px"
-            inner-padding="5px 13px"
+            inner-padding="5px 6px"
           >
-            Fale com um consultor e veja como aproveitar seu histórico
+            Fale com um consultor e veja como aproveitar seu histórico técnico
           </mj-button>
         </mj-column>
       </mj-section>
@@ -379,7 +377,7 @@
       <!-- Espaçamento entre seções -->
         <mj-section padding="0px">
           <mj-column>
-            <mj-spacer height="60px" />
+            <mj-spacer height="130px" />
           </mj-column>
         </mj-section>
 

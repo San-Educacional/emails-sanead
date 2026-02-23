@@ -133,7 +133,7 @@
             profissional.
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética" padding-top="20px"> Saiba mais </mj-button>
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Estetica e Cosmetica&amp;curso=000&amp;nome_curso=Estetica e Cosmetica" padding-top="20px"> Saiba mais </mj-button>
         </mj-column>
       </mj-section>
 
@@ -251,7 +251,7 @@
 
           <!-- Botão Estética e Cosmética -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Estetica e Cosmetica&amp;curso=000&amp;nome_curso=Estetica e Cosmetica"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -344,7 +344,7 @@
 
           <!-- Botão Gestão de Clínicas -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=057&amp;nome_curso=Gestão de Clínicas e Consultórios"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao de Clinicas e Consultorios&amp;curso=000&amp;nome_curso=Gestao de Clinicas e Consultorios"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -398,7 +398,7 @@
 
           <!-- Botão roxo -->
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Estetica e Cosmetica&amp;curso=000&amp;nome_curso=Estetica e Cosmetica"
             background-color="#F95F00"
             border-radius="8px"
             font-weight="800"
@@ -795,7 +795,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=11&amp;fornecedor=07&amp;nome_produto=Técnico para tecnólogo&amp;curso=025&amp;nome_curso=Tecnólogo em Estética e Cosmética"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Estetica e Cosmetica&amp;curso=000&amp;nome_curso=Estetica e Cosmetica"
             background-color="#F95F00"
             color="#FFFFFF"
             font-size="18px"
