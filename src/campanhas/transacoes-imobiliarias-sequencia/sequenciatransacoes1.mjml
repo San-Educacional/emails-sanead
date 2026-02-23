@@ -1,0 +1,365 @@
+<mjml>
+  <mj-head>
+    <mj-title>Transações Imobiliárias - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="18px" color="#050505" line-height="28px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#ffffff"
+        border-radius="8px"
+        font-weight="800"
+      />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
+    </mj-style>
+
+    <mj-style>
+      .card-section {
+        padding: 0px 0px 0px 53px;
+      }
+      
+      @media only screen and (max-width: 480px) {
+        .cargo-box {
+          padding: 16px !important;
+        }
+        .card-section {
+          padding: 0px 5px !important;
+        }
+        .card-section > tbody > tr > td {
+          padding: 0px !important;
+        }
+        .card-item {
+          width: 100% !important;
+          max-width: 280px !important;
+          display: block !important;
+          margin: 0 auto 14px auto !important;
+          padding: 7px !important;
+        }
+        .card-item > tbody > tr > td {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="rgba(141, 0, 94, 0.95)" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Logo -->
+      <mj-section background-color="#FAEDF6" padding-bottom="19px" padding-top="7px" border-radius="0px 0px 20px 20px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/logo.jpg"
+            alt="SAN Educacional"
+            width="356px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero Image -->
+      <mj-section padding="0px 0px 41px 0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/header.jpg"
+            alt="Profissional corretor de imóveis"
+            width="602px"
+            border-radius="20px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título -->
+      <mj-section padding="80px 84px 41px 84px">
+        <mj-column>
+          <mj-text
+            font-size="34px"
+            font-weight="800"
+            line-height="48px"
+            color="rgba(255, 255, 255, 0.93)"
+            align="center"
+            letter-spacing="-0.02em"
+            padding="0px"
+          >
+            Oi {$name|default('Estudante')}!<br />Tudo bem?
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 12px 23px 12px">
+        <mj-column width="546px">
+          <mj-text padding="25px 0px 23px 0px">
+            Se você já concluiu o <span style = "color: #F95F00;"><b>Curso Técnico em Transações Imobiliárias,</b></span> saiba que ele pode ser usado como base para avançar para uma <span style = "color: #F95F00;"><b>graduação de nível superior,</b></span> por meio da modalidade Técnico para Tecnólogo, com <span style = "color: #F95F00;"><b>aproveitamento de disciplinas</b></span> e formação acelerada. <br><br> Você pode optar tanto pela <span style = "color: #F95F00; font-weight: 700">Graduação em Gestão Pública</span> quanto pela <span style = "color: #F95F00; font-weight: 700">Graduação em Negócios Imobiliários</span>, pois ambas complementam e ampliam as possibilidades de atuação após o curso técnico.
+          </mj-text>
+
+          <!-- Card Negócios Imobiliários -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/hero.jpg"
+                alt="Graduação em Negócios Imobiliários"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 44px;
+              ">
+                Graduação em<br /><b>Negócios Imobiliários</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Negocios Imobiliarios&amp;curso=000&amp;nome_curso=Negocios Imobiliarios" font-size="18px" padding="0px 0px 20px 0px" width="266px" border-radius="20px" inner-padding="5px 13px">
+            Garantir minha vaga
+          </mj-button>
+
+          <mj-text padding="0px 22px 60px 22px">
+            É especialmente estratégica para quem deseja se aprofundar no <b>lado comercial, estratégico e de gestão do mercado imobiliário</b>, ampliando significativamente o campo de atuação e o potencial de ganhos.
+          </mj-text>
+
+          <mj-text padding="0px 22px 23px 23px">
+            A seguir, vamos apresentar primeiro as principais oportunidades de trabalho na área de <b>Negócios Imobiliários</b>.
+          </mj-text>
+
+          <!-- Chamada Profissões -->
+          <mj-text align="center" padding="0px 0px 20px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 20px;
+              padding: 8px 32px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 34px;
+                color: rgba(255, 255, 255, 0.93);
+                text-align: center;
+                letter-spacing: -0.02em;
+              ">
+                Principais profissões<br />e atuações
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 22px 40px 22px">
+            Com essa graduação você pode atuar como:
+          </mj-text>
+
+          <!-- Box de Profissões -->
+          <mj-text padding="0px 11px 23px 11px" css-class="cargo-box">
+            <div style="
+              border: 1px solid #820059;
+              border-radius: 8px;
+              padding: 16px 11px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #820059;
+              ">
+                <b>• Corretor de Imóveis</b> (compra, venda, locação, permuta e avaliação de imóveis residenciais, comerciais, rurais e industriais)<br />
+                <b>• Consultor Imobiliário / Consultor de Investimentos Imobiliários</b><br />
+                <b>• Gerente ou Coordenador de Vendas Imobiliárias</b><br />
+                <b>• Gestor de Locação / Administrador de Imóveis</b><br />
+                <b>• Corretor Autônomo / Empreendedor Imobiliário (PJ)</b><br />
+                <b>• Analista de Mercado Imobiliário</b><br />
+                <b>• Especialista em Marketing Imobiliário Digital</b>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="23px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Seção Oportunidades -->
+      <mj-section background-color="#FFF8FD" border-radius="20px 20px 0px 0px" padding="13px 12px 23px 12px">
+        <mj-column width="572px">
+          <!-- Chamada -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 20px;
+              padding: 8px 32px;
+              max-width: 378px;
+              margin: 0 auto;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 34px;
+                color: rgba(255, 255, 255, 0.93);
+                text-align: center;
+                letter-spacing: -0.02em;
+              ">
+                Onde estão as<br />oportunidades
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Cards de Oportunidades - Primeira Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 0px" css-class="card-section">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/card1.jpg" alt="Imobiliárias" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Imobiliárias<br /></span>(maior volume de vagas)</div>
+              </div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/card2.jpg" alt="Construtoras" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Construtoras e<br />incorporadoras</span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Cards de Oportunidades - Segunda Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 0px" css-class="card-section">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/card3.jpg" alt="Loteadoras" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Loteadoras e<br />urbanizadoras</span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/card4.jpg" alt="Investimento" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Empresas de<br />investimento imobiliário</span></div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Cards de Oportunidades - Terceira Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 23px 0px" border-radius="0px 0px 20px 20px" css-class="card-section">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/card5.jpg" alt="Bancos" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Bancos e financeiras<br /></span>(crédito imobiliário)</div>
+              </div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/tti-sequencias/email1/card6.jpg" alt="Autônomo" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Atuação autônoma<br /></span>(modelo mais comum)</div>
+              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="40px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA Final -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 0px 23px 0px">
+        <mj-column>
+          <mj-text padding="0px 50px 23px 50px">
+            É um <b>ano positivo</b> para o setor, especialmente para quem investe em <b>marketing digital, especialização</b> (imóveis de luxo, rurais ou comerciais) e atuação estratégica.
+          </mj-text>
+
+          <mj-button
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Negocios Imobiliarios&amp;curso=000&amp;nome_curso=Negocios Imobiliarios"
+            background-color="#F84806"
+            border-radius="20px"
+            font-weight="800"
+            font-size="18px"
+            padding="0px"
+            inner-padding="5px 13px"
+          >
+            Fale com um consultor e veja como <br> aproveitar seu curso técnico
+          </mj-button>
+
+          <mj-text padding="23px 50px 0px 50px">
+            Conte com a <b>San Educacional</b> para continuar evoluindo no mercado imobiliário!
+          </mj-text>
+
+          <mj-text padding="23px 50px 0px 50px">
+            Atenciosamente,<br /><b>Equipe San Educacional</b>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="30px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Descadastro -->
+      <mj-section padding="90px 0px 30px 0px">
+        <mj-column>
+          <mj-text
+            font-size="12px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFF8FD"
+            align="center"
+            text-decoration="underline"
+            padding="0px"
+          >
+            <a href="{$unsubscribe}" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
