@@ -135,7 +135,7 @@
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao da Qualidade&amp;curso=000&amp;nome_curso=Gestao da Qualidade" padding="0px 0px 23px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de interiores&amp;curso=000&amp;nome_curso=Design de interiores" padding="0px 0px 23px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
