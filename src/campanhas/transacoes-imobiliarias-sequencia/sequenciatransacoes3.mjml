@@ -1,0 +1,311 @@
+<mjml>
+  <mj-head>
+    <mj-title>Qual Graduação Escolher - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="18px" color="#050505" line-height="32px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#ffffff"
+        border-radius="20px"
+        font-weight="800"
+      />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F89000" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Logo -->
+      <mj-section background-color="#82005A" padding-bottom="19px" padding-top="7px" border-radius="0px 0px 20px 20px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/logoRoxa.jpg"
+            alt="SAN Educacional"
+            width="366px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero Image -->
+      <mj-section padding="0px 0px 41px 0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/tti-sequencias/email3/header.jpg"
+            alt="Profissional corretor de imóveis"
+            width="596px"
+            border-radius="20px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título -->
+      <mj-section padding="0px 68px 41px 68px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div style="
+              background-color: #820059;
+              border: 1px solid #F84806;
+              border-radius: 10px;
+              padding: 12px 13px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 34px;
+                font-weight: 600;
+                line-height: 40px;
+                color: rgba(255, 255, 255, 0.93);
+                text-align: center;
+                letter-spacing: -0.02em;
+              ">
+                Oi {$name|default('Estudante')}!<br />Tudo bem?
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 34px 23px 34px">
+        <mj-column width="546px">
+          <mj-text padding="0px 0px 20px 0px">
+            Se você já concluiu o <span style="color: #F84806"><b>Curso Técnico em Transações Imobiliárias</b></span>, pode dar o próximo passo na sua carreira aproveitando toda a base que já construiu.
+          </mj-text>
+
+          <mj-text padding="0px 0px 20px 0px">
+            Por meio da modalidade <span style="color: #F84806"><b>Técnico para Tecnólogo</span></b>, sua formação técnica permite o aproveitamento de disciplinas, reduzindo o tempo de estudo e tornando possível conquistar um diploma de nível superior de forma muito mais ágil — com conclusão a partir de <span style="color: #F84806"><b>12 meses</b></span>.
+          </mj-text>
+
+          <mj-text padding="0px 0px 20px 0px">
+            Mas você ainda está em dúvida sobre qual graduação escolher: <span style="color: #F84806"><b>Gestão Pública</b></span> ou <span style="color: #F84806"><b>Negócios Imobiliários?</b></span>
+          </mj-text>
+
+          <mj-text padding="0px 0px 18px 0px">
+            Essa é uma decisão importante — e a melhor escolha depende diretamente do seu perfil profissional e dos seus objetivos de carreira. Veja as principais diferenças:
+          </mj-text>
+
+          <!-- Card Negócios Imobiliários -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/tti-sequencias/email3/hero1.jpg"
+                alt="Negócios Imobiliários"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 44px;
+              ">
+                Graduação em<br /><b>Negócios Imobiliários</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Negocios Imobiliarios&amp;curso=000&amp;nome_curso=Negocios Imobiliarios" font-size="16px" padding="0px 0px 18px 0px" width="266px">
+            Garantir minha vaga
+          </mj-button>
+
+          <mj-text padding="0px 0px 18px 0px" line-height="28px">
+            Foco: <b>comercial e empreendedor</b><br />
+            Perfil ideal: <b>Quem busca alta renda, dinamismo e crescimento financeiro</b>
+          </mj-text>
+
+          <mj-text padding="0px 0px 18px 0px" line-height="28px">
+            <span style="font-weight:700; color: #8D005E;">Você vai atuar com:</span><br />
+            • Vendas, locações e lançamentos imobiliários<br />
+            • Investimentos e estratégias de mercado<br />
+            • Gestão de carteiras e equipes comerciais<br />
+            • Empreendedorismo no setor imobiliário
+          </mj-text>
+
+          <mj-text align="center" padding="0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 8px;
+              padding: 16px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #FFFFFF;
+                text-align: left;
+              ">
+                <b>Modelo de carreira:</b> Renda variável (comissões), possibilidade de ganhos elevados e crescimento acelerado.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="23px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Gestão Pública -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 34px 23px 34px">
+        <mj-column width="546px">
+          <!-- Card Gestão Pública -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/tti-sequencias/email3/hero2.jpg"
+                alt="Gestão Pública"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 44px;
+              ">
+                Graduação Tecnóloga em<br /><b>Gestão Pública</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao Publica&amp;curso=000&amp;nome_curso=Gestao Publica" font-size="16px" padding="0px 0px 18px 0px" width="266px">
+            Garantir minha vaga
+          </mj-button>
+
+          <mj-text padding="0px 0px 18px 0px" line-height="28px">
+            Foco: <b>Administração e políticas públicas</b><br />
+            Perfil ideal: <b>Quem busca estabilidade e concursos públicos</b>
+          </mj-text>
+
+          <mj-text padding="0px 0px 18px 0px" line-height="28px">
+            <span style="font-weight: 700; color: #8D005E">Você vai atuar com:</span><br />
+            • Políticas habitacionais e regularização fundiária<br />
+            • Gestão de patrimônio imobiliário público<br />
+            • Licitações, contratos e planejamento urbano<br />
+            • Atuação em órgãos públicos municipais, estaduais ou federais
+          </mj-text>
+
+          <mj-text align="center" padding="0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 8px;
+              padding: 16px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #FFFFFF;
+                text-align: left;
+              ">
+                <b>Modelo de carreira:</b> Estabilidade, remuneração fixa e progressão por concurso ou plano de carreira.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="23px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Avaliação Final -->
+      <mj-section background-color="#8D005E" border-radius="20px 20px 0px 0px" padding="21px 53px">
+        <mj-column>
+          <mj-text font-size="28px" font-weight="600" line-height="34px" color="#FFFFFF" padding="0px 0px 17px 0px">
+            O que as duas graduações têm em comum:
+          </mj-text>
+
+          <mj-text font-size="16px" line-height="24px" color="#FFFFFF" padding="0px 0px 11px 0px">
+            • Conclusão em 12 meses (modalidade Técnico para Tecnólogo)<br />
+            • Diploma de nível superior<br />
+            • Ampliação de oportunidades<br />
+            • Evolução para funções estratégicas
+          </mj-text>
+
+          <mj-text font-size="16px" line-height="24px" color="#FFFFFF" padding="0px 0px 11px 0px">
+            A pergunta principal é: <br>Você se identifica mais com crescimento financeiro no mercado privado ou com estabilidade e carreira pública?
+          </mj-text>
+
+          <mj-button
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Negocios Imobiliarios&amp;curso=000&amp;nome_curso=Negocios Imobiliarios"
+            background-color="#F84806"
+            border-radius="20px"
+            font-weight="800"
+            font-size="16px"
+            padding="0px 0px 11px 0px"
+          >
+            Fale com um consultor e descubra qual dessas graduações faz mais sentido para o seu perfil.
+          </mj-button>
+
+          <mj-text font-size="16px" line-height="24px" color="#FFFFFF" padding="0px">
+            Conte com a San Educacional para dar o próximo passo na sua carreira.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="30px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Descadastro -->
+      <mj-section padding="30px 0px 30px 0px">
+        <mj-column>
+          <mj-text
+            font-size="12px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFF8FD"
+            align="center"
+            text-decoration="underline"
+            padding="0px"
+          >
+            <a href="{$unsubscribe}" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
