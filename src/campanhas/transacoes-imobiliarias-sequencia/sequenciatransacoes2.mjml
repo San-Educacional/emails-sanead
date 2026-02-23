@@ -92,7 +92,7 @@
             letter-spacing="-0.02em"
             padding="0px"
           >
-            Oi {$name|default('[Estudante]')}! <br />Tudo bem?
+            Oi {$name|default('Estudante')}! <br />Tudo bem?
           </mj-text>
         </mj-column>
       </mj-section>
