@@ -74,16 +74,11 @@
       <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 28px 23px 28px">
         <mj-column width="546px">
           <!-- Apresentação -->
-          <mj-text padding="0px 0px 20px 0px" line-height="32px">
-            Agradecemos por confiar no nosso trabalho e ter adquirido o <span style="color: #8D005E"><b>Curso Técnico em Edificações.</span><br><br></b> Essa escolha já representa um passo importante na sua trajetória profissional, e queremos te mostrar como você pode <span style="color: #8D005E"><b>ir ainda mais longe</span></b> a partir dessa formação.
-          </mj-text>
-
-          <mj-text padding="0px 0px 20px 0px" line-height="32px">
-            Se você já concluiu seu <span style="color: #8D005E"><b>Curso Técnico em Edificações</span></b>, saiba que ele pode ser usado como base para avançar ainda mais na sua carreira por meio da modalidade <span style="color: #8D005E"><b>Técnico para Tecnólogo</span></b>, com <span style="color: #8D005E"> <b>aproveitamento de disciplinas e formação acelerada.</span></b>
-          </mj-text>
-
-          <mj-text padding="0px 0px 23px 0px" line-height="32px">
-            Uma das opções que mais se destaca nesse formato é a:
+          <mj-text padding="0px 0px 20px 0px" line-height="32px" font-size="18px">
+            Você já deu um passo importante ao concluir o <span style="font-weight: 700; color: #8D005E">Curso Técnico em Edificações</span>. Isso mostra que você escolheu uma área sólida e cheia de oportunidades.<br><br>
+             Mas existe uma pergunta interessante agora: <span style="font-weight: 700; color: #8D005E">Você quer apenas executar projetos… ou quer assinar projetos?</span><br><br>
+            Com o seu diploma técnico, você pode avançar para uma <span style="font-weight: 700; color: #8D005E">graduação superior pela modalidade Técnico para Tecnólogo</span>, com aproveitamento de disciplinas e conclusão acelerada.<br><br>
+            Uma possibilidade que combina muito com sua formação é a:
           </mj-text>
 
           <!-- Curso 1: Segurança do Trabalho -->
@@ -96,7 +91,7 @@
               margin: 0 auto;
             ">
               <img
-                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/hero.jpg"
+                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/hero.jpg"
                 alt="Segurança do Trabalho"
                 style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
               />
@@ -110,7 +105,7 @@
                 letter-spacing: -0.01em;
                 padding: 21px 44px;
               ">
-                <b>Graduação Tecnóloga em Segurança do Trabalho</b><br />(1.200 horas)
+                Graduação Tecnóloga em<br /><b>Design de interiores</b>
               </div>
             </div>
           </mj-text>
@@ -120,94 +115,8 @@
           </mj-button>
 
           <mj-text padding="0px 0px 23px 0px" line-height="28px">
-            É a graduação com <b>maior volume de vagas no Brasil</b> atualmente.<br />
-             <div style="padding-left: 20px;">• Atua em indústrias, construção civil, logística, agronegócio e saúde<br />
-             • Funções como técnico, analista, supervisor, coordenador e auditor<br />
-             • Salários que variam de <b>R$ 3.000 a R$ 9.000+</b>, podendo ultrapassar <b>R$ 10 mil</b> em grandes empresas<br />
-             </div>
-             Ideal para quem busca <b>estabilidade, alta demanda e crescimento contínuo.</b>
-          </mj-text>
-
-          <!-- Curso 2: Investigação Forense -->
-          <mj-text align="center" padding="0px 0px 14px 0px">
-            <div style="
-              background-color: #8D005E;
-              border-radius: 10px;
-              overflow: hidden;
-              max-width: 419px;
-              margin: 0 auto;
-            ">
-              <img
-                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia2/hero.png"
-                alt="Investigação Forense e Perícia Judicial"
-                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
-              />
-              <div style="
-                font-family: Poppins, Arial, sans-serif;
-                font-size: 24px;
-                font-weight: 400;
-                line-height: 28px;
-                color: #FFFFFF;
-                text-align: center;
-                letter-spacing: -0.01em;
-                padding: 21px 44px;
-              ">
-                <b>Graduação Tecnóloga em Investigação Forense e Perícia Judicial</b><br />(1.200 horas)
-              </div>
-            </div>
-          </mj-text>
-
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Investigacao Forense e Pericia Judicial&amp;curso=000&amp;nome_curso=Investigacao Forense e Pericia Judicial" padding="0px 0px 23px 0px" width="266px">
-            Garantir minha vaga
-          </mj-button>
-
-          <mj-text padding="0px 0px 23px 0px" line-height="28px">
-            Uma área mais <b>especializada e valorizada</b>, com atuação técnica e estratégica.<br><br />
-            <div style="padding-left: 20px;">• Perícia judicial, investigação, análise de riscos e fraudes<br />
-            • Atuação em escritórios de advocacia, seguradoras, tribunais e compliance<br />
-            • Ganhos que variam de <b>R$ 3.000 a R$ 15.000+</b>, muitas vezes por laudo ou honorários<br><br />
-            </div>Indicada para quem quer <b>diferenciação profissional</b> e atuação mais técnica.
-          </mj-text>
-
-          <!-- Curso 3: Gestão de Segurança Privada -->
-          <mj-text align="center" padding="0px 0px 14px 0px">
-            <div style="
-              background-color: #8D005E;
-              border-radius: 10px;
-              overflow: hidden;
-              max-width: 419px;
-              margin: 0 auto;
-            ">
-              <img
-                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/hero.jpg"
-                alt="Gestão de Segurança Privada"
-                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
-              />
-              <div style="
-                font-family: Poppins, Arial, sans-serif;
-                font-size: 24px;
-                font-weight: 400;
-                line-height: 28px;
-                color: #FFFFFF;
-                text-align: center;
-                letter-spacing: -0.01em;
-                padding: 21px 44px;
-              ">
-                <b>Graduação Tecnóloga em Gestão de Segurança Privada</b><br />(800 horas)
-              </div>
-            </div>
-          </mj-text>
-
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao de Seguranca Privada&amp;curso=000&amp;nome_curso=Gestao de Seguranca Privada" padding="0px 0px 23px 0px" width="266px">
-            Garantir minha vaga
-          </mj-button>
-
-          <mj-text padding="0px 0px 0px 0px" line-height="28px">
-            Focada na <b>gestão de equipes, operações e segurança patrimonial.</b><br /><br>
-            <div style="padding-left: 20px">• Coordenação de vigilância, portaria, monitoramento e prevenção de perdas<br />
-            • Alta demanda em condomínios, shoppings, indústrias, bancos e eventos<br />
-            • Salários médios de <b>R$ 3.200 a R$ 12.000+</b>, conforme o porte da operação<br /></div><br>
-            Excelente para quem busca cargos de <b>liderança e gestão.</b>
+            Enquanto o técnico atua na execução e na parte estrutural, o <b>Designer de Interiores trabalha com conceito, estética, funcionalidade e valorização do espaço.</b><br><br />
+            Você passa a atuar diretamente na <b>criação de ambientes</b> que impactam pessoas e agregam valor aos imóveis.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -215,38 +124,76 @@
       <!-- Espaçamento -->
       <mj-section padding="0px">
         <mj-column>
-          <mj-spacer height="40px" />
+          <mj-spacer height="23px" />
         </mj-column>
       </mj-section>
 
-      <!-- Diferencial e CTA -->
-      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 0px 23px 10px">
-        <mj-column width="502px">
+      <!-- Seção O que isso significa -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 17px 23px 17px">
+        <mj-column width="568px">
           <mj-text font-size="28px" font-weight="800" line-height="28px" color="#8D005E" padding="0px 0px 23px 0px">
-            ⏱️ O grande diferencial
+             O que isso significa na prática?
           </mj-text>
 
-          <mj-text padding="0px 0px 23px 0px" line-height="32px">
-            Mais do que um diploma, essas graduações colocam você em <b>cargos mais estratégicos</b>, com <b>maior autonomia, reconhecimento e poder de decisão</b> dentro das empresas.
+          <!-- Cards Grid -->
+          <mj-text align="center" padding="0px 0px 23px 0px">
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 23px 14px;">
+              <!-- Card 1 -->
+              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card1.jpg" alt="Trabalhar com projetos autorais" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Trabalhar com <br>projetos autorais</div>
+              </div>
+              
+              <!-- Card 2 -->
+              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card2.jpg" alt="Criar soluções inteligentes para espaços" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Criar soluções inteligentes para espaços</div>
+              </div>
+              
+              <!-- Card 3 -->
+              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card3.jpg" alt="Atuar em parceria com arquitetos e construtoras" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Atuar em parceria com arquitetos e construtoras</div>
+              </div>
+              
+              <!-- Card 4 -->
+              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card4.jpg" alt="Ter possibilidade de empreender" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Ter possibilidade de empreender e <br> construir sua própria marca</div>
+              </div>
+              
+              <!-- Card 5 -->
+              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card5.jpg" alt="Atender clientes residenciais e comerciais" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Atender clientes residenciais e comerciais</div>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 0px 23px 0px" line-height="27px" font-size="18px">
+            É uma graduação que <b>amplia seu campo de atuação e aumenta seu potencial de renda</b>, especialmente para quem deseja autonomia profissional.
+          </mj-text>
+
+          <mj-text padding="0px 0px 23px 0px" line-height="27px" font-size="18px">
+            Se você já entende de construção, dar o próximo passo para o <b>design pode ser o diferencial que faltava na sua carreira</b>.
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Seguranca no Trabalho&amp;curso=000&amp;nome_curso=Seguranca no Trabalho"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores"
             background-color="#8D005E"
             border-radius="30px"
             font-weight="800"
-            font-size="16px"
+            font-size="20px"
             padding="0px 0px 23px 0px"
-            inner-padding="5px 13px"
           >
-            Fale com um consultor e descubra qual dessas graduações combina mais com seu perfil e objetivos.
+            Quer entender como funciona <br>o aproveitamento do seu curso técnico?
           </mj-button>
 
-          <mj-text padding="0px 0px 23px 0px">
-            Conte com a San Educacional para continuar evoluindo com você!
+          <mj-text padding="0px 0px 23px 0px" font-size="16px" line-height="24px">
+            Conte com a San Educacional nessa nova etapa.
           </mj-text>
 
-          <mj-text padding="0px">
+          <mj-text padding="0px" font-size="16px" line-height="24px">
             Atenciosamente,<br />Equipe San Educacional
           </mj-text>
         </mj-column>
