@@ -22,6 +22,31 @@
         white-space: nowrap !important;
       }
     </mj-style>
+
+    <mj-style>
+      .card-section {
+        padding: 0px 0px 0px 53px;
+      }
+      
+      @media only screen and (max-width: 480px) {
+        .card-section {
+          padding: 0px 5px !important;
+        }
+        .card-section > tbody > tr > td {
+          padding: 0px !important;
+        }
+        .card-item {
+          width: 100% !important;
+          max-width: 280px !important;
+          display: block !important;
+          margin: 0 auto 14px auto !important;
+          padding: 7px !important;
+        }
+        .card-item > tbody > tr > td {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
   </mj-head>
 
   <mj-body background-color="#D8BACD" width="602px">
@@ -129,67 +154,103 @@
       </mj-section>
 
       <!-- Seção O que isso significa -->
-      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 17px 23px 17px">
-        <mj-column width="568px">
-          <mj-text font-size="28px" font-weight="800" line-height="28px" color="#8D005E" padding="0px 0px 23px 0px">
+      <mj-section background-color="#FFF8FD" border-radius="20px 20px 0px 0px" padding="13px 15px 0px 15px">
+        <mj-column width="572px">
+          <mj-text font-size="28px" font-weight="800" line-height="28px" color="#8D005E" padding="0px 0px 23px 0px" align="center">
              O que isso significa na prática?
           </mj-text>
+        </mj-column>
+      </mj-section>
 
-          <!-- Cards Grid -->
-          <mj-text align="center" padding="0px 0px 23px 0px">
-            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 23px 14px;">
-              <!-- Card 1 -->
-              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card1.jpg" alt="Trabalhar com projetos autorais" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Trabalhar com <br>projetos autorais</div>
+      <!-- Cards - Primeira Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 0px" css-class="card-section">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card1.jpg" alt="Trabalhar com projetos autorais" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Trabalhar com<br>projetos autorais</span></div>
               </div>
-              
-              <!-- Card 2 -->
-              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card2.jpg" alt="Criar soluções inteligentes para espaços" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Criar soluções inteligentes para espaços</div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card2.jpg" alt="Criar soluções inteligentes para espaços" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Criar soluções<br>inteligentes para<br>espaços</span></div>
               </div>
-              
-              <!-- Card 3 -->
-              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card3.jpg" alt="Atuar em parceria com arquitetos e construtoras" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Atuar em parceria com arquitetos e construtoras</div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Cards - Segunda Linha -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 0px 0px" css-class="card-section">
+        <mj-group>
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card3.jpg" alt="Atuar em parceria com arquitetos" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Atuar em parceria<br>com arquitetos e<br>construtoras</span></div>
               </div>
-              
-              <!-- Card 4 -->
-              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card4.jpg" alt="Ter possibilidade de empreender" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Ter possibilidade de empreender e <br> construir sua própria marca</div>
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="250px" padding="7px" css-class="card-item">
+            <mj-text align="center" padding="0px">
+              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card4.jpg" alt="Empreender e construir marca" style="width: 100%; display: block;" />
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;">Ter possibilidade de<br>empreender e construir<br>sua própria marca</div>
               </div>
-              
-              <!-- Card 5 -->
-              <div style="width: 250px; padding-bottom: 40px; background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card5.jpg" alt="Atender clientes residenciais e comerciais" style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 51px;">Atender clientes residenciais e comerciais</div>
-              </div>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Cards - Terceira Linha (Centralizado) -->
+      <mj-section background-color="#FFF8FD" padding="0px 0px 23px 0px" border-radius="0px 0px 20px 20px">
+        <mj-column width="250px" padding="7px" css-class="card-item">
+          <mj-text align="center" padding="0px">
+            <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
+              <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia4/card5.jpg" alt="Atender clientes residenciais" style="width: 100%; display: block;" />
+              <div style="font-family: Poppins, Arial, sans-serif; font-size: 20px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Atender clientes<br>residenciais e<br>comerciais</span></div>
             </div>
           </mj-text>
+        </mj-column>
+      </mj-section>
 
-          <mj-text padding="0px 0px 23px 0px" line-height="27px" font-size="18px">
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="40px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Texto e CTA Final -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 12px 23px 12px">
+        <mj-column width="572px">
+          <mj-text font-size="18px" line-height="27px" padding="0px 25px 23px 25px">
             É uma graduação que <b>amplia seu campo de atuação e aumenta seu potencial de renda</b>, especialmente para quem deseja autonomia profissional.
           </mj-text>
 
-          <mj-text padding="0px 0px 23px 0px" line-height="27px" font-size="18px">
+          <mj-text font-size="18px" line-height="27px" padding="0px 25px 23px 25px">
             Se você já entende de construção, dar o próximo passo para o <b>design pode ser o diferencial que faltava na sua carreira</b>.
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao da Qualidade&amp;curso=000&amp;nome_curso=Gestao da Qualidade"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Design de Interiores&amp;curso=000&amp;nome_curso=Design de Interiores"
             background-color="#8D005E"
-            border-radius="30px"
+            border-radius="40px"
             font-weight="800"
             font-size="20px"
-            padding="0px 0px 23px 0px"
+            padding="0px"
+            inner-padding="5px 6px"
           >
             Quer entender como funciona <br>o aproveitamento do seu curso técnico?
           </mj-button>
 
-          <mj-text padding="0px 0px 23px 0px" font-size="16px" line-height="24px">
+          <mj-text padding="20px 0px 23px 0px" font-size="16px" line-height="24px">
             Conte com a San Educacional nessa nova etapa.
           </mj-text>
 
@@ -207,7 +268,7 @@
       </mj-section>
 
       <!-- Footer -->
-      <mj-section background-color="#FF6F16" padding="0px 0px 30px 0px">
+      <mj-section background-color="#FF6F16" padding="120px 0px 30px 0px">
         <mj-column>
           <mj-divider border-color="#FFF8FD" border-width="1px" padding="0px 0px 19px 0px" />
           
