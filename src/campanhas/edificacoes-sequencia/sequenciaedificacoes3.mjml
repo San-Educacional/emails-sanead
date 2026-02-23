@@ -118,12 +118,10 @@
       <!-- Conteúdo Principal -->
       <mj-section background-color="#FFF8FD" border-radius="20px" padding="0px 28px 23px 28px">
         <mj-column width="546px">
-          <mj-text padding="0px 0px 20px 0px">
-            Obrigado por confiar na San Educacional e adquirir o <span style = "font-weight: 700; color: #F84806;">Curso Técnico em Edificações.<br> <br></span> Com essa formação, você já pode dar o próximo passo rumo a uma <span style = "font-weight: 700; color: #F84806;">graduação de nível superior</span>, aproveitando seus estudos.
-          </mj-text>
-
-          <mj-text padding="0px 0px 23px 0px">
-            Você que já concluiu o <span style = "font-weight: 700; color: #F84806;">Curso Técnico em Edificações</span> pode aproveitar seu histórico escolar para ingressar em uma graduação de nível superior pela modalidade <span style = "font-weight: 700; color: #F84806;">Técnico para Tecnólogo</span>, com <span style = "font-weight: 700; color: #F84806;">eliminação de disciplinas</span> e formação acelerada. <br><br>Uma opção com alta demanda no mercado atual é a:
+          <mj-text padding="35px 0px 20px 0px">
+            Você sabia que pode transformar seu <span style = "font-weight: 700; color: #F84806">Curso Técnico em Edificações</span> em uma graduação de nível superior?<br><br>
+            Com seu histórico escolar, você pode ingressar em uma <span style = "font-weight: 700; color: #F84806">graduação superior pela modalidade Técnico para Tecnólogo</span>, com aproveitamento de disciplinas e formação em tempo reduzido. <br><br>
+            Uma opção extremamente valorizada no mercado atual é a:
           </mj-text>
 
           <!-- Card Gestão de Segurança Privada -->
@@ -150,17 +148,18 @@
                 letter-spacing: -0.01em;
                 padding: 21px 44px;
               ">
-                Graduação Tecnóloga em <span style = "font-weight: 700">Gestão de Segurança Privada</span> (800 horas)
+                Graduação Tecnóloga em <span style = "font-weight: 700"><br>Gestão da Qualidade</span>
               </div>
             </div>
           </mj-text>
 
-          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao de Seguranca Privada&amp;curso=000&amp;nome_curso=Gestao de Seguranca Privada" padding="14px 0px 0px 0px" width="266px">
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao da Qualidade&amp;curso=000&amp;nome_curso=Gestao da Qualidade" padding="14px 0px 0px 0px" width="266px">
             Garantir minha vaga
           </mj-button>
 
           <mj-text padding="54px 25px 23px 25px">
-            Voltada para quem deseja atuar na <span style = "font-weight: 700; color: #F95F00;">coordenação e gestão de equipes de segurança patrimonial e empresarial.</span>
+            Se o técnico executa, o gestor <span style = "font-weight: 700; color: #F84806">organiza, melhora e lidera processos.</span><br><br>
+            A Gestão da Qualidade prepara você para atuar nos bastidores das grandes decisões empresariais, garantindo <span style = "font-weight: 700; color: #F84806">eficiência, redução de falhas e aumento de resultados.</span>
           </mj-text>
 
           <!-- Chamada -->
@@ -179,13 +178,9 @@
                 text-align: center;
                 letter-spacing: -0.02em;
               ">
-                O que você pode fazer <br> com essa graduação
+                O que muda na sua carreira?
               </div>
             </div>
-          </mj-text>
-
-          <mj-text padding="23px 25px 0px 25px">
-            Com essa graduação, você pode trabalhar como:
           </mj-text>
 
           <!-- Box de Cargos -->
@@ -198,15 +193,14 @@
               <div style="
                 font-family: Poppins, Arial, sans-serif;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 20px;
                 line-height: 28px;
                 color: #820059;
               ">
-                • Gestor, Coordenador ou Supervisor de Segurança Privada<br />
-                • Gerente de Segurança Patrimonial<br />
-                • Coordenador de Vigilância e Controle de Acesso<br />
-                • Analista ou Gestor de Monitoramento e CFTV<br />
-                • Consultor em Segurança Empresarial
+                • Você deixa de atuar apenas na operação<br />
+                • Passar a participar de decisões estratégicas<br />
+                • Pode assumir cardos de supervisão e coordenação<br />
+                • Amplia sua empregabilidade em diversos setores
               </div>
             </div>
           </mj-text>
@@ -245,7 +239,8 @@
           </mj-text>
 
           <mj-text padding="10px 20px 15px 25px">
-            A maior demanda está em:
+            Empresas precisam constantemente de profissionais que saibam estruturar processos, controlar padrões e melhorar resultados.<br><br>
+            Isso abre portas em
           </mj-text>
         </mj-column>
       </mj-section>
@@ -257,7 +252,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card1.jpg" alt="Empresas de segurança privada" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 400;">Empresas de <br><span style = "font-weight: 700">segurança privada</span></span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 18px; font-weight: 700;line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;">Indústrias</div>
               </div>
             </mj-text>
           </mj-column>
@@ -266,7 +261,7 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card2.jpg" alt="Condomínios" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Condomínios <br><span style = "font-weight: 400 !important">residenciais e <br>comerciais</span></span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 18px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;">Construtoras</div>
               </div>
             </mj-text>
           </mj-column>
@@ -280,115 +275,18 @@
             <mj-text align="center" padding="0px">
               <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
                 <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card3.jpg" alt="Shoppings" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Shoppings, centros comerciais e grandes <br>lojas</span></div>
-              </div>
-            </mj-text>
-          </mj-column>
-
-          <mj-column width="250px" padding="7px" css-class="salary-card">
-            <mj-text align="center" padding="0px">
-              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card4.jpg" alt="Indústrias" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Indústrias e galpões logísticos</span></div>
+                <div style="font-family: Poppins, Arial, sans-serif; font-size: 18px; font-weight: 700; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;">Empresas de serviços<br> e Grandes<br> Organizações</div> 
               </div>
             </mj-text>
           </mj-column>
         </mj-group>
-      </mj-section>
-
-      <!-- Cards de Setores - Terceira Linha (Centralizado) -->
-      <mj-section background-color="#FFF8FD" padding="0px 0px 14px 0px" css-class="salary-section">
-        <mj-column width="250px" padding="7px" css-class="salary-card">
-          <mj-text align="center" padding="0px">
-            <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-              <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia3/card5.jpg" alt="Bancos e eventos" style="width: 100%; display: block;" />
-              <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 400;">Bancos, joalherias <span style="font-weight: 700">e <br>eventos de grande <br>porte</span></span></div>
-            </div>
-          </mj-text>
-        </mj-column>
       </mj-section>
 
       <!-- Texto adicional -->
       <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 23px 12px">
         <mj-column width="572px">
-          <mj-text padding="0px 25px 0px 25px">
-            O setor cresce cerca de <span style = "font-weight: 700;">9 a 10% ao ano!</span>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <!-- Espaçamento entre seções -->
-        <mj-section padding="0px">
-          <mj-column>
-            <mj-spacer height="40px" />
-          </mj-column>
-        </mj-section>
-
-      <!-- Seção Salários -->
-      <mj-section background-color="#FFF8FD" border-radius="20px 20px 0px 0px" padding="13px 15px 0px 15px">
-        <mj-column width="572px">
-          <mj-text align="center" padding="0px 0px 23px 0px">
-            <div style="
-              background-color: #8D005E;
-              border-radius: 20px;
-              padding: 14px 32px;
-            ">
-              <div style="
-                font-family: Poppins, Arial, sans-serif;
-                font-size: 28px;
-                font-weight: 500;
-                line-height: 34px;
-                color: rgba(255, 255, 255, 0.93);
-                text-align: center;
-                letter-spacing: -0.02em;
-              ">
-                Faixa salarial <span style="font-weight:700;">média</span>
-              </div>
-            </div>
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <!-- Cards de Salários - Primeira Linha -->
-      <mj-section background-color="#FFF8FD" padding="0px 0px 14px 0px" css-class="salary-section-first">
-        <mj-group>
-          <mj-column width="250px" padding="7px" css-class="salary-card">
-            <mj-text align="center" padding="0px">
-              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico1.jpg" alt="Salário Inicial" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Salário inicial:</span> <span style="font-weight: 400;"><br>R$ 3.200 a R$ 5.000</span></div>
-              </div>
-            </mj-text>
-          </mj-column>
-
-          <mj-column width="250px" padding="7px" css-class="salary-card">
-            <mj-text align="center" padding="0px">
-              <div style="background-color: #8D005E; border-radius: 10px; overflow: hidden;">
-                <img src="https://assets.saneducacional.com.br/emails/edificacoes-sequencia/grafico2.jpg" alt="Gestores Experientes" style="width: 100%; display: block;" />
-                <div style="font-family: Poppins, Arial, sans-serif; font-size: 16px; line-height: 20px; color: #FFFFFF; text-align: center; letter-spacing: -0.01em; padding: 11px 5px; min-height: 80px;"><span style="font-weight: 700;">Gestores experientes:</span> <span style="font-weight: 400;"><br>R$ 6.000 a R$ 12.000+<br>(varia conforme o porte da empresa ou da operação)</span></div>
-              </div>
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-
-      <!-- Texto e CTA Final -->
-      <mj-section background-color="#FFF8FD" border-radius="0px 0px 20px 20px" padding="0px 12px 23px 12px">
-        <mj-column width="572px">
-          <mj-text font-size="18px" line-height="28px" padding="35px 25px 23px 45px">
-            Enquanto muitos profissionais ainda levam <span style = "font-weight: 700; color: #F84806;">3 anos ou mais</span> para concluir uma graduação tradicional, você pode <span style = "font-weight: 700; color: #F84806;">se formar em até 12 meses e sair na frente no mercado</span>, aproveitando o curso técnico que já possui.
-          </mj-text>
-
-          <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao de Seguranca Privada&amp;curso=000&amp;nome_curso=Gestao de Seguranca Privada"
-            background-color="#F84806"
-            border-radius="20px"
-            font-weight="800"
-            font-size="16px"
-            padding="0px"
-            inner-padding="5px 13px"
-          >
-            Fale com um consultor e veja como aproveitar seu curso <br>técnico para ingressar nessa graduação
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Tecnico para tecnologo em Gestao da Qualidade&amp;curso=000&amp;nome_curso=Gestao da Qualidade" padding="14px 0px 0px 0px" width="266px" border-radius="20px">
+            Fale com um consultor
           </mj-button>
         </mj-column>
       </mj-section>
@@ -396,7 +294,7 @@
       <!-- Espaçamento entre seções -->
         <mj-section padding="0px">
           <mj-column>
-            <mj-spacer height="90px" />
+            <mj-spacer height="30px" />
           </mj-column>
         </mj-section>
 
