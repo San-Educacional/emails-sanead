@@ -1,0 +1,371 @@
+<mjml>
+  <mj-head>
+    <mj-title>Próximo Nível - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="18px" color="#050505" line-height="32px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#ffffff"
+        border-radius="20px"
+        font-weight="800"
+      />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#590039" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Logo -->
+      <mj-section padding-bottom="15px" padding-top="7px" border-radius="0px 0px 20px 20px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/logoRoxaCompleta.jpg"
+            alt="SAN Educacional"
+            width="396px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero Image -->
+      <mj-section padding="0px 0px 15px 0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/tti-sequencias2/email1/header.jpg"
+            alt="Profissional corretor de imóveis"
+            width="602px"
+            border-radius="20px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título -->
+      <mj-section padding="0px 68px 25px 68px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div style="
+              background-color: #F84806;
+              border: 1px solid #F84806;
+              border-radius: 10px;
+              padding: 12px 13px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 34px;
+                font-weight: 600;
+                line-height: 40px;
+                color: rgba(255, 255, 255, 0.93);
+                text-align: center;
+                letter-spacing: -0.02em;
+              ">
+                Oi {$name|default('Estudante')}<br />Tudo bem?
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section background-color="#FFF8FD" border-radius="20px" padding="13px 12px 23px 12px">
+        <mj-column width="547px">
+          <mj-text padding="0px 0px 17px 0px">
+            Você já deu um passo importante ao concluir o <span style = "font-weight: 700; color: #8D005E">Técnico em Transações Imobiliárias (TTI).</span>
+          </mj-text>
+
+          <mj-text padding="0px 0px 17px 0px">
+            Depois disso, existe a possibilidade de evoluir para o <b>Tecnólogo</b> (nível superior), aproveitando sua base e concluindo a graduação em aproximadamente <b>12 meses</b>, na modalidade <b>Técnico para Tecnólogo.</b>
+          </mj-text>
+
+          <mj-text padding="0px" font-size="24px" font-weight="700" line-height="32px" color="#8D005E">
+            Mas aqui vai algo que pouca gente percebe:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="29px" />
+        </mj-column>
+      </mj-section>
+
+            <!-- Seção Pesquisa de Salários -->
+      <mj-section background-color="#FFFFFF" border-radius="20px" padding="13px 12px 23px 12px">
+        <mj-column width="573px">
+          <!-- Card Pesquisa -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/tti-sequencias2/email1/hero1.jpg"
+                alt="Pesquisa de salários"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 40px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 14px;
+              ">
+                Segundo uma pesquisa de salários
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 0px 14px 0px" font-size="24px" font-weight="700" line-height="32px" color="#8D005E">
+            No setor imobiliário no Brasil:
+          </mj-text>
+
+          <!-- Box Salários -->
+          <mj-text padding="0px 0px 14px 0px">
+            <div style="
+              border: 1px solid #820059;
+              border-radius: 8px;
+              padding: 16px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: -0.01em;
+                color: #050505;
+              ">
+                <b>Profissionais com graduação</b> (como Bacharelado ou Tecnólogo em áreas como gestão imobiliária) <b>podem ganhar cerca de R$ 143.200 por ano</b> (~R$ 11.900/mês).<br /><br />
+                Enquanto aqueles com <b>pós-graduação</b> (como MBA ou mestrado na área) <b>podem ganhar em média até R$ 172.400 por ano</b> (~R$ 14.300/mês) atuando como gestores ou gerentes de negócios imobiliários — <b>um aumento salarial de cerca de 20% associado à qualificação superior.</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação" font-size="20px" padding="0px" width="246px" inner-padding="5px 13px">
+            Quero saber mais
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+        <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="44px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Card Próximo Nível -->
+      <mj-section background-color="#FFFFFF" border-radius="20px" padding="13px 12px 23px 12px">
+        <mj-column width="572px">
+          <!-- Card Hero -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/tti-sequencias2/email1/hero2.jpg"
+                alt="Existe um próximo nível"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 40px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 14px;
+              ">
+                🎯 Existe um próximo nível
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 19px 14px 19px" font-size="24px" font-weight="700" line-height="32px" color="#8D005E">
+            Depois de concluir o Tecnólogo, você pode dar um passo ainda mais estratégico:
+          </mj-text>
+
+          <mj-text padding="0px 0px 14px 0px" line-height="28px">
+            Fazer uma <b>Pós-Graduação a partir de 3 meses, 100% EAD</b>, aprofundando seus conhecimentos e aumentando ainda mais sua autoridade no mercado.
+          </mj-text>
+
+          <!-- Box Plano -->
+          <mj-text padding="0px 25px 18px 25px">
+            <div style="
+              border: 1px solid #820059;
+              border-radius: 8px;
+              padding: 16px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #050505;
+              ">
+                Ou seja:<br />
+                • Técnico em <b>TTI</b> (você já tem)<br />
+                • Tecnólogo (Graduação Superior) em <b>12 meses</b><br />
+                • Pós-Graduação em <b>+3 meses</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 13px 14px 13px" line-height="28px">
+            Um <b>plano estruturado de evolução</b>, sem começar do zero e <b>sem parar de atuar no mercado</b>.
+          </mj-text>
+
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação" font-size="20px" padding="0px" width="246px" inner-padding="5px 13px">
+            Quero saber mais
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="30px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Seção O que isso significa -->
+      <mj-section background-color="#FFFFFF" border-radius="20px" padding="13px 12px 23px 12px">
+        <mj-column width="572px">
+          <!-- Card Significado -->
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div style="
+              background-color: #8D005E;
+              border-radius: 10px;
+              overflow: hidden;
+              max-width: 419px;
+              margin: 0 auto;
+            ">
+              <img
+                src="https://assets.saneducacional.com.br/emails/tti-sequencias2/email1/hero3.jpg"
+                alt="O que isso significa na prática"
+                style="width: 100%; display: block; border-radius: 10px 10px 0px 0px;"
+              />
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 40px;
+                color: #FFFFFF;
+                text-align: center;
+                letter-spacing: -0.01em;
+                padding: 21px 14px;
+              ">
+                🚀 O que isso significa na prática?
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 14px 14px 14px" font-size="16px" line-height="28px">
+            Em vez de levar 4 ou 5 anos para percorrer esse caminho, você pode organizar sua <b>evolução de forma inteligente e acelerada.</b>
+          </mj-text>
+
+          <mj-text padding="0px 14px 14px 14px" font-size="16px" line-height="28px">
+            Enquanto muitos corretores param no técnico…
+          </mj-text>
+
+          <mj-text padding="0px 14px 14px 14px" font-size="16px" font-weight="700" line-height="28px">
+            Outros se tornam graduados e especialistas.
+          </mj-text>
+
+          <mj-text padding="0px 14px 20px 14px" font-size="16px" line-height="28px">
+            E no mercado imobiliário, posicionamento é tudo.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="27px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA Final -->
+      <mj-section background-color="#F84806" border-radius="20px" padding="13px 12px 23px 12px">
+        <mj-column width="479px">
+          <mj-text font-size="28px" line-height="28px" color="#FFFFFF" padding="0px 0px 18px 0px">
+            A pergunta é simples:
+          </mj-text>
+
+          <!-- Box Pergunta -->
+          <mj-text padding="0px 0px 18px 0px">
+            <div style="
+              border: 1px solid #FFFFFF;
+              border-radius: 8px;
+              padding: 16px;
+            ">
+              <div style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 24px;
+                line-height: 32px;
+                color: #FFFFFF;
+                text-align: left;
+              ">
+                Você quer continuar apenas competindo…<b>ou quer se destacar?</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação" background-color="#8D005E" font-size="28px" line-height="32px" padding="20px 0px 30px 0px" width="335px" inner-padding="5px 13px">
+            Quero entender o plano completo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="30px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#590039" padding="0px 27px 30px 27px">
+        <mj-column>
+          <mj-text font-size="16px" line-height="24px" color="#FFFFFF" padding="0px 0px 30px 0px">
+            Conte com a San Educacional para continuar evoluindo com você.
+          </mj-text>
+
+          <mj-text
+            font-size="12px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFF8FD"
+            align="center"
+            text-decoration="underline"
+            padding="130px 0px 0px 0px"
+          >
+            <a href="{$unsubscribe}" style="color: #FFF8FD; text-decoration: underline">Descadastre-se</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
