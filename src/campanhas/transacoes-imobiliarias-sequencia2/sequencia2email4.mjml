@@ -285,7 +285,7 @@
           </mj-text>
 
           <mj-button
-            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=14&amp;fornecedor=07&amp;nome_produto=Pos-Graduacao&amp;curso=000&amp;nome_curso=Pos-Graduacao"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=05&amp;fornecedor=07&amp;nome_produto=Pos-Graduacao&amp;curso=000&amp;nome_curso=Pos-Graduacao"
             font-size="20px"
             padding="0px 0px 24px 0px"
             inner-padding="5px 13px"
