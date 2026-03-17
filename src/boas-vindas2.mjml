@@ -49,7 +49,6 @@
           <mj-image
             src="https://assets.saneducacional.com.br/emails/boas-vindas/email2/header.jpg"
             alt="Bem-vindo à San Educacional"
-          
             border-radius="20px"
             padding="0px"
             fluid-on-mobile="true"
@@ -96,11 +95,15 @@
       >
         <mj-column>
           <mj-text padding="0px 27px 20px 27px" align="center">
-            Como vai? É com grande satisfação que damos as <b>boas-vindas à San Educacional!</b>
+            Como vai? É com grande satisfação que damos as
+            <b>boas-vindas à San Educacional!</b>
           </mj-text>
 
           <mj-text padding="0px 20px" align="center">
-            Parabéns por dar este <b>passo decisivo em sua jornada de crescimento profissional.</b> Estamos muito entusiasmados em tê-lo(a) conosco e em <b>fazer parte da sua história de sucesso.</b>
+            Parabéns por dar este
+            <b>passo decisivo em sua jornada de crescimento profissional.</b>
+            Estamos muito entusiasmados em tê-lo(a) conosco e em
+            <b>fazer parte da sua história de sucesso.</b>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -139,33 +142,46 @@
                   letter-spacing: -0.02em;
                 "
               >
-                Para garantir que você possa acompanhar seu curso, pedidos e informações importantes, pedimos que guarde este e-mail.
+                Para garantir que você possa acompanhar seu curso, pedidos e
+                informações importantes, pedimos que guarde este e-mail.
               </div>
             </div>
           </mj-text>
 
           <!-- Dados de Acesso -->
-          <mj-text padding="0px 0px 12px 20px" font-weight="700" color="#F95F00">
+          <mj-text
+            padding="0px 0px 12px 20px"
+            font-weight="700"
+            color="#F95F00"
+          >
             Ele contém seus dados de acesso:
           </mj-text>
 
-          <mj-text padding="0px 0px 12px 20px" font-weight="700" color="#BB0185">
+          <mj-text
+            padding="0px 0px 12px 20px"
+            font-weight="700"
+            color="#BB0185"
+          >
             Seu Usuário: {$cliente_email}
           </mj-text>
 
-          <mj-text padding="0px 0px 12px 20px" font-weight="700" color="#BB0185">
+          <mj-text
+            padding="0px 0px 12px 20px"
+            font-weight="700"
+            color="#BB0185"
+          >
             Sua Senha: {$cliente_senha}
           </mj-text>
 
           <mj-text padding="0px 0px 12px 20px">
-            Com esses dados, você terá acesso à sua plataforma de estudos e poderá iniciar sua jornada rumo ao sucesso profissional.
+            Com esses dados, você terá acesso à sua plataforma de estudos e
+            poderá iniciar sua jornada rumo ao sucesso profissional.
           </mj-text>
 
           <mj-button
             href="https://saneducacional.com.br/plataforma"
             font-size="16px"
             padding="0px"
-          
             inner-padding="5px 13px"
           >
             Acessar Plataforma
@@ -187,7 +203,13 @@
         padding="13px 22px 23px 22px"
       >
         <mj-column>
-          <mj-text padding="0px 0px 13px 0px" font-size="28px" font-weight="700" line-height="34px" color="#BB0185">
+          <mj-text
+            padding="0px 0px 13px 0px"
+            font-size="28px"
+            font-weight="700"
+            line-height="34px"
+            color="#BB0185"
+          >
             Seus boletos estão disponíveis através deste link:
           </mj-text>
 
@@ -202,8 +224,15 @@
             💰 Acessar Boletos e Faturas
           </mj-button>
 
-          <mj-text padding="0px 0px 13px 0px" font-size="28px" font-weight="700" line-height="34px" color="#BB0185">
-            Caso tenha dúvidas para acessar a plataforma e precisar de auxílio, estamos aqui para ajudar!
+          <mj-text
+            padding="0px 0px 13px 0px"
+            font-size="28px"
+            font-weight="700"
+            line-height="34px"
+            color="#BB0185"
+          >
+            Caso tenha dúvidas para acessar a plataforma e precisar de auxílio,
+            estamos aqui para ajudar!
           </mj-text>
 
           <mj-text padding="0px 0px 13px 0px">
@@ -221,7 +250,13 @@
             👉 Agende um treinamento com a nossa equipe
           </mj-button>
 
-          <mj-text padding="0px 0px 13px 0px" font-size="20px" font-weight="700" line-height="34px" color="#BB0185">
+          <mj-text
+            padding="0px 0px 13px 0px"
+            font-size="20px"
+            font-weight="700"
+            line-height="34px"
+            color="#BB0185"
+          >
             Nossos Canais de Atendimento:
           </mj-text>
 
@@ -288,7 +323,11 @@
       </mj-section>
 
       <!-- Texto Final -->
-      <mj-section padding="0px 31px" background-color="#FFF8FD" border-radius="0px 0px 20px 20px">
+      <mj-section
+        padding="0px 31px"
+        background-color="#FFF8FD"
+        border-radius="0px 0px 20px 20px"
+      >
         <mj-column>
           <mj-text
             font-size="18px"
@@ -297,7 +336,8 @@
             padding="32px 0px 32px 0px"
             align="left"
           >
-            Estamos ansiosos para ver o seu progresso!<br />Aproveite cada momento do seu curso.
+            Estamos ansiosos para ver o seu progresso!<br />Aproveite cada
+            momento do seu curso.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -323,7 +363,12 @@
           >
             Atenciosamente,<br />
             Equipe San Educacional<br /><br />
-            Siga-nos no Instagram: <a href="https://instagram.com/saneducacional" style="color: #FFFFFF; text-decoration: underline;">@saneducacional</a>
+            Siga-nos no Instagram:
+            <a
+              href="https://instagram.com/saneducacional"
+              style="color: #ffffff; text-decoration: underline"
+              >@saneducacional</a
+            >
           </mj-text>
         </mj-column>
       </mj-section>
