@@ -179,7 +179,7 @@
           </mj-text>
 
           <mj-button
-            href="https://saneducacional.com.br/plataforma"
+            href="{$link_plataforma}"
             font-size="16px"
             padding="0px"
             inner-padding="5px 13px"
@@ -214,7 +214,7 @@
           </mj-text>
 
           <mj-button
-            href="https://saneducacional.com.br/boletos"
+            href="{$link_boletos}"
             font-size="18px"
             font-weight="700"
             padding="0px 0px 13px 0px"
@@ -240,7 +240,7 @@
           </mj-text>
 
           <mj-button
-            href="https://calendly.com/suportesaneducacional/30min"
+            href="{$link_agendamento}"
             font-size="18px"
             font-weight="700"
             padding="0px 0px 13px 0px"
@@ -262,7 +262,7 @@
 
           <mj-button
             font-size="18px"
-            href="tel:08001452300"
+            href="{$link_telefone}"
             font-weight="700"
             padding="0px 0px 13px 0px"
             align="left"
@@ -272,7 +272,7 @@
           </mj-button>
 
           <mj-button
-            href="https://wa.me/5535991191475?text=Ol%C3%A1%21%20Gostaria%20de%20aux%C3%ADlio%20para%20acessar%20a%20plataforma."
+            href="{$link_whatsapp}"
             font-size="18px"
             font-weight="700"
             padding="0px"
@@ -365,7 +365,7 @@
             Equipe San Educacional<br /><br />
             Siga-nos no Instagram:
             <a
-              href="https://instagram.com/saneducacional"
+              href="{$link_instagram}"
               style="color: #ffffff; text-decoration: underline"
               >@saneducacional</a
             >
