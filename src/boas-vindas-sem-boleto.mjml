@@ -256,7 +256,7 @@
             font-weight="700"
             padding="0px"
             align="left"
-            inner-padding="5px 13px"
+            inner-padding="5px 20px"
           >
             💬 Chamar no WhatsApp (35) 99119-1475
           </mj-button>
