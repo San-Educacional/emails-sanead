@@ -23,7 +23,7 @@
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="rgba(141, 0, 94, 0.95)">
+  <mj-body background-color="rgba(141, 0, 94, 0.95)" width="602px">
     <mj-wrapper padding="0px">
       <!-- Logo -->
       <mj-section
@@ -261,8 +261,8 @@
           </mj-text>
 
           <mj-button
-            href="https://wa.me/5535991191475?text=Ol%C3%A1%21%20Gostaria%20de%20aux%C3%ADlio%20para%20acessar%20a%20plataforma."
             font-size="18px"
+            href="tel:08001452300"
             font-weight="700"
             padding="0px 0px 13px 0px"
             align="left"
@@ -272,7 +272,7 @@
           </mj-button>
 
           <mj-button
-            href="mailto:contato@saneducacional.com.br"
+            href="https://wa.me/5535991191475?text=Ol%C3%A1%21%20Gostaria%20de%20aux%C3%ADlio%20para%20acessar%20a%20plataforma."
             font-size="18px"
             font-weight="700"
             padding="0px"
