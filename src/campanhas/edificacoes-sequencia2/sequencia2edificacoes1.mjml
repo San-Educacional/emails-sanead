@@ -1,0 +1,399 @@
+<mjml>
+  <mj-head>
+    <mj-title>Próximo Passo - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="18px" color="#050505" line-height="32px" />
+      <mj-button
+        background-color="#F84806"
+        color="#ffffff"
+        border-radius="20px"
+        font-weight="800"
+      />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a[class*="mj-button"] {
+        white-space: nowrap !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#590039" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Logo -->
+      <mj-section background-color="#590039" padding="0px 0px 25px 0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/logoRoxaCompleta.jpg"
+            alt="SAN Educacional"
+            width="396px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero Image -->
+      <mj-section padding="0px 0px 15px 0px">
+        <mj-column>
+          <mj-image
+            src="https://assets.saneducacional.com.br/emails/edificacoes-sequencias2/email1/header.jpg"
+            alt="Profissional de edificações"
+            width="602px"
+            border-radius="20px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título -->
+      <mj-section padding="0px 68px 25px 68px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                background-color: #f84806;
+                border: 1px solid #f84806;
+                border-radius: 10px;
+                padding: 12px 13px;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 34px;
+                  font-weight: 600;
+                  line-height: 40px;
+                  color: rgba(255, 255, 255, 0.93);
+                  text-align: center;
+                  letter-spacing: -0.02em;
+                "
+              >
+                Oi {$name|default('Estudante')}<br />Tudo bem?
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Conteúdo Principal -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="20px"
+        padding="13px 12px"
+      >
+        <mj-column width="547px">
+          <mj-text padding="0px 0px 17px 0px">
+            Você já deu um passo importante ao concluir o
+            <span style="font-weight: 700; color: #8d005e"
+              >Técnico em Edificações.</span
+            >
+          </mj-text>
+
+          <mj-text padding="0px 0px 17px 0px">
+            Mas deixa eu te perguntar com franqueza:
+          </mj-text>
+
+          <mj-text padding="0px 0px 17px 0px">
+            Depois disso, existe a possibilidade de evoluir para o
+            <b>Tecnólogo</b>, aproveitando sua base e concluindo o nível
+            superior em aproximadamente <b>12 meses</b>, na modalidade Técnico
+            para Tecnólogo.
+          </mj-text>
+
+          <mj-text padding="0px 0px 17px 0px">
+            Isso, por si só, já muda seu posicionamento profissional.
+          </mj-text>
+
+          <mj-text
+            padding="0px 17px"
+            font-size="24px"
+            font-weight="700"
+            color="#8D005E"
+            line-height="32px"
+          >
+            Mas aqui vai algo que pouca gente percebe:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="18px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Existe um próximo nível -->
+      <mj-section
+        background-color="#FFFFFF"
+        border-radius="20px"
+        padding="13px 12px 23px 12px"
+      >
+        <mj-column width="572px">
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div
+              style="
+                background-color: #8d005e;
+                border-radius: 10px;
+                overflow: hidden;
+                max-width: 419px;
+                margin: 0 auto;
+              "
+            >
+              <img
+                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencias2/email1/hero1.jpg"
+                alt="Próximo nível"
+                style="
+                  width: 100%;
+                  display: block;
+                  border-radius: 10px 10px 0px 0px;
+                "
+              />
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 34px;
+                  font-weight: 700;
+                  line-height: 40px;
+                  color: #ffffff;
+                  text-align: center;
+                  letter-spacing: -0.01em;
+                  padding: 20px 14px;
+                "
+              >
+                🎯 Existe um próximo nível
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text
+            padding="0px 17px 14px"
+            font-size="24px"
+            font-weight="700"
+            color="#8D005E"
+            line-height="32px"
+          >
+            Depois de concluir o Tecnólogo, você pode dar um passo ainda mais
+            estratégico:
+          </mj-text>
+
+          <mj-text padding="0px 17px 14px" line-height="28px">
+            Fazer uma <b>Pós-Graduação a partir de 3 meses, 100% EAD</b>,
+            aprofundando sua especialização e aumentando ainda mais sua
+            autoridade no mercado.
+          </mj-text>
+
+          <mj-text align="left" padding="0px 0px 14px 0px">
+            <div
+              style="
+                border: 1px solid #820059;
+                border-radius: 8px;
+                padding: 0px 5px;
+                max-width: 498px;
+                margin: 0 auto;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 18px;
+                  line-height: 28px;
+                  color: #050505;
+                "
+              >
+                Ou seja:<br />
+                <div style="padding-left: 10px">
+                  • Técnico (você já tem)<br />
+                  • Tecnólogo em <b>12 meses</b><br />
+                  • Pós-Graduação em <b>+3 meses</b>
+                </div>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 17px 18px" line-height="28px">
+            Um <b>plano estruturado de evolução</b>, sem começar do zero e
+            <b> sem interromper sua rotina profissional </b>.
+          </mj-text>
+
+          <mj-button
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=05&fornecedor=07&nome_produto=Pos-Graduacao&curso=000&nome_curso=Pós Graduação"
+            background-color="#F95F00"
+            font-size="20px"
+            padding="0px"
+            inner-padding="5px 13px"
+          >
+            Quero saber mais
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="53px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- O que isso significa na prática -->
+      <mj-section
+        background-color="#FFFFFF"
+        border-radius="20px"
+        padding="13px 12px 23px 12px"
+      >
+        <mj-column width="572px">
+          <mj-text align="center" padding="0px 0px 14px 0px">
+            <div
+              style="
+                background-color: #8d005e;
+                border-radius: 10px;
+                overflow: hidden;
+                max-width: 419px;
+                margin: 0 auto;
+              "
+            >
+              <img
+                src="https://assets.saneducacional.com.br/emails/edificacoes-sequencias2/email1/hero2.jpg"
+                alt="O que significa"
+                style="
+                  width: 100%;
+                  display: block;
+                  border-radius: 10px 10px 0px 0px;
+                "
+              />
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 34px;
+                  font-weight: 700;
+                  line-height: 40px;
+                  color: #ffffff;
+                  text-align: center;
+                  letter-spacing: -0.01em;
+                  padding: 20px 14px;
+                "
+              >
+                🚀 O que isso significa na prática?
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text padding="0px 17px 17px" font-size="16px" line-height="28px">
+            Em vez de levar 4 ou 5 anos para percorrer esse caminho, você pode
+            organizar sua <b>evolução de forma inteligente e acelerada</b>.
+          </mj-text>
+
+          <mj-text padding="0px 17px 17px" font-size="16px" line-height="28px">
+            Enquanto muitos profissionais param no técnico…
+          </mj-text>
+
+          <mj-text
+            padding="0px 17px 0px"
+            font-size="16px"
+            font-weight="700"
+            line-height="28px"
+          >
+            Outros constroem um currículo de especialista.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-spacer height="26px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA Final -->
+      <mj-section
+        background-color="#F84806"
+        border-radius="20px"
+        padding="21px 61px 40px 61px"
+      >
+        <mj-column>
+          <mj-text
+            align="left"
+            padding="54px 0px 18px 0px"
+            font-size="28px"
+            line-height="28px"
+            color="#FFFFFF"
+          >
+            A pergunta é simples:
+          </mj-text>
+
+          <mj-text align="left" padding="0px 0px 18px 0px">
+            <div
+              style="
+                border: 1px solid #ffffff;
+                border-radius: 8px;
+                padding: 16px;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 24px;
+                  line-height: 32px;
+                  color: #ffffff;
+                "
+              >
+                Você quer parar no nível superior…<br /><b>ou quer ir além?</b>
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&produto=05&fornecedor=07&nome_produto=Pos-Graduacao&curso=000&nome_curso=Pós Graduação"
+            background-color="#8D005E"
+            font-size="28px"
+            font-weight="800"
+            line-height="32px"
+            padding="0px"
+            inner-padding="23px 15px"
+          >
+            Quero entender <br />o plano completo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text
+            font-size="16px"
+            line-height="28px"
+            color="#FFFFFF"
+            padding="42px 0px 357px 0px"
+            align="center"
+          >
+            Conte com a San Educacional para continuar evoluindo com você.
+          </mj-text>
+
+          <mj-text
+            font-size="12px"
+            line-height="24px"
+            font-weight="400"
+            color="#FFF8FD"
+            align="center"
+            padding="30px 0px 0px 0px"
+          >
+            Se você não quiser mais receber novidades
+            <a
+              href="{$unsubscribe}"
+              style="color: #fff8fd; text-decoration: underline"
+              >clique aqui</a
+            >
+            e descadastre-se
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
