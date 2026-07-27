@@ -1,0 +1,161 @@
+#!/usr/bin/env bash
+# Thin CLI over the imgpush instance. Auth + URL building live here so callers
+# (and agents) never handle the bearer token.
+set -euo pipefail
+
+# Resolve through the PATH symlink so .env is found in the skill dir, not ~/.local.
+SELF="${BASH_SOURCE[0]}"
+SELF="$(readlink -f "$SELF" 2>/dev/null || printf '%s' "$SELF")"
+SELF_DIR="$(cd "$(dirname "$SELF")/.." && pwd)"
+
+# Config precedence: process env > $IMGHOST_ENV > skill-local .env > XDG.
+load_env() {
+  [[ -n "${IMGHOST_URL:-}" && -n "${IMGHOST_KEY:-}" ]] && return 0
+  local f
+  for f in "${IMGHOST_ENV:-}" "$SELF_DIR/.env" \
+           "${XDG_CONFIG_HOME:-$HOME/.config}/imghost/.env"; do
+    [[ -n "$f" && -f "$f" ]] || continue
+    # shellcheck disable=SC1090
+    set -a; source "$f"; set +a
+    break
+  done
+}
+
+die() { printf 'imghost: %s\n' "$*" >&2; exit 1; }
+
+require_config() {
+  load_env
+  [[ -n "${IMGHOST_URL:-}" ]] || die "IMGHOST_URL not set (see $SELF_DIR/.env.example)"
+  [[ -n "${IMGHOST_KEY:-}" ]] || die "IMGHOST_KEY not set (see $SELF_DIR/.env.example)"
+  IMGHOST_URL="${IMGHOST_URL%/}"
+}
+
+# imgpush answers uploads with {"filename":"abc12.png"} and nothing else.
+extract_filename() {
+  sed -n 's/.*"filename"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p'
+}
+
+# Accepts a bare filename or a full URL; always yields the bare filename.
+basename_of() { printf '%s\n' "${1##*/}" | cut -d'?' -f1; }
+
+usage() {
+  cat <<'EOF'
+imghost — upload images to the private imgpush host
+
+  imghost upload PATH [--json] [--w N] [--h N]
+  imghost md     PATH [--alt TEXT] [--w N] [--h N]
+  imghost html   PATH [--alt TEXT] [--w N] [--h N]
+  imghost from-url URL [--json]
+  imghost delete FILENAME|URL
+  imghost whoami
+
+PATH may be "-" to read image bytes from stdin.
+Valid --w / --h values: 100 200 400 800 1200 1600 (server-enforced).
+EOF
+}
+
+# --- arg parsing ---------------------------------------------------------
+cmd="${1:-}"; shift || true
+[[ -z "$cmd" || "$cmd" == "-h" || "$cmd" == "--help" ]] && { usage; exit 0; }
+
+ALT="" JSON=0 W="" H="" POS=()
+while (($#)); do
+  case "$1" in
+    --alt)  ALT="${2:?--alt needs a value}"; shift 2 ;;
+    --w)    W="${2:?--w needs a value}";     shift 2 ;;
+    --h)    H="${2:?--h needs a value}";     shift 2 ;;
+    --json) JSON=1; shift ;;
+    -h|--help) usage; exit 0 ;;
+    --) shift; POS+=("$@"); break ;;
+    *)  POS+=("$1"); shift ;;
+  esac
+done
+
+query() {
+  local q=""
+  [[ -n "$W" ]] && q="w=$W"
+  [[ -n "$H" ]] && q="${q:+$q&}h=$H"
+  printf '%s' "${q:+?$q}"
+}
+
+TMPFILE=""
+# The trap fires in top-level scope, so the path it reads must not be `local`.
+cleanup() { [[ -n "${TMPFILE:-}" ]] && rm -f "$TMPFILE"; return 0; }
+trap cleanup EXIT
+
+do_upload() {
+  local path="$1" src
+  [[ -n "$path" ]] || die "missing PATH"
+  if [[ "$path" == "-" ]]; then
+    TMPFILE="$(mktemp "${TMPDIR:-/tmp}/imghost.XXXXXX")"
+    cat > "$TMPFILE"
+    src="$TMPFILE"
+  else
+    [[ -f "$path" ]] || die "no such file: $path"
+    src="$path"
+  fi
+
+  local resp
+  resp="$(curl --fail-with-body -sS \
+            -F "file=@$src" \
+            -H "Authorization: Bearer $IMGHOST_KEY" \
+            "$IMGHOST_URL/")" || die "upload failed: $resp"
+
+  if ((JSON)); then printf '%s\n' "$resp"; return; fi
+
+  local fn; fn="$(printf '%s' "$resp" | extract_filename)"
+  [[ -n "$fn" ]] || die "unexpected response: $resp"
+  printf '%s/%s%s\n' "$IMGHOST_URL" "$fn" "$(query)"
+}
+
+case "$cmd" in
+  upload)
+    require_config
+    do_upload "${POS[0]:-}"
+    ;;
+
+  md|html)
+    require_config
+    path="${POS[0]:-}"
+    url="$(do_upload "$path")"
+    alt="$ALT"
+    [[ -z "$alt" ]] && { [[ "$path" == "-" ]] && alt="image" || alt="$(basename_of "$path")"; }
+    if [[ "$cmd" == "md" ]]; then
+      printf '![%s](%s)\n' "$alt" "$url"
+    else
+      printf '<img src="%s" alt="%s" />\n' "$url" "$alt"
+    fi
+    ;;
+
+  from-url)
+    require_config
+    src="${POS[0]:-}"; [[ -n "$src" ]] || die "missing URL"
+    resp="$(curl --fail-with-body -sS \
+              -X POST -H 'Content-Type: application/json' \
+              -H "Authorization: Bearer $IMGHOST_KEY" \
+              -d "{\"url\":\"$src\"}" \
+              "$IMGHOST_URL/")" || die "upload failed: $resp"
+    if ((JSON)); then printf '%s\n' "$resp"; exit 0; fi
+    fn="$(printf '%s' "$resp" | extract_filename)"
+    [[ -n "$fn" ]] || die "unexpected response: $resp"
+    printf '%s/%s%s\n' "$IMGHOST_URL" "$fn" "$(query)"
+    ;;
+
+  delete)
+    require_config
+    target="${POS[0]:-}"; [[ -n "$target" ]] || die "missing FILENAME|URL"
+    curl --fail-with-body -sS -X DELETE \
+      -H "Authorization: Bearer $IMGHOST_KEY" \
+      "$IMGHOST_URL/$(basename_of "$target")"
+    echo
+    ;;
+
+  whoami)
+    require_config
+    printf 'url: %s\nkey: %s…%s (%d chars)\n' \
+      "$IMGHOST_URL" "${IMGHOST_KEY:0:4}" "${IMGHOST_KEY: -4}" "${#IMGHOST_KEY}"
+    curl --fail-with-body -sS "$IMGHOST_URL/liveness"; echo
+    ;;
+
+  *) die "unknown command: $cmd (try --help)" ;;
+esac
