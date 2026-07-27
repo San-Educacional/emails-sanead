@@ -1,0 +1,343 @@
+<mjml>
+  <mj-head>
+    <mj-title>O Brasil vai faltar 235 mil professores - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="17px" color="#050505" line-height="28px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#FFFFFF"
+        border-radius="14px"
+        font-weight="700"
+      />
+    </mj-attributes>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .bloco-branco > table > tbody > tr > td {
+          padding: 24px 18px 36px 18px !important;
+        }
+        .hero-titulo div {
+          font-size: 26px !important;
+          line-height: 32px !important;
+        }
+        .hero-sub div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+        .alerta div {
+          font-size: 17px !important;
+          line-height: 22px !important;
+        }
+        .texto-corpo div {
+          font-size: 15px !important;
+          line-height: 24px !important;
+        }
+        .subtitulo-rosa div {
+          font-size: 16px !important;
+          line-height: 24px !important;
+        }
+        .legenda-card {
+          font-size: 18px !important;
+          line-height: 25px !important;
+          padding: 16px 18px !important;
+        }
+        .texto-caixa {
+          font-size: 15px !important;
+          line-height: 20px !important;
+        }
+        .frase-final div {
+          font-size: 24px !important;
+          line-height: 31px !important;
+        }
+        .cta-principal table {
+          width: 100% !important;
+        }
+        .cta-principal a {
+          display: block !important;
+          width: auto !important;
+          font-size: 16px !important;
+          line-height: 22px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#910964" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Barra do logo -->
+      <mj-section background-color="#FAEDF6" padding="12px 20px 13px 20px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/0z1U2.jpg"
+            alt="SAN Educacional"
+            width="259px"
+            padding="0px"
+            align="center"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero (foto) -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/CsFWc.jpg"
+            alt="Estudante sorridente com caderno em uma biblioteca"
+            width="602px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título + subtítulo do hero -->
+      <mj-section background-color="#910964" padding="0px 40px 44px 40px">
+        <mj-column>
+          <mj-text
+            align="center"
+            css-class="hero-titulo"
+            font-size="34px"
+            line-height="40px"
+            font-weight="700"
+            letter-spacing="-0.02em"
+            color="#FFF8FD"
+            padding="6px 0px 0px 0px"
+          >
+            O Brasil vai faltar<br />235 mil professores
+          </mj-text>
+
+          <mj-text
+            align="center"
+            css-class="hero-sub"
+            font-size="17px"
+            line-height="26px"
+            font-weight="400"
+            color="#EBCDE1"
+            padding="16px 0px 0px 0px"
+          >
+            E isso é uma oportunidade, não um problema — se você se preparar
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Bloco branco -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="22px"
+        padding="34px 30px 48px 30px"
+        css-class="bloco-branco"
+      >
+        <mj-column width="542px">
+          <mj-text
+            css-class="alerta"
+            font-size="20px"
+            line-height="26px"
+            font-weight="700"
+            color="#8D005E"
+            padding="0px 0px 26px 0px"
+          >
+            ALERTA: O Brasil poderá enfrentar um déficit de até 235 mil
+            professores nos próximos anos.
+          </mj-text>
+
+          <mj-text css-class="texto-corpo" padding="0px 0px 26px 0px">
+            Enquanto milhares de profissionais se aposentam e a
+            <b>demanda por novos professores cresce,</b> uma modalidade
+            exclusiva acaba de surgir para quem já fez, está cursando ou
+            iniciou a sua <b>R2 Formação Pedagógica ou Segunda
+            Licenciatura.</b>
+          </mj-text>
+
+          <mj-text
+            align="left"
+            padding="0px 0px 26px 0px"
+            css-class="card-foto"
+          >
+            <div
+              style="
+                background-color: #8d005e;
+                border-radius: 18px;
+                overflow: hidden;
+              "
+            >
+              <img
+                src="https://imghost.saneducacional.com.br/3xqh9.jpg"
+                alt="Dois profissionais conversando durante um atendimento"
+                style="
+                  width: 100%;
+                  display: block;
+                  border-radius: 18px 18px 0px 0px;
+                "
+              />
+              <div
+                class="legenda-card"
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 22px;
+                  font-weight: 700;
+                  line-height: 30px;
+                  color: #fff8fd;
+                  letter-spacing: -0.01em;
+                  padding: 20px 22px;
+                "
+              >
+                Estamos à disposição para ajudar você a crescer!
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text css-class="texto-corpo" padding="0px 0px 26px 0px">
+            Agora, é possível conquistar uma <b>Licenciatura Plena em até 6
+            meses, aproveitando a formação que você já possui.</b> E o
+            melhor: sem redução da carga horária. Ao final, você recebe um
+            diploma de<b> 3.200 horas,</b> válido em todo o território
+            nacional.
+          </mj-text>
+
+          <mj-text
+            css-class="subtitulo-rosa"
+            font-size="18px"
+            line-height="28px"
+            font-weight="700"
+            color="#8D005E"
+            padding="0px 0px 26px 0px"
+          >
+            Mas por que essa oportunidade merece sua atenção?
+          </mj-text>
+
+          <mj-text css-class="texto-corpo" padding="0px 0px 26px 0px">
+            <b>O Instituto Semesp projeta um déficit de até 235 mil
+            professores na educação básica brasileira até 2040.</b> Além
+            disso, outro levantamento aponta que 57,5% dos professores das
+            redes estaduais devem se aposentar até 2034.
+          </mj-text>
+
+          <mj-text padding="0px 0px 26px 0px" css-class="caixa-destaque">
+            <a
+              href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+              style="text-decoration: none;"
+            >
+              <div
+                style="
+                  background-color: #ffffff;
+                  border: 1px solid #f0dcea;
+                  border-radius: 14px;
+                  padding: 18px 20px;
+                "
+              >
+                <div
+                  class="texto-caixa"
+                  style="
+                    font-family: Poppins, Arial, sans-serif;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 22px;
+                    color: #050505;
+                  "
+                >
+                  Na prática, isso significa que o mercado precisará
+                  contratar milhares de novos profissionais nos próximos
+                  anos. <span style="color: #f95f00;">→</span>
+                </div>
+              </div>
+            </a>
+          </mj-text>
+
+          <mj-text css-class="texto-corpo" padding="0px 0px 26px 0px">
+            Quem aproveitar essa modalidade para conquistar a Licenciatura
+            Plena estará mais preparado para disputar vagas, atender aos
+            requisitos de processos seletivos que exigem formação plena e
+            ainda abrir caminho para futuras Segundas Licenciaturas.
+          </mj-text>
+
+          <mj-text
+            css-class="texto-corpo"
+            font-weight="700"
+            padding="0px 0px 38px 0px"
+          >
+            O cenário é favorável, mas a modalidade em tempo reduzido é uma
+            condição especial e não há garantia de que permanecerá
+            disponível por muito tempo.
+          </mj-text>
+
+          <mj-text
+            align="center"
+            css-class="frase-final"
+            font-size="30px"
+            line-height="38px"
+            font-weight="700"
+            color="#8D005E"
+            padding="0px 0px 30px 0px"
+          >
+            Quem se antecipa chega na frente.
+          </mj-text>
+
+          <mj-button
+            css-class="cta-principal"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            background-color="#F95F00"
+            color="#FFFFFF"
+            border-radius="14px"
+            font-size="19px"
+            font-weight="700"
+            line-height="25px"
+            width="420px"
+            inner-padding="14px 22px"
+            padding="0px"
+            align="center"
+          >
+            QUERO APROVEITAR ESSA OPORTUNIDADE
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçador -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-spacer height="34px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Rodapé -->
+      <mj-section background-color="#910964" padding="0px 30px 40px 30px">
+        <mj-column>
+          <mj-text
+            align="center"
+            font-size="14px"
+            line-height="20px"
+            font-weight="700"
+            color="#E9C8DE"
+            padding="0px"
+          >
+            @saneducacional
+          </mj-text>
+
+          <mj-divider
+            border-width="1px"
+            border-color="#B04C8F"
+            padding="18px 0px 0px 0px"
+          />
+
+          <mj-text
+            align="center"
+            font-size="14px"
+            line-height="20px"
+            font-weight="400"
+            padding="16px 0px 0px 0px"
+          >
+            <a
+              href="{$unsubscribe}"
+              style="color: #deb0cf; text-decoration: underline"
+              >Descadastre-se</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
