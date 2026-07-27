@@ -1,0 +1,509 @@
+<mjml>
+  <mj-head>
+    <mj-title>Vi seu nome nessa lista - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="17px" color="#050505" line-height="28px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#FFFFFF"
+        border-radius="14px"
+        font-weight="700"
+      />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .bene-card {
+        border-radius: 16px;
+      }
+    </mj-style>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .hero-band {
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+        }
+        .hero-band > table > tbody > tr > td {
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+        }
+        .hero-title div {
+          font-size: 26px !important;
+          line-height: 31px !important;
+        }
+        .hero-sub div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+        .light-card {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .light-card > table > tbody > tr > td {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .lead-text div {
+          font-size: 16px !important;
+          line-height: 21px !important;
+        }
+        .body-text div {
+          font-size: 15px !important;
+          line-height: 24px !important;
+        }
+        .warn-box div {
+          font-size: 20px !important;
+          line-height: 25px !important;
+        }
+        .section-title div {
+          font-size: 22px !important;
+          line-height: 27px !important;
+        }
+        .bene-row {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .bene-row > table > tbody > tr > td {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .bene-icon {
+          width: 29% !important;
+        }
+        .bene-body {
+          width: 71% !important;
+        }
+        .bene-title div {
+          font-size: 15px !important;
+          line-height: 19px !important;
+        }
+        .bene-sub div {
+          font-size: 13px !important;
+          line-height: 18px !important;
+        }
+        .cta-btn table {
+          width: 100% !important;
+        }
+        .cta-btn a {
+          display: block !important;
+          width: auto !important;
+          font-size: 16px !important;
+        }
+        .footer-band {
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+        }
+        .footer-band > table > tbody > tr > td {
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#910964" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Hero -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/j2nwI.jpg"
+            alt="Professora sorrindo em sala de aula - San Educacional"
+            width="602px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título + Subtítulo + CTA 1 -->
+      <mj-section
+        background-color="#910964"
+        padding="20px 40px 40px 40px"
+        css-class="hero-band"
+      >
+        <mj-column>
+          <mj-text
+            align="center"
+            css-class="hero-title"
+            font-size="36px"
+            font-weight="700"
+            line-height="42px"
+            letter-spacing="-1px"
+            color="#FFF8FD"
+            padding="0px 0px 14px 0px"
+          >
+            Vi seu nome nessa lista
+          </mj-text>
+
+          <mj-text
+            align="center"
+            css-class="hero-sub"
+            font-size="17px"
+            font-weight="400"
+            line-height="26px"
+            color="#EBCDE1"
+            padding="0px 0px 24px 0px"
+          >
+            Oportunidade exclusiva - Licenciatura em 6 meses!
+          </mj-text>
+
+          <mj-button
+            css-class="cta-btn"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            font-size="20px"
+            font-weight="700"
+            width="470px"
+            inner-padding="17px 20px"
+            padding="0px"
+          >
+            Garantir a minha vaga
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card claro - parte A -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="22px 22px 0px 0px"
+        padding="30px 30px 0px 30px"
+        css-class="light-card"
+      >
+        <mj-column>
+          <mj-text
+            css-class="lead-text"
+            font-size="19px"
+            font-weight="700"
+            line-height="25px"
+            color="#8D005E"
+            padding="0px 0px 20px 0px"
+          >
+            Oi {$name|default('Estudante')}, essa grande oportunidade é para
+            você que já fez ou está fazendo R2.
+          </mj-text>
+
+          <mj-text css-class="body-text" padding="0px 0px 20px 0px">
+            Se você já concluiu, está cursando ou até mesmo começou a
+            Formação Pedagógica ou Segunda Licenciatura e não
+            finalizou<b>, essa pode ser a oportunidade que faltava para
+            conquistar uma Licenciatura Plena.</b>
+          </mj-text>
+
+          <mj-text
+            css-class="body-text"
+            font-weight="700"
+            padding="0px 0px 20px 0px"
+          >
+            Graças ao aproveitamento da sua formação anterior, você pode
+            concluir uma Segunda Licenciatura em até 6 meses (tempo muito
+            reduzido de formação), sem precisar começar tudo novamente.
+          </mj-text>
+
+          <mj-text css-class="body-text" padding="0px">
+            E o melhor: não há redução da carga horária do diploma. Ao
+            final do curso, você recebe <b>uma Licenciatura Plena com
+            3.200 horas, válida em todo o território nacional.</b>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card claro - parte B -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="0px"
+        padding="28px 30px 0px 30px"
+        css-class="light-card"
+      >
+        <mj-column>
+          <mj-text css-class="body-text" padding="0px 0px 20px 0px">
+            Essa modalidade é diferenciada e extremamente difícil de
+            encontrar no mercado, pois permite uma conclusão em tempo
+            reduzido, mantendo a carga horária completa da formação.
+          </mj-text>
+
+          <mj-text css-class="body-text" padding="0px 0px 20px 0px">
+            Com a Licenciatura Plena, você amplia suas oportunidades para
+            <b>atuar na educação, participa de concursos</b> que exigem
+            formação plena e ainda pode<b> facilitar o ingresso em novas
+            Segundas Licenciaturas</b> no futuro.
+          </mj-text>
+
+          <mj-text align="center" css-class="warn-box" padding="0px">
+            <div
+              style="
+                background-color: #f95f00;
+                border-radius: 16px;
+                max-width: 440px;
+                margin: 0 auto;
+                padding: 22px 12px;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 26px;
+                  font-weight: 700;
+                  line-height: 30px;
+                  color: #ffffff;
+                  text-align: center;
+                "
+              >
+                ⚠️ Essa é uma condição especial e por tempo limitado.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card claro - título "Na SAN..." -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="0px"
+        padding="36px 30px 16px 30px"
+        css-class="light-card"
+      >
+        <mj-column>
+          <mj-text
+            css-class="section-title"
+            font-size="28px"
+            font-weight="700"
+            line-height="34px"
+            letter-spacing="-0.5px"
+            color="#8D005E"
+            padding="0px"
+          >
+            Na SAN, você não está sozinho em nenhuma etapa
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco 1 - Reconhecido pelo MEC -->
+      <mj-section
+        background-color="#FFF8FD"
+        padding="0px 30px 14px 30px"
+        css-class="bene-row"
+      >
+        <mj-group background-color="#FFFFFF" css-class="bene-card">
+          <mj-column
+            width="21%"
+            vertical-align="middle"
+            padding="12px"
+            css-class="bene-icon"
+          >
+            <mj-image
+              src="https://imghost.saneducacional.com.br/dw6XC.jpg"
+              alt="Grupo de profissionais se cumprimentando"
+              width="90px"
+              border-radius="14px"
+              padding="0px"
+              fluid-on-mobile="true"
+            />
+          </mj-column>
+          <mj-column
+            width="79%"
+            vertical-align="middle"
+            padding="12px 14px 12px 4px"
+            css-class="bene-body"
+          >
+            <mj-text
+              css-class="bene-title"
+              font-weight="700"
+              color="#050505"
+              font-size="17px"
+              line-height="22px"
+              padding="0px 0px 2px 0px"
+            >
+              Reconhecido pelo MEC
+            </mj-text>
+            <mj-text
+              css-class="bene-sub"
+              font-weight="400"
+              color="#5B4A55"
+              font-size="15px"
+              line-height="21px"
+              padding="0px"
+            >
+              Diploma com valor de graduação plena.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Card branco 2 - Suporte humanizado -->
+      <mj-section
+        background-color="#FFF8FD"
+        padding="0px 30px 14px 30px"
+        css-class="bene-row"
+      >
+        <mj-group background-color="#FFFFFF" css-class="bene-card">
+          <mj-column
+            width="21%"
+            vertical-align="middle"
+            padding="12px"
+            css-class="bene-icon"
+          >
+            <mj-image
+              src="https://imghost.saneducacional.com.br/CB2O3.jpg"
+              alt="Consultor orientando uma estudante"
+              width="90px"
+              border-radius="14px"
+              padding="0px"
+              fluid-on-mobile="true"
+            />
+          </mj-column>
+          <mj-column
+            width="79%"
+            vertical-align="middle"
+            padding="12px 14px 12px 4px"
+            css-class="bene-body"
+          >
+            <mj-text
+              css-class="bene-title"
+              font-weight="700"
+              color="#050505"
+              font-size="17px"
+              line-height="22px"
+              padding="0px 0px 2px 0px"
+            >
+              Suporte humanizado
+            </mj-text>
+            <mj-text
+              css-class="bene-sub"
+              font-weight="400"
+              color="#5B4A55"
+              font-size="15px"
+              line-height="21px"
+              padding="0px"
+            >
+              Orientação do início ao fim do curso.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Card branco 3 - Para crescer rápido -->
+      <mj-section
+        background-color="#FFF8FD"
+        padding="0px 30px 14px 30px"
+        css-class="bene-row"
+      >
+        <mj-group background-color="#FFFFFF" css-class="bene-card">
+          <mj-column
+            width="21%"
+            vertical-align="middle"
+            padding="12px"
+            css-class="bene-icon"
+          >
+            <mj-image
+              src="https://imghost.saneducacional.com.br/DuvKG.jpg"
+              alt="Equipe reunida trabalhando com notebooks"
+              width="90px"
+              border-radius="14px"
+              padding="0px"
+              fluid-on-mobile="true"
+            />
+          </mj-column>
+          <mj-column
+            width="79%"
+            vertical-align="middle"
+            padding="12px 14px 12px 4px"
+            css-class="bene-body"
+          >
+            <mj-text
+              css-class="bene-title"
+              font-weight="700"
+              color="#050505"
+              font-size="17px"
+              line-height="22px"
+              padding="0px 0px 2px 0px"
+            >
+              Para crescer rápido
+            </mj-text>
+            <mj-text
+              css-class="bene-sub"
+              font-weight="400"
+              color="#5B4A55"
+              font-size="15px"
+              line-height="21px"
+              padding="0px"
+            >
+              No seu ritmo.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Clique abaixo... + CTA 2 -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="0px 0px 22px 22px"
+        padding="24px 30px 36px 30px"
+        css-class="light-card"
+      >
+        <mj-column>
+          <mj-text css-class="body-text" padding="0px 0px 24px 0px">
+            Clique abaixo e descubra se você pode aproveitar essa
+            oportunidade.
+          </mj-text>
+
+          <mj-button
+            css-class="cta-btn"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            font-size="20px"
+            font-weight="700"
+            width="440px"
+            inner-padding="11px 20px"
+            padding="0px"
+          >
+            QUERO SABER MAIS
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Rodapé -->
+      <mj-section
+        background-color="#910964"
+        padding="34px 34px 30px 34px"
+        css-class="footer-band"
+      >
+        <mj-column>
+          <mj-text
+            align="center"
+            font-size="15px"
+            font-weight="600"
+            line-height="22px"
+            color="#E9C8DE"
+            padding="0px"
+          >
+            @saneducacional
+          </mj-text>
+
+          <mj-divider
+            border-width="1px"
+            border-color="#B04C8F"
+            padding="18px 0px 0px 0px"
+          />
+
+          <mj-text
+            align="center"
+            font-size="15px"
+            font-weight="400"
+            line-height="22px"
+            padding="16px 0px 0px 0px"
+          >
+            <a
+              href="{$unsubscribe}"
+              style="color: #deb0cf; text-decoration: underline"
+              >Descadastre-se</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
