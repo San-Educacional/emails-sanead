@@ -1,0 +1,371 @@
+<mjml>
+  <mj-head>
+    <mj-title>Multiplique sua qualificação - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="17px" color="#050505" line-height="28px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#FFFFFF"
+        border-radius="14px"
+        font-weight="700"
+      />
+    </mj-attributes>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        .badge-section > table > tbody > tr > td {
+          padding: 12px 6px 0px 16px !important;
+        }
+        .hero-title div {
+          font-size: 30px !important;
+          line-height: 34px !important;
+          letter-spacing: 2px !important;
+        }
+        .hero-sub div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+        .greeting div {
+          font-size: 17px !important;
+          line-height: 24px !important;
+        }
+        .body-copy div {
+          font-size: 15px !important;
+          line-height: 24px !important;
+        }
+        .destaque-para div {
+          font-size: 15px !important;
+          line-height: 25px !important;
+        }
+        .card-section > table > tbody > tr > td {
+          padding: 24px 16px !important;
+        }
+        .check-box-text {
+          font-size: 17px !important;
+          line-height: 27px !important;
+        }
+        .consultor-box {
+          padding: 16px 16px 18px 16px !important;
+        }
+        .consultor-text {
+          font-size: 17px !important;
+          line-height: 24px !important;
+        }
+        .cta-full table,
+        .cta-hero table {
+          width: 100% !important;
+        }
+        .cta-full a,
+        .cta-hero a {
+          display: block !important;
+          width: auto !important;
+          font-size: 15px !important;
+          line-height: 21px !important;
+        }
+        .footer-section > table > tbody > tr > td {
+          padding: 24px 16px 26px 16px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#910964" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Faixa da pílula "CONDIÇÃO ESPECIAL" -->
+      <mj-section
+        background-color="#910964"
+        padding="16px 9px 0px 26px"
+        css-class="badge-section"
+      >
+        <mj-column>
+          <mj-text align="right" padding="0px">
+            <span
+              style="
+                display: inline-block;
+                background-color: #f95f00;
+                border-radius: 999px;
+                padding: 6px 16px;
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 11px;
+                line-height: 14px;
+                font-weight: 700;
+                letter-spacing: 1.1px;
+                color: #ffffff;
+              "
+              >CONDIÇÃO ESPECIAL</span
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column padding="0px">
+          <mj-image
+            src="https://imghost.saneducacional.com.br/0Blko.jpg"
+            alt="Professora em sala de aula"
+            width="602px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título -->
+      <mj-section background-color="#910964" padding="4px 18px 0px 18px">
+        <mj-column>
+          <mj-text
+            align="center"
+            css-class="hero-title"
+            font-size="40px"
+            line-height="48px"
+            font-weight="700"
+            letter-spacing="4px"
+            color="#FFF8FD"
+            padding="0px"
+          >
+            <span style="color: #ffb765">Multiplique</span> sua qualificação
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Subtítulo -->
+      <mj-section background-color="#910964" padding="16px 30px 0px 30px">
+        <mj-column>
+          <mj-text
+            align="center"
+            css-class="hero-sub"
+            font-size="17px"
+            line-height="26px"
+            font-weight="400"
+            color="#EBCDE1"
+            padding="0px"
+          >
+            Essa condição especial não costuma ficar disponível pra sempre
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA topo -->
+      <mj-section background-color="#910964" padding="28px 60px 40px 60px">
+        <mj-column>
+          <mj-button
+            css-class="cta-hero"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            font-size="19px"
+            line-height="24px"
+            font-weight="700"
+            width="100%"
+            inner-padding="16px 20px"
+            padding="0px"
+          >
+            Quero saber mais
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="22px"
+        padding="34px 30px 36px 30px"
+        css-class="card-section"
+      >
+        <mj-column width="542px">
+          <mj-text
+            css-class="greeting"
+            font-size="19px"
+            line-height="28px"
+            font-weight="700"
+            color="#8D005E"
+            padding="0px 0px 20px 0px"
+          >
+            Direto ao ponto, {$name|default('Estudante')}.
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            A modalidade especial que permite concluir uma nova
+            <b>Licenciatura Plena em até 6 meses,</b> com aproveitamento da
+            formação que você já possui, não tem prazo de continuidade
+            garantido.
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 22px 0px">
+            Se você já concluiu, está
+            <b
+              >cursando ou iniciou uma Licenciatura ou a Formação Pedagógica
+              (R2), essa é uma oportunidade exclusiva para ampliar sua
+              formação</b
+            >
+            em um tempo muito menor que o tradicional.
+          </mj-text>
+
+          <mj-text
+            css-class="destaque-para"
+            font-weight="700"
+            color="#8D005E"
+            font-size="16px"
+            line-height="28px"
+            letter-spacing="-0.44px"
+            padding="0px 0px 24px 0px"
+          >
+            Isso não é discurso de vendedor. É a realidade: condições
+            especiais como essa não costumam ficar disponíveis para sempre e
+            ninguém pode afirmar com certeza até quando ela continuará ativa.
+          </mj-text>
+
+          <mj-text padding="0px 0px 24px 0px">
+            <div
+              style="
+                background-color: #8d005e;
+                border-radius: 18px;
+                padding: 24px 26px;
+              "
+            >
+              <div
+                class="check-box-text"
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 21px;
+                  line-height: 33px;
+                  font-weight: 400;
+                  letter-spacing: -0.78px;
+                  color: #fff8fd;
+                "
+              >
+                ✅ Nova Licenciatura Plena em <b>até 6 meses</b><br />
+                ✅ Diploma completo com <b>3.200 horas</b><br />
+                ✅ Aproveitamento da <b>formação já realizada</b><br />
+                ✅ <b>Mais oportunidades</b> na área da educação
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 26px 0px">
+            É justamente essa combinação que torna essa modalidade tão
+            diferenciada.
+            <b>E é por isso que quem já garantiu sua vaga decidiu não esperar.</b>
+          </mj-text>
+
+          <mj-button
+            css-class="cta-full"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            font-size="19px"
+            line-height="24px"
+            font-weight="700"
+            width="100%"
+            inner-padding="16px 20px"
+            padding="0px 0px 30px 0px"
+          >
+            GARANTIR MINHA VAGA NESSA MODALIDADE
+          </mj-button>
+
+          <mj-image
+            src="https://imghost.saneducacional.com.br/TIcHh.jpg"
+            alt="Equipe de atendimento San Educacional"
+            width="542px"
+            border-radius="28px 28px 0px 0px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+
+          <mj-text padding="0px">
+            <div
+              class="consultor-box"
+              style="
+                background-color: #8d005e;
+                border-radius: 0px 0px 28px 28px;
+                padding: 20px 22px 24px 22px;
+              "
+            >
+              <div
+                class="consultor-text"
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 21px;
+                  line-height: 29px;
+                  font-weight: 700;
+                  letter-spacing: -0.38px;
+                  color: #fff8fd;
+                "
+              >
+                Fale agora com nosso atendimento e saiba como garantir sua
+                vaga
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-button
+            css-class="cta-full"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            font-size="19px"
+            line-height="24px"
+            font-weight="700"
+            width="100%"
+            inner-padding="16px 20px"
+            padding="28px 0px 0px 0px"
+          >
+            FALAR COM UM CONSULTOR
+          </mj-button>
+
+          <mj-text
+            align="center"
+            font-size="15px"
+            line-height="23px"
+            font-weight="400"
+            color="#5B4A55"
+            padding="30px 0px 0px 0px"
+          >
+            Conte com a San Educacional para continuar evoluindo com você!<br />
+            Atenciosamente, Equipe San Educacional.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Rodapé -->
+      <mj-section
+        background-color="#910964"
+        padding="28px 30px 30px 30px"
+        css-class="footer-section"
+      >
+        <mj-column>
+          <mj-text
+            align="center"
+            font-size="14px"
+            line-height="20px"
+            font-weight="600"
+            color="#E9C8DE"
+            padding="0px 0px 24px 0px"
+          >
+            @saneducacional
+          </mj-text>
+
+          <mj-divider
+            border-width="1px"
+            border-color="#B04C8F"
+            padding="0px 0px 14px 0px"
+          />
+
+          <mj-text
+            align="center"
+            font-size="13px"
+            line-height="20px"
+            font-weight="400"
+            padding="0px"
+          >
+            <a
+              href="{$unsubscribe}"
+              style="color: #deb0cf; text-decoration: underline"
+              >Descadastre-se</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
