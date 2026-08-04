@@ -1,0 +1,405 @@
+<mjml>
+  <mj-head>
+    <mj-title>Seu perfil chamou atenção - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="17px" color="#050505" line-height="28px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#FFFFFF"
+        border-radius="14px"
+        font-weight="700"
+      />
+    </mj-attributes>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        /* css-class de mj-section cai no <div> externo; o padding vive no <td>
+           do <table> filho. Por isso o seletor precisa do "> table". */
+        .card-pad > table > tbody > tr > td {
+          padding-left: 18px !important;
+          padding-right: 18px !important;
+        }
+        /* css-class de mj-text cai no <td> (font-size:0px); o texto é estilizado
+           no <div> interno. Sem o "div" o override não pega. */
+        .hero-title div {
+          font-size: 26px !important;
+          line-height: 32px !important;
+        }
+        .hero-sub {
+          padding-left: 8px !important;
+          padding-right: 8px !important;
+        }
+        .hero-sub div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+        .greeting div {
+          font-size: 17px !important;
+          line-height: 24px !important;
+        }
+        .body-copy div {
+          font-size: 15px !important;
+          line-height: 24px !important;
+        }
+        .tl-title div {
+          font-size: 16px !important;
+          line-height: 21px !important;
+        }
+        .tl-sub div {
+          font-size: 13px !important;
+          line-height: 19px !important;
+        }
+        .check-item div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+        .closing-note div {
+          font-size: 14px !important;
+          line-height: 21px !important;
+        }
+        .cta-btn a {
+          font-size: 17px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#910964" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Hero -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/HM0mM.jpg"
+            alt="Estudante sorrindo em frente ao notebook - San Educacional"
+            width="602px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-spacer height="30px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Título + subtítulo do hero -->
+      <mj-section background-color="#910964" padding="0px 34px">
+        <mj-column>
+          <mj-text
+            align="center"
+            css-class="hero-title"
+            font-size="34px"
+            line-height="40px"
+            font-weight="700"
+            letter-spacing="-0.02em"
+            color="#FFF8FD"
+            padding="0px"
+          >
+            ⚠️ Seu perfil<br />chamou atenção
+          </mj-text>
+
+          <mj-text
+            align="center"
+            css-class="hero-sub"
+            font-size="17px"
+            line-height="26px"
+            font-weight="400"
+            color="#EBCDE1"
+            padding="14px 0px 0px 0px"
+          >
+            Quem já tem R2 está sendo mais valorizado do que imagina
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-spacer height="26px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco - parte A -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="22px 22px 0px 0px"
+        padding="36px 30px 0px 30px"
+        css-class="card-pad"
+      >
+        <mj-column width="542px">
+          <mj-text
+            css-class="greeting"
+            font-size="19px"
+            line-height="28px"
+            font-weight="700"
+            color="#8D005E"
+            padding="0px 0px 20px 0px"
+          >
+            Oi {$name|default('Estudante')}, seu histórico chamou nossa atenção por um motivo importante.
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            Se você já concluiu, está cursando ou iniciou uma
+            <b>Licenciatura ou a Formação Pedagógica (R2)</b>, pode fazer
+            parte de um grupo que tem acesso a uma modalidade exclusiva para
+            conquistar uma nova <b>Licenciatura Plena em até 6 meses.</b>
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            Sua formação é aproveitada, permitindo concluir uma nova
+            Licenciatura em um tempo muito menor que o tradicional,
+            <b>sem redução da carga horária.</b> Ao final, você recebe um
+            <b>diploma de 3.200 horas</b>, válido em todo o Brasil.
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px">
+            Agora imagine dois caminhos.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco - timeline item 1 -->
+      <mj-section
+        background-color="#FFF8FD"
+        padding="10px 30px 0px 30px"
+        css-class="card-pad"
+      >
+        <mj-group>
+          <mj-column width="13%" css-class="dot-col">
+            <mj-text padding="4px 0px 0px 0px">
+              <div
+                style="
+                  width: 34px;
+                  height: 34px;
+                  line-height: 34px;
+                  font-size: 1px;
+                  background-color: #f95f00;
+                  border-radius: 999px;
+                "
+              >
+                &nbsp;
+              </div>
+            </mj-text>
+          </mj-column>
+          <mj-column width="87%" css-class="dot-text">
+            <mj-text
+              css-class="tl-title"
+              font-size="18px"
+              line-height="24px"
+              font-weight="700"
+              color="#050505"
+              padding="0px 0px 2px 0px"
+            >
+              No primeiro, você mantém apenas a formação
+            </mj-text>
+            <mj-text
+              css-class="tl-sub"
+              font-size="15px"
+              line-height="22px"
+              font-weight="400"
+              color="#5B4A55"
+              padding="0px"
+            >
+              que já possui.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Card branco - timeline item 2 -->
+      <mj-section
+        background-color="#FFF8FD"
+        padding="18px 30px 0px 30px"
+        css-class="card-pad"
+      >
+        <mj-group>
+          <mj-column width="13%" css-class="dot-col">
+            <mj-text padding="4px 0px 0px 0px">
+              <div
+                style="
+                  width: 34px;
+                  height: 34px;
+                  line-height: 34px;
+                  font-size: 1px;
+                  background-color: #bb0185;
+                  border-radius: 999px;
+                "
+              >
+                &nbsp;
+              </div>
+            </mj-text>
+          </mj-column>
+          <mj-column width="87%" css-class="dot-text">
+            <mj-text
+              css-class="tl-title"
+              font-size="18px"
+              line-height="24px"
+              font-weight="700"
+              color="#050505"
+              padding="0px 0px 2px 0px"
+            >
+              No segundo, aproveita essa condição especial,  conquista uma
+              nova Licenciatura Plena
+            </mj-text>
+            <mj-text
+              css-class="tl-sub"
+              font-size="15px"
+              line-height="22px"
+              font-weight="400"
+              color="#5B4A55"
+              padding="0px"
+            >
+              em apenas 6 meses e amplia suas oportunidades profissionais.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- Card branco - parte B -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="0px 0px 22px 22px"
+        padding="26px 30px 40px 30px"
+        css-class="card-pad"
+      >
+        <mj-column width="542px">
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            As duas possibilidades começam do mesmo ponto: a formação que
+            você já concluiu ou está cursando. A diferença está na decisão
+            que você toma hoje.
+          </mj-text>
+
+          <!-- Checklist: um mj-text por item para o respiro entre itens ficar
+               maior que o entrelinhas de um item que quebra em 2 linhas -->
+          <mj-text
+            css-class="check-item"
+            font-size="17px"
+            line-height="24px"
+            font-weight="400"
+            color="#050505"
+            padding="0px 0px 10px 0px"
+          >
+            ✅ Nova Licenciatura Plena em até 6 meses
+          </mj-text>
+
+          <mj-text
+            css-class="check-item"
+            font-size="17px"
+            line-height="24px"
+            font-weight="400"
+            color="#050505"
+            padding="0px 0px 10px 0px"
+          >
+            ✅ Diploma completo com 3.200 horas
+          </mj-text>
+
+          <mj-text
+            css-class="check-item"
+            font-size="17px"
+            line-height="24px"
+            font-weight="400"
+            color="#050505"
+            padding="0px 0px 10px 0px"
+          >
+            ✅ Aproveitamento da formação já realizada
+          </mj-text>
+
+          <mj-text
+            css-class="check-item"
+            font-size="17px"
+            line-height="24px"
+            font-weight="400"
+            color="#050505"
+            padding="0px 0px 20px 0px"
+          >
+            ✅ Modalidade exclusiva e por tempo limitado
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px">
+            Qual desses caminhos você escolhe para o seu futuro?
+          </mj-text>
+
+          <mj-button
+            css-class="cta-btn"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            background-color="#F95F00"
+            color="#FFFFFF"
+            border-radius="14px"
+            font-size="19px"
+            font-weight="700"
+            line-height="1.3"
+            width="100%"
+            inner-padding="14px 18px"
+            padding="6px 0px 22px 0px"
+          >
+            QUERO GARANTIR A MODALIDADE ESPECIAL
+          </mj-button>
+
+          <mj-text
+            align="center"
+            css-class="closing-note"
+            font-size="16px"
+            line-height="24px"
+            font-weight="400"
+            color="#5B4A55"
+            padding="0px"
+          >
+            Conte com a San Educacional para continuar evoluindo com você.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-spacer height="36px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Rodapé -->
+      <mj-section background-color="#910964" padding="0px 30px 24px 30px">
+        <mj-column>
+          <mj-text
+            align="center"
+            font-size="13px"
+            line-height="20px"
+            font-weight="600"
+            color="#E9C8DE"
+            padding="0px"
+          >
+            @saneducacional
+          </mj-text>
+
+          <mj-divider
+            border-width="1px"
+            border-color="#B04C8F"
+            padding="18px 0px 0px 0px"
+          />
+
+          <mj-text
+            align="center"
+            font-size="13px"
+            line-height="20px"
+            font-weight="400"
+            padding="16px 0px 0px 0px"
+          >
+            <a
+              href="{$unsubscribe}"
+              style="color: #deb0cf; text-decoration: underline"
+              >Descadastre-se</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

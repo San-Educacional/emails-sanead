@@ -1,0 +1,406 @@
+<mjml>
+  <mj-head>
+    <mj-title>Achei que ia levar anos. Levou 6 meses. - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="17px" color="#050505" line-height="28px" />
+      <mj-button
+        background-color="#F95F00"
+        color="#FFFFFF"
+        border-radius="14px"
+        font-weight="700"
+      />
+    </mj-attributes>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+        /* Logo: fluid-on-mobile estica a arte até as bordas da tela.
+           Respiro lateral no td da própria mj-image. */
+        .logo-img {
+          padding-left: 56px !important;
+          padding-right: 56px !important;
+        }
+        .hero-title {
+          padding-left: 22px !important;
+          padding-right: 22px !important;
+        }
+        .hero-title div {
+          font-size: 26px !important;
+          line-height: 32px !important;
+        }
+        .hero-sub div {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+        .card-section > table > tbody > tr > td {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
+        }
+        .body-copy div {
+          font-size: 15px !important;
+          line-height: 24px !important;
+        }
+        .greeting div {
+          font-size: 17px !important;
+          line-height: 24px !important;
+        }
+        .highlight-box div {
+          font-size: 19px !important;
+          line-height: 26px !important;
+        }
+        .quote-inner {
+          padding: 16px 14px !important;
+        }
+        .quote-text {
+          font-size: 17px !important;
+          line-height: 26px !important;
+        }
+        .cta-top table,
+        .cta-final table {
+          width: 100% !important;
+        }
+        .cta-top a,
+        .cta-final a {
+          display: block !important;
+          width: auto !important;
+        }
+        .cta-top a {
+          font-size: 16px !important;
+        }
+        .cta-final a {
+          font-size: 15px !important;
+          line-height: 22px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#910964" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Logo -->
+      <mj-section background-color="#910964" padding="18px 0px 40px 0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/K72Rl.jpg"
+            alt="SAN Educacional"
+            width="394px"
+            padding="0px"
+            css-class="logo-img"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/Wbbcm.jpg"
+            alt="Professora sorridente em ambiente corporativo"
+            width="602px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Headline + Subtítulo + CTA topo -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-text
+            align="center"
+            css-class="hero-title"
+            font-size="34px"
+            line-height="40px"
+            font-weight="700"
+            letter-spacing="-0.03em"
+            padding="4px 34px 0px 34px"
+          >
+            <span style="color: #fff8fd">&quot;Achei que ia levar anos. </span
+            ><span style="color: #ffb765">Levou 6 meses.&quot;</span>
+          </mj-text>
+
+          <mj-text
+            align="center"
+            css-class="hero-sub"
+            font-size="17px"
+            line-height="26px"
+            font-weight="400"
+            color="#EBCDE1"
+            padding="14px 42px 0px 42px"
+          >
+            Uma modalidade tão nova que você pode ser dos primeiros a viver
+            isso
+          </mj-text>
+
+          <mj-button
+            css-class="cta-top"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            font-size="19px"
+            line-height="1.2"
+            font-weight="700"
+            width="486px"
+            inner-padding="15px 20px"
+            padding="28px 0px 0px 0px"
+          >
+            Quero saber mais
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-spacer height="42px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco - parte A -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="22px 22px 0px 0px"
+        padding="30px 30px 0px 30px"
+        css-class="card-section"
+      >
+        <mj-column width="522px">
+          <mj-text
+            css-class="greeting"
+            font-size="19px"
+            line-height="28px"
+            font-weight="700"
+            color="#8D005E"
+            padding="0px 0px 20px 0px"
+          >
+            Oi {$name|default('Estudante')}, tudo bem?
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            Toda vez que alguém escuta &quot;Licenciatura Plena&quot;, a
+            primeira reação é sempre a mesma:
+          </mj-text>
+
+          <mj-text
+            css-class="body-copy"
+            font-weight="700"
+            padding="0px 0px 20px 0px"
+          >
+            &quot;Isso não vai levar uns 2 ou 3 anos?&quot;
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            Na maioria dos casos, sim.
+          </mj-text>
+
+          <mj-text
+            css-class="body-copy"
+            font-weight="700"
+            padding="0px 0px 20px 0px"
+          >
+            Mas não na nova modalidade exclusiva criada para quem já fez, está
+            cursando ou iniciou a R2.
+          </mj-text>
+
+          <mj-text
+            css-class="body-copy"
+            font-weight="700"
+            padding="0px 0px 20px 0px"
+          >
+            Aproveitando a formação que você já possui, agora é possível
+            conquistar uma Licenciatura Plena em até 6 meses
+            <span style="font-weight: 500"
+              >— um tempo extremamente reduzido para uma formação desse
+              nível.</span
+            >
+          </mj-text>
+
+          <mj-text
+            css-class="body-copy"
+            font-weight="700"
+            color="#DF5500"
+            padding="0px 0px 20px 0px"
+          >
+            E o melhor: sem redução da carga horária. Ao concluir, você
+            recebe um diploma de 3.200 horas, válido em todo o território
+            nacional.
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            É por isso que essa modalidade surpreende tanta gente. Quem
+            conhece pela primeira vez acredita que precisará estudar por
+            anos, mas descobre que pode
+            <b
+              >aproveitar toda a formação já realizada e concluir a
+              graduação em poucos meses.</b
+            >
+          </mj-text>
+
+          <mj-text
+            align="center"
+            css-class="highlight-box"
+            font-weight="700"
+            color="#8D005E"
+            font-size="24px"
+            line-height="32px"
+            padding="10px 0px 0px 0px"
+          >
+            ESSA É UMA OPORTUNIDADE REALMENTE DIFERENCIADA E MUITO DIFÍCIL
+            DE ENCONTRAR NO MERCADO.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco - parte B (depoimento) -->
+      <mj-section
+        background-color="#FFF8FD"
+        padding="20px 30px 20px 30px"
+        css-class="card-section"
+      >
+        <mj-column width="522px">
+          <mj-text css-class="quote-box" padding="0px">
+            <div
+              class="quote-inner"
+              style="
+                background-color: #8d005e;
+                border-radius: 18px;
+                padding: 20px 18px;
+              "
+            >
+              <div
+                class="quote-text"
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                  line-height: 30px;
+                  letter-spacing: -0.02em;
+                  color: #fff8fd;
+                "
+              >
+                &quot;Recebi todas as orientações, entendi como funcionava a
+                modalidade e percebi que conseguiria conquistar minha
+                Formação Pedagógica em um tempo que eu jamais imaginava.
+                Hoje estou realizando meu sonho de atuar na educação e já
+                quero continuar minha formação com uma Segunda
+                Licenciatura.&quot;
+              </div>
+              <div style="padding: 14px 0px 0px 0px">
+                <span
+                  style="
+                    display: inline-block;
+                    background-color: #9d2374;
+                    border-radius: 16px;
+                    padding: 7px 14px;
+                    font-family: Poppins, Arial, sans-serif;
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    color: #fff8fd;
+                  "
+                  >— Maria R. Almeida</span
+                >
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco - parte C -->
+      <mj-section
+        background-color="#FFF8FD"
+        border-radius="0px 0px 22px 22px"
+        padding="0px 30px 32px 30px"
+        css-class="card-section"
+      >
+        <mj-column width="522px">
+          <mj-text css-class="body-copy" padding="0px 0px 20px 0px">
+            Com a Licenciatura Plena, você amplia suas oportunidades
+            profissionais, fortalece seu currículo e ainda abre caminho
+            para cursar <b>novas Segundas Licenciaturas no futuro.</b>
+          </mj-text>
+
+          <mj-text css-class="body-copy" padding="0px">
+            ⚠️ Mas atenção: essa modalidade exclusiva, com
+            <b>conclusão em até 6 meses e aproveitamento da formação</b>
+            que você já possui, é uma condição especial e pode não
+            permanecer disponível por muito tempo.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-spacer height="38px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA final -->
+      <mj-section background-color="#910964" padding="0px 40px 0px 40px">
+        <mj-column>
+          <mj-button
+            css-class="cta-final"
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=04&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+            background-color="#F95F00"
+            color="#FFFFFF"
+            border-radius="14px"
+            font-size="19px"
+            line-height="26px"
+            font-weight="700"
+            width="496px"
+            inner-padding="14px 18px"
+            padding="0px"
+          >
+            QUERO APROVEITAR ESSA OPORTUNIDADE
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaçamento -->
+      <mj-section background-color="#910964" padding="0px">
+        <mj-column>
+          <mj-spacer height="46px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Rodapé -->
+      <mj-section background-color="#910964" padding="0px 30px 0px 30px">
+        <mj-column>
+          <mj-text
+            align="center"
+            font-size="13px"
+            line-height="20px"
+            font-weight="600"
+            color="#E9C8DE"
+            padding="0px"
+          >
+            @saneducacional
+          </mj-text>
+
+          <mj-divider
+            border-width="1px"
+            border-color="#B04C8F"
+            padding="18px 0px 0px 0px"
+          />
+
+          <mj-text
+            align="center"
+            font-size="13px"
+            line-height="20px"
+            font-weight="400"
+            padding="16px 0px 34px 0px"
+          >
+            <a
+              href="{$unsubscribe}"
+              style="color: #deb0cf; text-decoration: underline"
+              >Descadastre-se</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
