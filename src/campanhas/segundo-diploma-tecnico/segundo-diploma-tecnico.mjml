@@ -1,0 +1,616 @@
+<mjml>
+  <mj-head>
+    <mj-title>Seu diploma técnico e o de quem você ama - San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#050505" line-height="24px" />
+      <mj-button
+        background-color="#f84806"
+        color="#ffffff"
+        border-radius="999px"
+        font-weight="700"
+      />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#fffbfe" width="602px">
+    <!-- ===== Bloco magenta (hero -> CTA2) ===== -->
+    <mj-wrapper background-color="#a40074" padding="0px">
+      <!-- Hero (imagem única com logo, chamada, cards e selo) -->
+      <mj-section background-color="#a40074" padding="0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/n06zO.jpg?w=1200"
+            alt="San Educacional — Você se forma. Alguém que você ama também. Faça seu curso técnico e leve uma pessoa especial por apenas R$ 100."
+            width="602px"
+            padding="0px"
+            fluid-on-mobile="true"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Espaço magenta antes da faixa -->
+      <mj-section background-color="#a40074" padding="0px">
+        <mj-column>
+          <mj-spacer height="14px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Faixa de urgência -->
+      <mj-section background-color="#f84806" padding="11px 20px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 18px;
+                color: #ffffff;
+                letter-spacing: 1.04px;
+                text-align: center;
+              "
+            >
+              ⏰ ÚLTIMOS DIAS · ENCERRA SEXTA 21/08/2026
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Headline + preço + subtítulo + selo -->
+      <mj-section background-color="#a40074" padding="34px 16px 6px 16px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 34px;
+                line-height: 40px;
+                color: #fff8fd;
+                letter-spacing: -1.19px;
+                text-align: center;
+              "
+            >
+              Seu <span style="color: #ffb765">diploma técnico</span> e o de
+              quem você ama
+            </div>
+          </mj-text>
+
+          <mj-text align="center" padding="18px 0px 0px 0px">
+            <div
+              style="
+                max-width: 240px;
+                margin: 0 auto;
+                background-color: #f84806;
+                border-radius: 20px;
+                padding: 14px 20px 18px;
+                text-align: center;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 12px;
+                  line-height: 17px;
+                  color: #ffe7d6;
+                  letter-spacing: 1.2px;
+                "
+              >
+                O SEGUNDO CURSO TÉCNICO SAI POR
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 46px;
+                  line-height: 52px;
+                  color: #ffffff;
+                  letter-spacing: -1.84px;
+                "
+              >
+                R$ 100,00
+              </div>
+            </div>
+          </mj-text>
+
+          <mj-text align="center" padding="18px 0px 0px 0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 15px;
+                line-height: 24px;
+                color: #f0d0e7;
+                text-align: center;
+              "
+            >
+              Faça seu
+              <b style="color: #fff8fd; font-weight: 700"
+                >curso técnico reconhecido</b
+              >
+              e leve uma pessoa especial com você.
+            </div>
+          </mj-text>
+
+          <mj-text align="center" padding="16px 0px 0px 0px">
+            <div
+              style="
+                display: inline-block;
+                background-color: #b12487;
+                border-radius: 999px;
+                padding: 8px 20px;
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 16px;
+                color: #fff8fd;
+              "
+            >
+              ✓ Reconhecido
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA principal -->
+      <mj-section background-color="#a40074" padding="22px 22px 30px 22px">
+        <mj-column>
+          <mj-button
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=03&amp;fornecedor=07&amp;nome_produto=Curso Tecnico&amp;curso=000&amp;nome_curso=Curso Tecnico"
+            background-color="#f84806"
+            color="#ffffff"
+            font-size="17px"
+            font-weight="700"
+            border-radius="999px"
+            inner-padding="18px 28px"
+            width="100%"
+            align="center"
+            padding="0px"
+          >
+            Quero meu diploma técnico →
+          </mj-button>
+
+          <mj-text align="center" padding="14px 0px 0px 0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 17px;
+                color: #db95c6;
+                text-align: center;
+              "
+            >
+              Vagas limitadas · encerra sexta 21/08/2026
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ===== Card branco ===== -->
+      <!-- Saudação -->
+      <mj-section
+        background-color="#fff8fd"
+        padding="30px 22px 6px 22px"
+        border-radius="24px 24px 0px 0px"
+      >
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                color: #8d005e;
+              "
+            >
+              Oi {$name|default('Estudante')}!
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Caixa 2 diplomas / R$100 -->
+      <mj-section background-color="#fff8fd" padding="14px 22px 6px 22px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                border-radius: 22px;
+                overflow: hidden;
+                box-shadow: 0px 10px 14px rgba(89, 0, 57, 0.14);
+              "
+            >
+              <div style="background-color: #8d005e">
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="border-collapse: collapse"
+                >
+                  <tr>
+                    <td
+                      width="58"
+                      valign="middle"
+                      style="
+                        padding: 16px 0px 16px 20px;
+                        font-family: Poppins, Arial, sans-serif;
+                        font-weight: 700;
+                        font-size: 34px;
+                        line-height: 34px;
+                        color: #ffb765;
+                        letter-spacing: -1.36px;
+                      "
+                    >
+                      2
+                    </td>
+                    <td
+                      valign="middle"
+                      style="padding: 15px 18px; font-family: Poppins, Arial, sans-serif"
+                    >
+                      <div
+                        style="
+                          font-weight: 700;
+                          font-size: 24px;
+                          line-height: 26px;
+                          color: #fff8fd;
+                        "
+                      >
+                        diplomas técnicos
+                      </div>
+                      <div
+                        style="
+                          font-weight: 500;
+                          font-size: 15px;
+                          line-height: 20px;
+                          color: #fff8fd;
+                        "
+                      >
+                        uma só matrícula
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div style="background-color: #f84806">
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="border-collapse: collapse"
+                >
+                  <tr>
+                    <td
+                      width="128"
+                      valign="middle"
+                      style="
+                        padding: 16px 0px 16px 12px;
+                        font-family: Poppins, Arial, sans-serif;
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 32px;
+                        color: #ffffff;
+                        letter-spacing: -1.2px;
+                        white-space: nowrap;
+                      "
+                    >
+                      R$ 100,00
+                    </td>
+                    <td
+                      valign="middle"
+                      style="
+                        padding: 14px 18px 14px 6px;
+                        font-family: Poppins, Arial, sans-serif;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 20px;
+                        color: #ffffff;
+                      "
+                    >
+                      é quanto custa o segundo diploma técnico
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Cards de benefício -->
+      <mj-section background-color="#fff8fd" padding="16px 22px 6px 22px">
+        <mj-column>
+          <mj-text padding="0px">
+            <!-- Card 1 -->
+            <div
+              style="
+                background-color: #ffffff;
+                border: 1px solid #f2dcea;
+                border-radius: 18px;
+                margin-bottom: 12px;
+              "
+            >
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td width="52" valign="middle" style="padding: 16px 0px 16px 18px">
+                    <div
+                      style="
+                        width: 34px;
+                        height: 34px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 34px;
+                        font-size: 15px;
+                        color: #bb0185;
+                      "
+                    >
+                      ♥
+                    </div>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="
+                      padding: 16px 18px 16px 14px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 15px;
+                      line-height: 22px;
+                      color: #050505;
+                    "
+                  >
+                    Pode ser um amigo, familiar ou parceiro.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- Card 2 -->
+            <div
+              style="
+                background-color: #ffffff;
+                border: 1px solid #f2dcea;
+                border-radius: 18px;
+                margin-bottom: 12px;
+              "
+            >
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td width="52" valign="middle" style="padding: 16px 0px 16px 18px">
+                    <div
+                      style="
+                        width: 34px;
+                        height: 34px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 34px;
+                        font-size: 15px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✦
+                    </div>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="
+                      padding: 16px 18px 16px 14px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 15px;
+                      line-height: 22px;
+                      color: #050505;
+                    "
+                  >
+                    Você conquista seu diploma técnico e ainda abre uma nova
+                    oportunidade para alguém.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- Card 3 -->
+            <div
+              style="
+                background-color: #ffffff;
+                border: 1px solid #f2dcea;
+                border-radius: 18px;
+              "
+            >
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td width="52" valign="middle" style="padding: 16px 0px 16px 18px">
+                    <div
+                      style="
+                        width: 34px;
+                        height: 34px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 34px;
+                        font-size: 15px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="
+                      padding: 16px 18px 16px 14px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 15px;
+                      line-height: 22px;
+                      color: #050505;
+                    "
+                  >
+                    Curso técnico <b style="font-weight: 700">reconhecido</b>, com
+                    validade em todo o Brasil.
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Badge de data -->
+      <mj-section background-color="#fff8fd" padding="16px 22px 6px 22px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #ffd9f2; border-radius: 22px">
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td width="86" valign="middle" style="padding: 22px 0px 22px 20px">
+                    <div
+                      style="
+                        width: 66px;
+                        height: 66px;
+                        background-color: #f84806;
+                        border-radius: 18px;
+                        text-align: center;
+                      "
+                    >
+                      <div
+                        style="
+                          font-family: Poppins, Arial, sans-serif;
+                          font-weight: 700;
+                          font-size: 24px;
+                          line-height: 24px;
+                          color: #ffffff;
+                          letter-spacing: -0.72px;
+                          padding-top: 13px;
+                        "
+                      >
+                        21
+                      </div>
+                      <div
+                        style="
+                          font-family: Poppins, Arial, sans-serif;
+                          font-weight: 600;
+                          font-size: 10px;
+                          line-height: 14px;
+                          color: #ffe7d6;
+                          letter-spacing: 0.8px;
+                        "
+                      >
+                        AGO
+                      </div>
+                    </div>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="padding: 16px 18px 16px 4px; font-family: Poppins, Arial, sans-serif"
+                  >
+                    <div
+                      style="
+                        font-weight: 700;
+                        font-size: 11px;
+                        line-height: 16px;
+                        color: #f84806;
+                        letter-spacing: 1.32px;
+                      "
+                    >
+                      OFERTA VÁLIDA
+                    </div>
+                    <div
+                      style="
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 25px;
+                        color: #050505;
+                        letter-spacing: -0.4px;
+                      "
+                    >
+                      Só até sexta-feira
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA final -->
+      <mj-section background-color="#fff8fd" padding="20px 22px 34px 22px">
+        <mj-column>
+          <mj-button
+            href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=03&amp;fornecedor=07&amp;nome_produto=Curso Tecnico&amp;curso=000&amp;nome_curso=Curso Tecnico"
+            background-color="#f84806"
+            color="#ffffff"
+            font-size="17px"
+            font-weight="700"
+            border-radius="999px"
+            inner-padding="18px 28px"
+            width="100%"
+            align="center"
+            padding="0px"
+          >
+            Garanta esse mega desconto!
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- ===== Rodapé ===== -->
+    <mj-section background-color="#fffbfe" padding="22px 22px 30px 22px">
+      <mj-column>
+        <mj-divider
+          border-color="#f2dcea"
+          border-width="1px"
+          padding="0px 0px 18px 0px"
+        />
+        <mj-text align="center" padding="0px">
+          <div
+            style="
+              font-family: Poppins, Arial, sans-serif;
+              font-size: 13px;
+              line-height: 20px;
+              text-align: center;
+            "
+          >
+            <a
+              href="{$unsubscribe}"
+              style="color: #8d005e; text-decoration: underline"
+              >Descadastre-se</a
+            >
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
