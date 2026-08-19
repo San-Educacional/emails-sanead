@@ -9,12 +9,18 @@ Traduz um design do Figma para um `.mjml` deste repo. O design **sempre** vem
 com coisas que não existem em cliente de e-mail; metade do trabalho é decidir o
 que vira pixel, o que vira cor sólida e o que é descartado.
 
-Leia junto: `CLAUDE.md` e `.claude/rules/imagens-via-imghost.md`.
+Leia junto: `CLAUDE.md`, `.claude/rules/imagens-via-imghost.md` e
+`.claude/rules/figma-mjml-sempre-subagente.md`.
 
 ## Pipeline com subagentes
 
-Vale a pena quando são vários e-mails de uma sequência. Por e-mail, duas
-equipes-de-um em série:
+**Obrigatório sempre — inclusive para um único e-mail** (ver
+`.claude/rules/figma-mjml-sempre-subagente.md`): o orquestrador extrai o design e
+escreve a spec, um subagente Implementador escreve o `.mjml`, e o orquestrador
+revisa no Playwright (render a 393px vs. print do Figma) e itera via `SendMessage`
+até ficar fiel. Não faça sozinho nem declare pronto sem conferir o comparativo.
+
+Por e-mail, duas equipes-de-um em série:
 
 1. **Lead (Opus)** — navega o Figma, baixa e otimiza os JPEG, sobe no `imghost`,
    escreve uma spec em markdown no scratchpad. **Não escreve o `.mjml`.**
