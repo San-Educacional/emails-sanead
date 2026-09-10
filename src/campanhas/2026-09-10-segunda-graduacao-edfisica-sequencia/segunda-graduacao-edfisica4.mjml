@@ -13,56 +13,53 @@
 
   <mj-body background-color="#bb0185" width="602px">
     <mj-wrapper padding="0px">
-      <!-- Header -->
-      <mj-section background-color="#bb0185" padding="28px 0px 22px">
+      <!-- Faixa última chance (topo) -->
+      <mj-section background-color="#bb0185" padding="20px 16px 18px">
         <mj-column>
-          <mj-image
-            src="https://imghost.saneducacional.com.br/3ZOcg.png"
-            alt="San Educacional"
-            width="220px"
-            align="center"
-            padding="0px"
-          />
-        </mj-column>
-      </mj-section>
-
-      <!-- Faixa última chance -->
-      <mj-section background-color="#bb0185" padding="0px 16px 22px">
-        <mj-column>
-          <mj-text padding="0px">
-            <div
-              style="
-                background-color: #f84806;
-                border-radius: 22px;
-                padding: 7px 14px;
-                text-align: center;
-              "
-            >
-              <div
+          <mj-text padding="0px" align="center">
+            <div style="text-align: center">
+              <span
                 style="
+                  display: inline-block;
+                  background-color: #f84806;
+                  border-radius: 22px;
+                  padding: 8px 14px;
                   font-family: Poppins, Arial, sans-serif;
                   font-weight: 700;
                   font-size: 12px;
                   line-height: 16px;
                   color: #ffffff;
-                  letter-spacing: 1.08px;
+                  letter-spacing: 0.4px;
                   text-align: center;
                 "
               >
                 ⏰ ÚLTIMA CHANCE · A PÓS GRÁTIS ACABA HOJE
-              </div>
+              </span>
             </div>
           </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- Hero full-bleed -->
-      <mj-section background-color="#fdfbf5" padding="0px">
+      <mj-section background-color="#bb0185" padding="0px">
         <mj-column>
           <mj-image
             src="https://imghost.saneducacional.com.br/phAYQ.jpg?w=1200"
             alt="Última chance: Pós-graduação grátis na Segunda Graduação em Educação Física"
             fluid-on-mobile="true"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Header logo (abaixo do hero) -->
+      <mj-section background-color="#bb0185" padding="20px 0px 22px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/3ZOcg.png"
+            alt="San Educacional"
+            width="220px"
+            align="center"
             padding="0px"
           />
         </mj-column>
