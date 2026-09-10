@@ -1,0 +1,267 @@
+<mjml>
+  <mj-head>
+    <mj-title>Última chamada: 2ª Graduação com Pós grátis — San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#050505" line-height="24px" />
+      <mj-button
+        background-color="#f84806"
+        color="#ffffff"
+        border-radius="999px"
+        font-weight="700"
+      />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#bb0185" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Header claro -->
+      <mj-section background-color="#faedf6" padding="13px 0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/qvGyw.jpg"
+            alt="San Educacional"
+            width="176px"
+            align="center"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Faixa ÚLTIMA CHAMADA -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #f84806;
+                border-radius: 22px;
+                padding: 12px;
+                text-align: center;
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+                color: #ffffff;
+                letter-spacing: 8px;
+              "
+            >
+              ÚLTIMA CHAMADA
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero inset arredondado -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/ZKIxW.jpg?w=1200"
+            alt="Última chamada: 2ª Graduação com Pós grátis"
+            fluid-on-mobile="true"
+            border-radius="22px"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Card branco headline -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px">
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 25px;
+                  color: #050505;
+                "
+              >
+                {$name|default('Estudante')}, essa é a última mensagem e sua última chance de fazer sua 2ª Graduação e levar uma Pós grátis.
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 15px;
+                  line-height: 24px;
+                  color: #050505;
+                  margin-top: 16px;
+                "
+              >
+                Não é só uma promoção acabando. É uma conquista que some do mapa depois de hoje:
+                <span style="font-weight: 700"
+                  >2ª Graduação com Pós-graduação grátis, flexibilidade real, apoio de um polo perto de você — tudo isso sem dobrar seu investimento.</span
+                >
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Box de fechamento -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #8d005e; border-radius: 22px; padding: 30px 24px; text-align: center">
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 27px;
+                  color: #fff8fd;
+                  letter-spacing: -0.4px;
+                  text-align: center;
+                "
+              >
+                Se você chegou até aqui lendo os últimos e-mails, você já sabe que quer isso. A única pergunta que resta é: hoje ou nunca mais nessas condições?
+              </div>
+              <a
+                href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=10&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+                style="
+                  display: block;
+                  background-color: #fff8fd;
+                  color: #8d005e;
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 15px;
+                  line-height: 20px;
+                  text-align: center;
+                  text-decoration: none;
+                  border-radius: 999px;
+                  padding: 16px 20px;
+                  box-shadow: 0 4px 0 #f84806;
+                  margin-top: 24px;
+                "
+              >
+                Garantir minha vaga antes que acabe
+              </a>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card vagas -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px">
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 14px; color: #050505">
+                    🔥 Vagas preenchidas
+                  </td>
+                  <td
+                    align="right"
+                    style="
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 700;
+                      font-size: 22px;
+                      color: #f84806;
+                      letter-spacing: -0.66px;
+                    "
+                  >
+                    92%
+                  </td>
+                </tr>
+              </table>
+              <div style="height: 10px; background-color: #f4e3ee; border-radius: 999px; margin-top: 18px">
+                <div style="height: 10px; width: 92%; background-color: #f84806; border-radius: 999px"></div>
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 13px;
+                  line-height: 20px;
+                  color: #5b4a55;
+                  margin-top: 14px;
+                "
+              >
+                As vagas com essa condição já estão 92% preenchidas. Restam poucas, e depois de hoje elas não voltam, a oferta se encerra e a Pós-graduação deixa de ser gratuita, ponto final.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Botão final laranja standalone -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 16px">
+        <mj-column>
+          <mj-text padding="0px">
+            <a
+              href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=10&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+              style="
+                display: block;
+                background-color: #f95f00;
+                color: #ffffff;
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 700;
+                font-size: 17px;
+                line-height: 22px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 14px;
+                padding: 16px 20px;
+                box-shadow: 0 4px 0 #b02f00;
+              "
+            >
+              QUERO APROVEITAR ESSA OPORTUNIDADE
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#8d005e" padding="24px 22px 34px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19px;
+                color: #f0d0e7;
+                text-align: center;
+              "
+            >
+              0800 145 2300 ·
+            </div>
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19px;
+                color: #f0d0e7;
+                text-align: center;
+                margin-top: 4px;
+              "
+            >
+              @saneducacional
+            </div>
+          </mj-text>
+          <mj-divider border-color="#ad4589" border-width="1px" padding="18px 0px" />
+          <mj-text align="center" padding="0px">
+            <div style="font-family: Poppins, Arial, sans-serif; font-size: 13px; line-height: 19px; text-align: center">
+              <a href="{$unsubscribe}" style="color: #f0d0e7; text-decoration: underline">Descadastre-se</a>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

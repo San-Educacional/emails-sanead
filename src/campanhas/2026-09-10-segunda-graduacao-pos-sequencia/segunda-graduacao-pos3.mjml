@@ -1,0 +1,458 @@
+<mjml>
+  <mj-head>
+    <mj-title>Você desbloqueou a 2ª Graduação com Pós grátis — San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#050505" line-height="24px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#bb0185" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Header -->
+      <mj-section background-color="#bb0185" padding="28px 0px 30px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/3ZOcg.png"
+            alt="San Educacional"
+            width="220px"
+            align="center"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero (inset arredondado) -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/hPMvD.jpg?w=1200"
+            alt="Você desbloqueou a 2ª Graduação com Pós grátis"
+            fluid-on-mobile="true"
+            border-radius="22px"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Card headline -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #ffffff;
+                border-radius: 22px;
+                padding: 26px 22px;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 25px;
+                  color: #050505;
+                "
+              >
+                {$name|default('Estudante')}, você desbloqueou uma condição que nem todo mundo recebe, e ela vai muito além de economizar. É sobre estudar de um jeito que cabe na sua vida.
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 15px;
+                  line-height: 24px;
+                  color: #050505;
+                  margin-top: 16px;
+                "
+              >
+                Se você quer fazer uma <span style="font-weight: 600">nova graduação, você ainda ganha uma pós-graduação grátis.</span>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Stat full-width -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #8d005e;
+                border-radius: 22px;
+                padding: 26px 22px;
+              "
+            >
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td
+                    width="70"
+                    valign="middle"
+                    style="
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 700;
+                      font-size: 34px;
+                      line-height: 34px;
+                      color: #ffb765;
+                      letter-spacing: -1.36px;
+                    "
+                  >
+                    56%
+                  </td>
+                  <td
+                    valign="middle"
+                    style="
+                      padding-left: 14px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #fbe9f4;
+                    "
+                  >
+                    dos profissionais brasileiros pretendem iniciar uma pós-graduação ainda este ano, segundo levantamento*.
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card flexibilidade + checklist -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #ffffff;
+                border-radius: 22px;
+                padding: 26px 22px;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 15px;
+                  line-height: 24px;
+                  color: #050505;
+                "
+              >
+                Com a San, você tem a flexibilidade de estudar no seu ritmo, encaixando os estudos na vida que você já tem, sem precisar abrir mão da rotina, do trabalho ou da família.
+              </div>
+
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 18px;
+                  line-height: 25px;
+                  color: #8d005e;
+                  letter-spacing: -0.36px;
+                  margin-top: 20px;
+                "
+              >
+                E não para por aí:
+              </div>
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse; margin-top: 14px"
+              >
+                <tr>
+                  <td width="26" valign="top" style="padding: 0">
+                    <div
+                      style="
+                        width: 26px;
+                        height: 26px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 12px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="top"
+                    style="
+                      padding-left: 12px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #050505;
+                    "
+                  >
+                    Flexibilidade pra estudar no seu ritmo
+                  </td>
+                </tr>
+              </table>
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse; margin-top: 12px"
+              >
+                <tr>
+                  <td width="26" valign="top" style="padding: 0">
+                    <div
+                      style="
+                        width: 26px;
+                        height: 26px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 12px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="top"
+                    style="
+                      padding-left: 12px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #050505;
+                    "
+                  >
+                    Suporte de verdade, do início ao fim do curso
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Callout laranja -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #f84806;
+                border-radius: 22px;
+                padding: 26px 22px;
+              "
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 27px;
+                  color: #ffffff;
+                  letter-spacing: -0.4px;
+                "
+              >
+                É a condição que faltava pra transformar aquele "depois eu começo" em "agora vai".
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card vagas -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #ffffff;
+                border-radius: 22px;
+                padding: 26px 22px;
+              "
+            >
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td
+                    style="
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 700;
+                      font-size: 14px;
+                      color: #050505;
+                    "
+                  >
+                    🔥 Vagas preenchidas
+                  </td>
+                  <td
+                    align="right"
+                    style="
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 700;
+                      font-size: 22px;
+                      color: #f84806;
+                      letter-spacing: -0.66px;
+                    "
+                  >
+                    45%
+                  </td>
+                </tr>
+              </table>
+              <div
+                style="
+                  height: 10px;
+                  background-color: #f4e3ee;
+                  border-radius: 999px;
+                  margin-top: 18px;
+                "
+              >
+                <div
+                  style="
+                    height: 10px;
+                    width: 45%;
+                    background-color: #f84806;
+                    border-radius: 999px;
+                  "
+                ></div>
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 13px;
+                  line-height: 20px;
+                  color: #5b4a55;
+                  margin-top: 14px;
+                "
+              >
+                As vagas com essa condição já estão 45% preenchidas.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Box magenta de fechamento -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 16px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #bb0185;
+                border-radius: 22px;
+                padding: 30px 24px;
+                text-align: center;
+              "
+            >
+              <a
+                href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=10&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Graduação"
+                style="
+                  display: block;
+                  background-color: #fff8fd;
+                  color: #8d005e;
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 15px;
+                  line-height: 20px;
+                  text-align: center;
+                  text-decoration: none;
+                  border-radius: 999px;
+                  padding: 16px 20px;
+                  box-shadow: 0 4px 0 #f84806;
+                "
+              >
+                Quero garantir minha vaga
+              </a>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 18px;
+                  color: rgba(251, 233, 244, 0.72);
+                  text-align: center;
+                  margin-top: 16px;
+                "
+              >
+                *Fonte: Conquer Business School (2026).
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#8d005e" padding="24px 22px 34px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19px;
+                color: #f0d0e7;
+                text-align: center;
+              "
+            >
+              0800 145 2300 ·
+            </div>
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19px;
+                color: #f0d0e7;
+                text-align: center;
+                margin-top: 2px;
+              "
+            >
+              @saneducacional
+            </div>
+          </mj-text>
+          <mj-divider border-color="#ad4589" border-width="1px" padding="18px 0px" />
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 13px;
+                line-height: 19px;
+                text-align: center;
+              "
+            >
+              <a href="{$unsubscribe}" style="color: #f0d0e7; text-decoration: underline"
+                >Descadastre-se</a
+              >
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

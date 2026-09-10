@@ -1,0 +1,315 @@
+<mjml>
+  <mj-head>
+    <mj-title>Qual especialização é a sua? — San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#050505" line-height="24px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#bb0185" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Header -->
+      <mj-section background-color="#bb0185" padding="28px 0px 30px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/3ZOcg.png"
+            alt="San Educacional"
+            width="220px"
+            align="center"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero inset arredondado -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/lhFv9.jpg?w=1200"
+            alt="Qual especialização é a sua?"
+            fluid-on-mobile="true"
+            border-radius="22px"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Card headline + checklist -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px">
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 25px;
+                  color: #bb0185;
+                "
+              >
+                {$name|default('Estudante')}, FAÇA SUA  2ª GRADUAÇÃO EDUCAÇÃO FÍSICA AGORA E  SUA PÓS-GRADUAÇÃO É GRÁTIS.
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 25px;
+                  color: #050505;
+                  margin-top: 16px;
+                "
+              >
+                E você escolhe a especialização.
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 25px;
+                  color: #050505;
+                  margin-top: 8px;
+                "
+              >
+                Olha as opções:
+              </div>
+
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin-top: 18px">
+                <tr>
+                  <td width="26" valign="top" style="padding: 0">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Fisioterapia aplicada às atividades físicas</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Nutrição Esportiva</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Psicomotricidade</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Psicomotricidade na Educação Infantil</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Psicomotricidade e Educação Especial</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Fitoterapia e Suplementação Nutricional</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Fisioterapia em Geriatria e Gerontologia</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Atenção e Cuidados com Idosos</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Educação Inclusiva</td>
+                </tr>
+                <tr>
+                  <td width="26" valign="top" style="padding-top: 12px">
+                    <div style="width: 26px; height: 26px; background-color: #fdebf6; border-radius: 999px; text-align: center; line-height: 26px; font-size: 12px; color: #bb0185">✓</div>
+                  </td>
+                  <td valign="top" style="padding-top: 12px; padding-left: 12px; font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 14px; line-height: 21px; color: #050505">Educação Especial</td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Callout magenta (✓ grande) -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #bb0185; border-radius: 22px; padding: 24px 22px">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+                <tr>
+                  <td width="52" valign="middle" style="padding: 0">
+                    <div
+                      style="
+                        width: 52px;
+                        height: 52px;
+                        background-color: #c53d97;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 52px;
+                        font-size: 22px;
+                        color: #ffffff;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="
+                      padding-left: 14px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 700;
+                      font-size: 17px;
+                      line-height: 24px;
+                      color: #fff8fd;
+                      text-align: left;
+                    "
+                  >
+                    Reconhecida pelo MEC, com validade nacional.
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Callout laranja -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #f84806; border-radius: 22px; padding: 24px 22px">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+                <tr>
+                  <td width="54" valign="middle" style="padding: 0">
+                    <div
+                      style="
+                        width: 54px;
+                        height: 54px;
+                        background-color: #fa6a37;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 54px;
+                        font-size: 24px;
+                      "
+                    >
+                      🎯
+                    </div>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="
+                      padding-left: 14px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 15px;
+                      line-height: 23px;
+                      color: #ffffff;
+                      text-align: left;
+                    "
+                  >
+                    <span style="font-weight: 800">Escolas, academias, clubes, projetos sociais, clínicas, reabilitação, saúde:</span> a especialização que você escolher define pra onde você quer ir depois da Segunda Licenciatura.
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card CTA -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px">
+              <a
+                href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=10&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Educação Física"
+                style="
+                  display: block;
+                  background-color: #f84806;
+                  color: #ffffff;
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 15px;
+                  line-height: 20px;
+                  text-align: center;
+                  text-decoration: none;
+                  border-radius: 999px;
+                  padding: 16px 20px;
+                  box-shadow: 0 4px 0 #b02f00;
+                "
+              >
+                Quero escolher minha especialização
+              </a>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card vagas -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 16px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+                <tr>
+                  <td style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 14px; color: #050505">🔥 Vagas preenchidas</td>
+                  <td align="right" style="font-family: Poppins, Arial, sans-serif; font-weight: 700; font-size: 22px; color: #f84806; letter-spacing: -0.66px">75%</td>
+                </tr>
+              </table>
+              <div style="height: 10px; background-color: #f4e3ee; border-radius: 999px; margin-top: 18px">
+                <div style="height: 10px; width: 75%; background-color: #f84806; border-radius: 999px"></div>
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 13px;
+                  line-height: 20px;
+                  color: #5b4a55;
+                  margin-top: 14px;
+                "
+              >
+                🔥 75% das vagas já foram preenchidas.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Rodapé -->
+      <mj-section background-color="#8d005e" padding="24px 22px 34px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div style="font-family: Poppins, Arial, sans-serif; font-weight: 600; font-size: 13px; line-height: 19px; color: #f0d0e7; text-align: center">
+              0800 145 2300 ·<br />@saneducacional
+            </div>
+          </mj-text>
+          <mj-divider border-color="#ad4589" border-width="1px" padding="18px 0" />
+          <mj-text align="center" padding="0px">
+            <div style="font-family: Poppins, Arial, sans-serif; font-size: 13px; line-height: 19px; text-align: center">
+              <a href="{$unsubscribe}" style="color: #f0d0e7; text-decoration: underline">Descadastre-se</a>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

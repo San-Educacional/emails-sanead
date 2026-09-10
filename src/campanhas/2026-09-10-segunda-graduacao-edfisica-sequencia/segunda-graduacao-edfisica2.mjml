@@ -1,0 +1,507 @@
+<mjml>
+  <mj-head>
+    <mj-title>Sua Pós grátis vai além da sala de aula — San Educacional</mj-title>
+    <mj-font
+      name="Poppins"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Poppins, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#050505" line-height="24px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#faedf6" width="602px">
+    <mj-wrapper padding="0px">
+      <!-- Header claro -->
+      <mj-section background-color="#faedf6" padding="13px 0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/qvGyw.jpg"
+            alt="San Educacional"
+            width="176px"
+            align="center"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Hero inset arredondado -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-image
+            src="https://imghost.saneducacional.com.br/5bYZC.jpg?w=1200"
+            alt="Segunda Graduação em Educação Física + Pós grátis"
+            fluid-on-mobile="true"
+            border-radius="22px"
+            padding="0px"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Card headline -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px"
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 16px;
+                  line-height: 25px;
+                  color: #050505;
+                "
+              >
+                {$name|default('Estudante')}, sua
+                <span style="color: #bb0185"
+                  >Pós-graduação grátis já está garantida ao fazer a Segunda
+                  Graduação em Educação Física</span
+                >
+                e o campo de atuação dessa formação é bem mais amplo do que
+                parece.
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 15px;
+                  line-height: 24px;
+                  color: #3a2c36;
+                  margin-top: 16px;
+                "
+              >
+                Se você já tem uma graduação, pode aproveitar as disciplinas
+                que já cursou e chegar até essa nova formação bem mais rápido:
+                <strong style="font-weight: 700"
+                  >com dois diplomas no fim do processo, não só um.</strong
+                >
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card checklist -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px"
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 15px;
+                  line-height: 23px;
+                  color: #3a2c36;
+                "
+              >
+                Com a formação e o registro profissional exigido para cada
+                atividade, você pode encontrar oportunidades em diferentes
+                frentes, como:
+              </div>
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse; margin-top: 16px"
+              >
+                <tr>
+                  <td width="26" valign="top" style="padding: 0">
+                    <div
+                      style="
+                        width: 26px;
+                        height: 26px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 12px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="top"
+                    style="
+                      padding-left: 12px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #050505;
+                    "
+                  >
+                    Escolas públicas e particulares
+                  </td>
+                </tr>
+              </table>
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse; margin-top: 12px"
+              >
+                <tr>
+                  <td width="26" valign="top" style="padding: 0">
+                    <div
+                      style="
+                        width: 26px;
+                        height: 26px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 12px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="top"
+                    style="
+                      padding-left: 12px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #050505;
+                    "
+                  >
+                    Redes municipais e estaduais de ensino
+                  </td>
+                </tr>
+              </table>
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse; margin-top: 12px"
+              >
+                <tr>
+                  <td width="26" valign="top" style="padding: 0">
+                    <div
+                      style="
+                        width: 26px;
+                        height: 26px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 12px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="top"
+                    style="
+                      padding-left: 12px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #050505;
+                    "
+                  >
+                    Concursos públicos para a área da educação
+                  </td>
+                </tr>
+              </table>
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse; margin-top: 12px"
+              >
+                <tr>
+                  <td width="26" valign="top" style="padding: 0">
+                    <div
+                      style="
+                        width: 26px;
+                        height: 26px;
+                        background-color: #fdebf6;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 12px;
+                        color: #bb0185;
+                      "
+                    >
+                      ✓
+                    </div>
+                  </td>
+                  <td
+                    valign="top"
+                    style="
+                      padding-left: 12px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 600;
+                      font-size: 14px;
+                      line-height: 21px;
+                      color: #050505;
+                    "
+                  >
+                    ONGs, projetos esportivos e iniciativas de promoção da
+                    saúde e do bem-estar
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Callout magenta -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="background-color: #bb0185; border-radius: 22px; padding: 24px 22px"
+            >
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td width="54" valign="middle" style="padding: 0">
+                    <div
+                      style="
+                        width: 54px;
+                        height: 54px;
+                        background-color: #c53d97;
+                        border-radius: 999px;
+                        text-align: center;
+                        line-height: 54px;
+                        font-size: 24px;
+                      "
+                    >
+                      📈
+                    </div>
+                  </td>
+                  <td
+                    valign="middle"
+                    style="
+                      padding-left: 14px;
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 400;
+                      font-size: 14px;
+                      line-height: 22px;
+                      color: #fbe9f4;
+                      text-align: left;
+                    "
+                  >
+                    E existe outro ponto importante:
+                    <strong style="font-weight: 800"
+                      >o Brasil enfrenta um desafio crescente na formação de
+                      professores. </strong
+                    >Projeções sobre o mercado educacional apontam para um
+                    possível
+                    <strong style="font-weight: 600"
+                      >déficit expressivo de docentes nas próximas
+                      décadas. </strong
+                    >O que reforça a importância de profissionais
+                    qualificados para atender às necessidades das redes de
+                    ensino.
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Callout laranja (só texto) -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="background-color: #f84806; border-radius: 22px; padding: 24px 22px"
+            >
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 19px;
+                  line-height: 26px;
+                  color: #ffffff;
+                  letter-spacing: -0.38px;
+                "
+              >
+                Ou seja: você não precisa depender de um único tipo de vaga; e
+                ainda sai com graduação e pós-graduação, pagando só pela
+                primeira.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card só com CTA -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 0px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="
+                background-color: #ffffff;
+                border-radius: 22px;
+                padding: 26px 22px;
+                text-align: center;
+              "
+            >
+              <a
+                href="https://mailingredirect.saneducacional.com.br/redirect.php?codlead={$codlead}&amp;produto=10&amp;fornecedor=07&amp;nome_produto=Graduação&amp;curso=000&amp;nome_curso=Educação Física"
+                style="
+                  display: block;
+                  background-color: #f84806;
+                  color: #ffffff;
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 700;
+                  font-size: 15px;
+                  line-height: 20px;
+                  text-align: center;
+                  text-decoration: none;
+                  border-radius: 999px;
+                  padding: 16px 20px;
+                  box-shadow: 0 4px 0 #b02f00;
+                "
+              >
+                Quero garantir minha pós grátis
+              </a>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Card vagas -->
+      <mj-section background-color="#fdfbf5" padding="16px 16px 16px">
+        <mj-column>
+          <mj-text padding="0px">
+            <div
+              style="background-color: #ffffff; border-radius: 22px; padding: 26px 22px"
+            >
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: collapse"
+              >
+                <tr>
+                  <td
+                    style="
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 700;
+                      font-size: 14px;
+                      color: #050505;
+                    "
+                  >
+                    🔥 Vagas preenchidas
+                  </td>
+                  <td
+                    align="right"
+                    style="
+                      font-family: Poppins, Arial, sans-serif;
+                      font-weight: 700;
+                      font-size: 22px;
+                      color: #f84806;
+                      letter-spacing: -0.66px;
+                      text-align: right;
+                    "
+                  >
+                    60%
+                  </td>
+                </tr>
+              </table>
+              <div
+                style="
+                  height: 10px;
+                  background-color: #f4e3ee;
+                  border-radius: 999px;
+                  margin-top: 18px;
+                "
+              >
+                <div
+                  style="
+                    height: 10px;
+                    width: 60%;
+                    background-color: #f84806;
+                    border-radius: 999px;
+                  "
+                ></div>
+              </div>
+              <div
+                style="
+                  font-family: Poppins, Arial, sans-serif;
+                  font-weight: 400;
+                  font-size: 13px;
+                  line-height: 20px;
+                  color: #5b4a55;
+                  margin-top: 14px;
+                "
+              >
+                🔥 60% das vagas já foram preenchidas.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer -->
+      <mj-section background-color="#8d005e" padding="24px 22px 34px">
+        <mj-column>
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-weight: 600;
+                font-size: 13px;
+                line-height: 19px;
+                color: #f0d0e7;
+                text-align: center;
+              "
+            >
+              0800 145 2300 ·<br />@saneducacional
+            </div>
+          </mj-text>
+          <mj-divider border-color="#ad4589" border-width="1px" padding="18px 0px" />
+          <mj-text align="center" padding="0px">
+            <div
+              style="
+                font-family: Poppins, Arial, sans-serif;
+                font-size: 13px;
+                line-height: 19px;
+                text-align: center;
+              "
+            >
+              <a href="{$unsubscribe}" style="color: #f0d0e7; text-decoration: underline"
+                >Descadastre-se</a
+              >
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
