@@ -30,8 +30,13 @@ Por e-mail, duas equipes-de-um em série:
 3. **Lead (Opus) de novo**, via `SendMessage` no mesmo agente — revisa a
    implementação contra a spec e o design, e corrige ele mesmo o arquivo. O
    contexto do design já está na cabeça dele; respawnar joga isso fora.
-4. **Orquestrador** — a conferência visual é sua e centralizada. Proíba os
-   subagentes de abrir navegador, senão a RAM vai embora.
+4. **Conferência visual** — **uma peça:** o orquestrador revisa direto. **Várias
+   peças:** NÃO revise todas no seu contexto (incha + alucina "fiel"). Solte
+   **um time de QA por e-mail em paralelo** — líder revisor (Opus) que puxa só o
+   seu nó do Figma + implementador (Sonnet) que ele spawna e comanda até ficar
+   fiel. Aí o orquestrador só faz a checagem mecânica final (build, overflow 375,
+   URLs de herói, contact-sheet). Proíba subagente de abrir navegador fora do time
+   de QA, senão a RAM vai embora. Ver `.claude/rules/figma-mjml-sempre-subagente.md`.
 
 **Por que Opus na extração:** o Figma MCP devolve muito token e exige decidir o
 que é essencial. Sonnet implementa bem a partir de uma spec pronta, mas se
@@ -149,6 +154,14 @@ node $PW/overflow.mjs "$PWD/dist/.../email.html" 375
 Compare com o PNG do node (`get_screenshot` do Figma MCP + `curl`). Para olhar
 detalhe sem estourar contexto, recorte a região:
 `convert shot.png -crop 700x420+0+1330 +repage crop.png`.
+
+**Em QA paralelo (um time por e-mail):** grave os PNGs com **nome único no
+scratchpad** (`qa_<email>_393.png`), nunca `/tmp/foo.png` — times paralelos
+colidem e sobrescrevem o comparativo um do outro. E `get_screenshot` sob
+paralelismo às vezes devolve a peça de **outro** nó (seleção compartilhada);
+cruze com o screenshot bruto + a spec antes de confiar. Herói cortado é o delta
+mais comum: re-corte da fonte de maior resolução no enquadramento do design e
+re-suba no `imghost`.
 
 Use viewport de 900px de vez em quando: as calhas laterais só aparecem aí, e é
 onde erro de `mj-body` fica visível.
